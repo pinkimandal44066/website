@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+@font-face {
+    font-family: 'PTSerif-Bold';
+    src: url('../public/font/PTSerif-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  
+
+@keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  .spin {
+    animation: spin 40s linear infinite;
+  }
+  
+  /* smooth scrolling */
+  html {
+    scroll-behavior: smooth;
+  }
+  
