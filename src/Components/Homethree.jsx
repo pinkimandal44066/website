@@ -4,7 +4,10 @@ import { GrSecure } from "react-icons/gr";
 import { IoFastFood } from "react-icons/io5";
 import { GiFoodTruck } from "react-icons/gi";
 import BgImg from "../../public/coffee-texture.jpg";
-
+import Img2 from "../../public/img2.jpg";
+import { IoSchool } from "react-icons/io5";
+import { MdOutlineInventory } from "react-icons/md";
+import { MdOutlinePayment } from "react-icons/md";
 const bgImage = {
   backgroundImage: `url(${BgImg})`,
   backgroundColor: "#270c03",
@@ -17,26 +20,26 @@ const bgImage = {
 const Banner = () => {
   return (
     <>
-      <span id="about"></span>
-      <div style={bgImage}>
-        <div className="min-h-[550px] flex justify-center items-center py-12 sm:py-0 ">
+        <div style={bgImage}>
+        <div className="min-h-[550px] flex justify-center items-center py-12 sm:py-0">
           <div className="container">
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
               {/* Image section */}
               <div data-aos="zoom-in">
                 <img
-                  src={BannerImg}
+                  src={Img2}
                   alt="biryani img"
-                  className="max-w-[430px] w-full mx-auto drop-shadow-[10px_-10px_12px_rgba(0,0,0,1)] spin"
+                  className="max-w-[350px] w-full mx-auto drop-shadow-[10px_-10px_12px_rgba(0,0,0,1)] spin rounded-full"
                 />
               </div>
               {/* text content section */}
               <div className="flex flex-col justify-center gap-6 sm:pt-0">
                 <h1
                   data-aos="fade-up"
+                  style={{ fontFamily: "PT Serif, serif", fontWeight: "bold" }}
                   className="text-3xl sm:text-4xl font-bold font-cursive"
                 >
-                  Premium Blend Coffee
+                  PRODUCTS
                 </h1>
                 <p
                   data-aos="fade-up"
@@ -50,37 +53,37 @@ const Banner = () => {
                 <div className="grid grid-cols-2 gap-6">
                   <div className="space-y-5">
                     <div data-aos="fade-up" className="flex items-center gap-3">
-                      <GrSecure className="text-2xl h-12 w-12 shadow-sm p-3 rounded-full bg-red-100 " />
-                      <span>Premium Coffee</span>
+                      <IoSchool className="text-2xl h-12 w-12 shadow-sm p-3 rounded-full bg-white" />
+                      <span>SCHOOL MANAGEMENT SYSTEM</span>
                     </div>
                     <div
                       data-aos="fade-up"
                       data-aos-delay="300"
                       className="flex items-center gap-3"
                     >
-                      <IoFastFood className="text-2xl h-12 w-12 shadow-sm p-3 rounded-full bg-orange-100 " />
-                      <span>Hot Coffee</span>
+                      <MdOutlineInventory className="text-2xl h-12 w-12 shadow-sm p-3 rounded-full bg-white " />
+                      <span>INVENTORY MANAGEMENT SYSTEM</span>
                     </div>
                     <div
                       data-aos="fade-up"
                       data-aos-delay="500"
                       className="flex items-center gap-3"
                     >
-                      <GiFoodTruck className="text-4xl h-12 w-12 shadow-sm p-3 rounded-full bg-yellow-100" />
-                      <span>Cold Coffee</span>
+                      <MdOutlinePayment className="text-4xl h-12 w-12 shadow-sm p-3 rounded-full bg-white" />
+                      <span>PAYROLL MANAGEMENT SYSTEM</span>
                     </div>
                   </div>
                   <div
                     data-aos="slide-left"
                     className="border-l-4 border-primary/50 pl-6 space-y-2"
                   >
-                    <h1 className="text-2xl font-semibold font-cursive ">
-                      Tea Lover
+                    <h1 className="text-2xl font-semibold font-cursive">
+                      CUSTOMER RELATIONSHIP MANAGEMENT
                     </h1>
                     <p className="text-sm text-gray-500">
-                      Much like writing code, brewing the perfect cup of tea
-                      requires patience, precision, and a dash of passion to
-                      create a comforting blend of flavors.
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Cupiditate ducimus, culpa, omnis aliquam illo, rem labore
+                      possimus
                     </p>
                   </div>
                 </div>

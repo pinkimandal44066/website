@@ -185,8 +185,8 @@ import './HomeTopCss.css';
                     <h4><a href="#">ABOUT US</a></h4>
                     <h4><a href="#">SERVICES</a></h4>
                     <h4><a href="#">PRODUCTS</a></h4>
-                    <h4><a href="#">BLOG</a></h4>
-                    <h4><a href="#">CAREER</a></h4>
+                    {/* <h4><a href="#">BLOG</a></h4> */}
+                    {/* <h4><a href="#">CAREER</a></h4> */}
                     <h4><a href="#">CONTACT US</a></h4>
                 </div>
                 <h3>Menu</h3>
@@ -208,11 +208,15 @@ import './HomeTopCss.css';
           </video>
         </div>
             </div>
-            {/* <div id="elem-container"> */}
-            {/* </div> */}
+            <div id="elem-container">
+            </div>
             </div>
       {/* </body> */}
     </div>
+
+
+
+
   )
 }
 
