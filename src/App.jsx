@@ -31,7 +31,7 @@ const App = () => {
       {/* <Home /> */}
 {/* <Navbar /> */}
 <HomeSecond />
-{/* <Services /> */}
+<Services />
 {/* <Homethree /> */}
 {/* <Footer /> */}
     </div>

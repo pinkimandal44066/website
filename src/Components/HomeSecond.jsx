@@ -16,7 +16,7 @@ const HomeSecond = () => {
               <h1
                 data-aos="fade-up"
                 data-aos-once="true" style={{ fontFamily: 'PTSerif-Bold' }}
-                className="text-5xl sm:text-6xl lg:text-7xl font-bold  lg:-mt-0 md:-mt-0 -mt-8 sm:-mt-40"
+                className="text-5xl sm:text-6xl lg:text-7xl font-bold  lg:-mt-0 md:-mt-0 -mt-8 sm:-mt-10"
               >
           ABOUT US {" "}
              
@@ -58,7 +58,7 @@ const HomeSecond = () => {
   data-aos-once="true"
   src={img3}
   alt="biryani img"
-  className="w-full  sm:w-[450px] mx-auto rounded-full sm:-mt-40 lg:-mt-0 md:-mt-0"
+  className="w-full  sm:w-[450px] mx-auto rounded-full"
 />
 
             </div>
