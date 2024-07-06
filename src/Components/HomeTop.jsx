@@ -164,11 +164,11 @@ import './HomeTopCss.css';
 
       {/* <body> */}
      
-    {/* <div style={{ fontFamily: 'PT Serif, serif', fontWeight: 'bold' }} className='' id="loader">
+    <div style={{ fontFamily: 'PT Serif, serif', fontWeight: 'bold' }} className='' id="loader">
     <h1>WELCOME</h1>
     <h1>TO OUR</h1>
     <h1>WEBSITE</h1>
-</div> */}
+</div>
 
     <div id="fixed-image">
 

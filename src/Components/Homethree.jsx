@@ -29,7 +29,10 @@ const Banner = () => {
                 <img
                   src={Img2}
                   alt="biryani img"
-                  className="max-w-[350px] w-full mx-auto drop-shadow-[10px_-10px_12px_rgba(0,0,0,1)] spin rounded-full"
+                 
+                  className="max-w-full w-[350px] mx-auto rounded-full shadow-lg "
+
+                  // className="max-w-[350px] w-full mx-auto drop-shadow-[10px_-10px_12px_rgba(0,0,0,1)] spin rounded-full"
                 />
               </div>
               {/* text content section */}
@@ -77,7 +80,7 @@ const Banner = () => {
                       <span>PAYROLL MANAGEMENT SYSTEM</span>
                     </div>
                   </div>
-                  <div
+                  {/* <div
                     data-aos="slide-left"
                     className="border-l-4 border-primary/50 pl-6 space-y-2"
                   >
@@ -89,7 +92,12 @@ const Banner = () => {
                       Cupiditate ducimus, culpa, omnis aliquam illo, rem labore
                       possimus
                     </p>
-                  </div>
+                  </div> */}
+
+
+
+
+                  
                 </div>
 
 
