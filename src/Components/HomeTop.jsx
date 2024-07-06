@@ -202,8 +202,8 @@ import './HomeTopCss.css';
             loop
             muted
           >
-            {/* <source src={video} type="video/mp4" /> */}
-            <source src="https://videos.pexels.com/video-files/5207408/5207408-hd_1920_1080_25fps.mp4" type="video/mp4" />
+            <source src={video} type="video/mp4" />
+            {/* <source src="https://videos.pexels.com/video-files/5207408/5207408-hd_1920_1080_25fps.mp4" type="video/mp4" /> */}
             
           </video>
         </div>

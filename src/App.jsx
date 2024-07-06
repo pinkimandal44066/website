@@ -28,9 +28,9 @@ const App = () => {
   return (
     <div>
       <HomeTop />
-      <Home />
+      {/* <Home /> */}
 {/* <Navbar /> */}
-{/* <HomeSecond /> */}
+<HomeSecond />
 {/* <Services /> */}
 {/* <Homethree /> */}
 {/* <Footer /> */}
