@@ -6,12 +6,13 @@ import img3 from '../../public/img3.jpg';
 const HomeSecond = () => {
   return (
     <div >
-    <div className="min-h-[550px] sm:min-h-[600px] bg-brandDark flex justify-center items-center bg-black 
+    <div className="min-h-[550px] sm:min-h-[600px] bg-brandDark flex justify-center items-center bg-black md:-mt-
      text-white ">
         <div className="container pb-8 sm:pb-0 max-w-screen-xl lg:mx-32 mx-5">
           <div className="grid grid-cols-1 sm:grid-cols-2">
             {/* text content section */}
-            <div className="flex flex-col justify-center gap-6 pt-12 sm:pt-0 text-center sm:text-left order-2 sm:order-1">
+            <div className="flex flex-col justify-center gap-6 pt-12 sm:pt-0 text-center sm:text-left order-2 
+            sm:order-1 ">
               <h1
                 data-aos="fade-up"
                 data-aos-once="true" style={{ fontFamily: 'PTSerif-Bold' }}
@@ -40,7 +41,7 @@ const HomeSecond = () => {
             <div
               data-aos="zoom-in"
               data-aos-duration="300"
-              className="-mt-6 flex justify-center items-center relative order-1 sm:order-2    "
+              className="lg:-mt-20 -mt-0  md:-mt-40 sm:-mt-0 flex justify-center items-center relative order-1 sm:order-2     "
             >
               <img
                 data-aos-once="true"

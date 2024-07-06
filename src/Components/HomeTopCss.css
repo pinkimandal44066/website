@@ -34,7 +34,7 @@ html, body {
 }
 
 #page1 {
-    min-height: 100vh;
+    min-height: 50vh;
     width: 100%;
   
     /* background-color:#0000003c; */
