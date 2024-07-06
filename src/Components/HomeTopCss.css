@@ -63,6 +63,7 @@ nav {
     display: flex;
     align-items: center;
     gap: 1vw;
+     /* background-color: red; */
 }
 
 #nav-part2 h4 {
@@ -75,6 +76,7 @@ nav {
     position: relative;
     font-size: 10px;
     overflow: hidden;
+     /* background-color: red; */
 }
 
 #nav-part2 h4::after {
@@ -101,6 +103,7 @@ nav {
     text-decoration: none;
     position: relative;
     z-index: 9;
+   
 }
 
 #nav-part2 h4:hover a {
@@ -111,9 +114,10 @@ nav {
 
 nav h3 {
     display: none;
+    
 }
 
-#center {
+/* #center {
     height: 65vh;
     width: 100%;
     background-color: orange;
@@ -122,19 +126,25 @@ nav h3 {
     justify-content: space-between;
     border-bottom: 1px solid #0000003c;
     padding-bottom: 2.5vw;
-}
+    background-color: red;
+    
+} */
 
-#left h3 {
+/* #left h3 {
     width: 25vw;
     font-size: 1.8vw;
     line-height: 2vw;
-}
+    background-color: red;
 
-#center h1 {
+} */
+
+/* #center h1 {
     font-size: 10vw;
     text-align: right;
     line-height: 8vw;
-}
+    background-color: red;
+
+} */
 
 #page1 video {
     position: relative;
@@ -144,13 +154,15 @@ nav h3 {
     
 }
 
-#hero-shape {
+/* #hero-shape {
     position: absolute;
     width: 46vw;
     height: 36vw;
     right: 0;
     top: 65vh;
-}
+    background-color: red;
+
+} */
 
 #hero-1 {
     background-color: #FE320A;
@@ -472,11 +484,15 @@ nav h3 {
         padding: 8vw 5vw;
         background-color: #EFEAE3;
         /* padding: 0 5vw; */
+    /* background-color:black; */
+
     }
 
     nav img {
         transition: all ease 0.2s;
         height: 9vh;
+    
+
     }
 
     #nav-part2 {
@@ -514,6 +530,7 @@ nav h3 {
         width: 80%;
         font-size: 5.5vw;
         line-height: 6vw;
+        
     }
 
     #center h1 {
@@ -526,7 +543,7 @@ nav h3 {
         position: relative;
         border-radius: 15px;
         margin-top: 4vw;
-        height: 70vh;
+        height: 80vh;
         object-fit: cover;
         object-position: center;
         width: 92%;

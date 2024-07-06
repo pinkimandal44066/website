@@ -16,7 +16,7 @@ const HomeSecond = () => {
               <h1
                 data-aos="fade-up"
                 data-aos-once="true" style={{ fontFamily: 'PTSerif-Bold' }}
-                className="text-5xl sm:text-6xl lg:text-7xl font-bold"
+                className="text-5xl sm:text-6xl lg:text-7xl font-bold sm:-mt-40 lg:-mt-0 md:-mt-0 -mt-8"
               >
           ABOUT US {" "}
              {/* t, amet consectetur adipisicing elit. Ipsa fug */}
@@ -41,7 +41,7 @@ const HomeSecond = () => {
             <div
               data-aos="zoom-in"
               data-aos-duration="300"
-              className="lg:-mt-20 -mt-0  md:-mt-40 sm:-mt-0 flex justify-center items-center relative order-1 sm:order-2     "
+              className="lg:-mt-20 -mt-0  md:-mt-40 sm:-mt-60 flex justify-center items-center relative order-1 sm:order-2     "
             >
               <img
                 data-aos-once="true"
