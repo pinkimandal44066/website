@@ -50,6 +50,10 @@ const Banner = () => {
                   optio
                 </p>
 
+
+
+                
+
                 <div className="grid grid-cols-2 gap-6">
                   <div className="space-y-5">
                     <div data-aos="fade-up" className="flex items-center gap-3">
@@ -87,6 +91,12 @@ const Banner = () => {
                     </p>
                   </div>
                 </div>
+
+
+
+
+
+
               </div>
             </div>
           </div>

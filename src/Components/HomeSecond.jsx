@@ -34,7 +34,7 @@ const HomeSecond = () => {
               </h1>
               <div>
                 <button className="bg-gradient-to-r from-primary to-secondary border-2 border-primary hover:scale-105
-                 duration-200  py-2 px-4 rounded-full text-white hover:text-red-600 hover:bg-white">
+                 duration-200  py-2 px-4 rounded-full text-white  hover:text-black hover:bg-white">
                   View All
                 </button>
               </div>

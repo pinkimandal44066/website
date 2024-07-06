@@ -70,7 +70,7 @@ const Services = () => {
 
 <div>
                 <button className="bg-gradient-to-r from-primary to-secondary border-2 border-primary hover:scale-105 bg-black
-                 duration-200  py-2 px-4 rounded-full text-white hover:text-red-600 hover:bg-white justify-center items-center">
+                 duration-200  py-2 px-4 rounded-full text-white hover:text-black hover:bg-white justify-center items-center">
                   View All
                 </button>
               </div>
