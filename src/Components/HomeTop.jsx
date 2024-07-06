@@ -163,11 +163,13 @@ import './HomeTopCss.css';
      
 
       {/* <body> */}
-      <div id="loader">
-        <h1>WELCOME </h1>
-        <h1>TO MY</h1>
-        <h1>WEBSITE</h1>
-    </div>
+     
+    <div style={{ fontFamily: 'PT Serif, serif', fontWeight: 'bold' }} className='' id="loader">
+    <h1>WELCOME</h1>
+    <h1>TO OUR</h1>
+    <h1>WEBSITE</h1>
+</div>
+
     <div id="fixed-image">
 
     </div>
@@ -200,7 +202,7 @@ import './HomeTopCss.css';
             loop
             muted
           >
-            {/* <source src={video} type="video/mp4" /> */}
+            <source src={video} type="video/mp4" />
           </video>
         </div>
             </div>
