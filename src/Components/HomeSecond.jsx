@@ -6,7 +6,7 @@ import img3 from '../../public/img3.jpg';
 const HomeSecond = () => {
   return (
     <div >
-    <div className="min-h-[550px] sm:min-h-[500px] bg-brandDark flex justify-center items-center bg-black md:-mt-
+    <div className="min-h-[550px] sm:min-h-[300px] bg-brandDark flex justify-center items-center bg-black md:-mt-
      text-white ">
         <div className="container pb-8 sm:pb-0 max-w-screen-xl lg:mx-32 mx-5">
           <div className="grid grid-cols-1 sm:grid-cols-2">
@@ -16,7 +16,7 @@ const HomeSecond = () => {
               <h1
                 data-aos="fade-up"
                 data-aos-once="true" style={{ fontFamily: 'PTSerif-Bold' }}
-                className="text-5xl sm:text-6xl lg:text-7xl font-bold sm:-mt-40 lg:-mt-0 md:-mt-0 -mt-8"
+                className="text-5xl sm:text-6xl lg:text-7xl font-bold  lg:-mt-0 md:-mt-0 -mt-8 sm:-mt-10"
               >
           ABOUT US {" "}
              
