@@ -7,11 +7,16 @@ import Footer from './Components/Footer'
 import HomeSecond from './Components/HomeSecond'
 import Services from './Components/Service'
 import Homethree from './Components/Homethree';
+import Homefive from './Components/Homefive';
+import Serviceone from './Components/Serviceone';
 // import LocomotiveScroll from 'locomotive-scroll';
 
 import AOS from "aos";
 import "aos/dist/aos.css";
-
+import Video from './Components/Video';
+import Slider from 'react-slick';
+import Scrolling from './Components/Scrolling';
+// import Slider from 'react-slick';
 const App = () => {
   React.useEffect(() => {
     AOS.init({
@@ -27,12 +32,18 @@ const App = () => {
   // const locomotiveScroll = new LocomotiveScroll();
   return (
     <div>
-      <HomeTop />
+      
+      {/* <Video /> */}
       {/* <Home /> */}
-{/* <Navbar /> */}
+<Navbar />
+<HomeTop />
 <HomeSecond />
-<Services />
-<Homethree />
+<Serviceone />
+{/* <Scrolling /> */}
+{/* <Slider /> */}
+{/* <Services /> */}
+{/* <Homethree /> */}
+{/* <Homefive /> */}
 {/* <Footer /> */}
     </div>
   )

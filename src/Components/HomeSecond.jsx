@@ -30,7 +30,8 @@ const HomeSecond = () => {
                   {/* lorem */}
                 </span>{" "} 
               
-                 ipsum dolor
+               <p className='text-sm'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius nemo, magni enim nostrum quos non et numquam ullam facilis debitis soluta quasi ducimus voluptates. Accusamus quasi officiis consequatur in temporibus?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt deleniti reprehenderit ex, eos ea dolorem velit eveniet autem laboriosam asperiores fugit tenetur unde ducimus. Iste sed laudantium quo praesentium commodi.</p>
               </h1>
               <div>
                 <button className="bg-gradient-to-r from-primary to-secondary border-2 border-primary hover:scale-105

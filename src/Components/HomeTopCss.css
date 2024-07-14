@@ -104,10 +104,10 @@ nav {
 
 #nav-part2 h4 {
     padding: 8px 14px;
-    border: 1px solid white;
+    /* border: 1px solid white; */
     color: white;
     
-    border-radius: 50px;
+    /* border-radius: 50px; */
     font-weight: 500;
     transition: all ease 0.4s;
     font-size: 10px;
@@ -217,7 +217,8 @@ nav h3 {
 #page1 video {
     position: relative;
     border-radius: 30px;
-    margin-top: 0vw;
+    /* margin-top: 0vw; */
+    
     width: 100%;
     
 }
@@ -766,3 +767,33 @@ nav h3 {
       
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
