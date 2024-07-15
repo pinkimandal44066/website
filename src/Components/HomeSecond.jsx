@@ -3,6 +3,8 @@ import home from '../../public/coffee2.png';
 import img1 from '../../public/img1.jpg';
 import img2 from '../../public/img2.jpg';
 import img3 from '../../public/img3.jpg';
+import aboutus from '../../public/aboutus.jpg';
+import { NavLink } from 'react-router-dom';
 const HomeSecond = () => {
   return (
     <div >
@@ -18,8 +20,9 @@ const HomeSecond = () => {
                 data-aos-once="true" style={{ fontFamily: 'PTSerif-Bold' }}
                 className="text-5xl sm:text-6xl lg:text-7xl font-bold  lg:-mt-0 md:-mt-0 -mt-8 sm:-mt-10"
               >
+
           ABOUT US {" "}
-             
+          {/* <img src={aboutus} alt=''/>  {" "} */}
                 <span
                   data-aos="zoom-out"
                   data-aos-delay="300"style={{ fontFamily: 'PTSerif-Bold' }}
@@ -34,10 +37,12 @@ const HomeSecond = () => {
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt deleniti reprehenderit ex, eos ea dolorem velit eveniet autem laboriosam asperiores fugit tenetur unde ducimus. Iste sed laudantium quo praesentium commodi.</p>
               </h1>
               <div>
+              <NavLink to="/aboutus">
                 <button className="bg-gradient-to-r from-primary to-secondary border-2 border-primary hover:scale-105
                  duration-200  py-2 px-4 rounded-full text-white  hover:text-black hover:bg-white">
                   View All
                 </button>
+                </NavLink>
               </div>
             </div>
            

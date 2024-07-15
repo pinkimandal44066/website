@@ -1,0 +1,143 @@
+
+
+
+/* 
+.swiper-pagination {
+    position: absolute;
+    bottom: 0px !important;
+    left: 50% !important;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+}
+
+
+.swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+    border: 2px solid gray;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: opacity 0.3s ease;
+}
+
+@media (max-width: 640px) {
+    .swiper-pagination-bullet {
+        width: 6px;
+        height: 6px; 
+    }
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #FF8526 !important;
+
+}
+
+
+.swiper-button-next, .swiper-button-prev {
+    background-color: #FF8526; 
+    color: white;
+    border-radius: 50%; 
+    width: 40px; 
+    height: 40px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.swiper-button-next::after, .swiper-button-prev::after {
+    font-size: 20px; 
+}
+
+
+.swiper-button-next:hover, .swiper-button-prev:hover,
+.swiper-button-next:focus, .swiper-button-prev:focus {
+    background-color: #FF8526; 
+}
+
+
+.swiper-slide {
+    background-color: white !important;
+} */
+
+
+
+
+
+
+
+
+
+
+
+/* Customize Swiper pagination */
+.swiper-pagination {
+    position: absolute;
+    bottom: 0px !important;
+    left: 50% !important;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Customize pagination bullet */
+  .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+    border: 2px solid gray;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: opacity 0.3s ease;
+  }
+  
+  @media (max-width: 640px) {
+    .swiper-pagination-bullet {
+        width: 6px;
+        height: 6px; 
+    }
+  }
+  
+  .swiper-pagination-bullet-active {
+    background-color: #FF8526 !important;
+    /* margin-bottom: 30px !important; */
+  }
+  
+  /* Customize Swiper navigation */
+  .swiper-button-next, .swiper-button-prev {
+    background-color: #FF8526; /* Background color */
+    color: white; /* Icon color */
+    border-radius: 50%; /* Rounded shape */
+    width: 40px; /* Width of the button */
+    height: 40px; /* Height of the button */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .swiper-button-next {
+    right: 0; /* Position to the far right */
+  }
+  
+  .swiper-button-prev {
+    left: 0; /* Position to the far left */
+  }
+  
+  .swiper-button-next::after, .swiper-button-prev::after {
+    font-size: 20px; /* Icon size */
+  }
+  
+  /* Customize Swiper navigation hover and active states */
+  .swiper-button-next:hover, .swiper-button-prev:hover,
+  .swiper-button-next:focus, .swiper-button-prev:focus {
+    background-color: #FF8526; /* Darker shade for hover and focus states */
+  }
+  
+  /* Customize Swiper slides */
+  .swiper-slide {
+    background-color: white !important;
+  }

@@ -1,12 +1,4 @@
 import { motion } from "framer-motion";
-// import img1 from "../../../public/img1.png";
-// import img2 from "../../../public/img2.png";
-// import img3 from "../../../public/img3.png";
-// import img4 from "../../../public/img4.png";
-// import img5 from "../../../public/img5.png";
-// import img6 from "../../../public/img6.png";
-// import img7 from "../../../public/img7.png";
-// import Card from "./Card";
 import img1 from "../../public/img1.png";
 import img2 from '../../public/img2.png';
 import img3 from '../../public/img3.png';

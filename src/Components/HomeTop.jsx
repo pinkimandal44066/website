@@ -1,5 +1,3 @@
-
-
 import React, { useEffect } from "react";
 import { useState } from "react";
 import logo from "../../public/Systaiologo.png";
@@ -22,24 +20,19 @@ const LoaderAnimation = () => {
   }, []);
   return (
     <div>
-    
-
-      <div style={{ fontFamily: 'PT Serif, serif', fontWeight: 'bold' }} className='' id="loader">
+      {/* <div style={{ fontFamily: 'PT Serif, serif', fontWeight: 'bold' }} className='' id="loader">
     <h1>WELCOME</h1>
     <h1>TO OUR</h1>
     <h1>WEBSITE</h1>
-</div>
+</div> */}
 
       <div id="main">
         <div id="page1">
-          
-         
-
           <div className="">
             <body class="relative flex items-center justify-center h-screen">
               <div class="absolute inset-0 overflow-hidden">
                 <video className="" autoPlay loop muted>
-                  <source src={video} type="video/mp4" />
+                  {/* <source src={video} type="video/mp4" /> */}
                 </video>
               </div>
 
@@ -97,7 +90,6 @@ const LoaderAnimation = () => {
           </div>
         </div>
       </div>
-  
     </div>
   );
 };

@@ -1,21 +1,20 @@
-import React from 'react'
+import React from "react";
+import Aboutus from "./Components/Pages/Aboutus";
 
-import HomeTop from './Components/HomeTop';
-import Home from './Components/Home';
-import Navbar from './Components/Navbar'
-import Footer from './Components/Footer'
-import HomeSecond from './Components/HomeSecond'
-import Services from './Components/Service'
-import Homethree from './Components/Homethree';
-import Homefive from './Components/Homefive';
-import Serviceone from './Components/Serviceone';
+
+
+
+
+
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 // import LocomotiveScroll from 'locomotive-scroll';
 
 import AOS from "aos";
 import "aos/dist/aos.css";
-import Video from './Components/Video';
-import Slider from 'react-slick';
-import Scrolling from './Components/Scrolling';
+
+// import Scrolling from "./Components/Scrolling";
+import Home from "./Components/Homefolder/Home";
+import LayOut from "./Components/LayOut";
 // import Slider from 'react-slick';
 const App = () => {
   React.useEffect(() => {
@@ -28,25 +27,48 @@ const App = () => {
     AOS.refresh();
   }, []);
 
-  
   // const locomotiveScroll = new LocomotiveScroll();
   return (
     <div>
-      
-      {/* <Video /> */}
-      {/* <Home /> */}
-<Navbar />
-<HomeTop />
-<HomeSecond />
-<Serviceone />
-{/* <Scrolling /> */}
-{/* <Slider /> */}
-{/* <Services /> */}
-{/* <Homethree /> */}
-{/* <Homefive /> */}
-{/* <Footer /> */}
-    </div>
-  )
-}
+ 
+    
+    
 
-export default App
+
+
+
+      <div>
+  
+
+
+     <Router>
+        <Routes>
+          <Route path="/" element={<LayOut/>}>
+            <Route path="/" element={<Home/>} />
+            <Route path="/aboutus" element={<Aboutus/>} />
+          </Route>
+        </Routes>
+      </Router>
+    </div>
+    </div>
+  );
+};
+
+export default App;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
