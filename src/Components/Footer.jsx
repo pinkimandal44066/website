@@ -113,12 +113,80 @@
 
 
 import React from 'react'
-
+import logo from '../../public/Systaiologo.png';
+import './Footer.css';
 const Footer = () => {
   return (
-    <div>
-      
-    </div>
+
+      <body>
+    <footer>
+   <div className='main'>
+   <div className="row">
+            
+            <div className="col">
+           
+            <img src={logo} alt='' />
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam alias architecto tempore, veritatis nihil ullam tempora possimus nobis rem porro, at perspiciatis nesciunt maiores!</p>
+            </div>
+
+           
+            <div className="col">
+                <h3>Office <div className="underline"><span></span></div></h3>
+                <p>Second floor, City Centre, </p>
+                <p> 0413, Luby Circular Rd,</p>
+                <p>Bartand, Kasturba Nagar,</p>
+                <p>   Dhanbad, Jharkhand 826001</p>
+                <p className="email-id">abcdefgh@.com</p>
+              
+                <h4><a href="tel:+09109308788991">+091-093087 88991</a></h4>
+
+
+            </div>
+
+          
+            <div className="col">
+                <h3>Links <div className="underline"><span></span></div></h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                 
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">  Products</a></li>
+                    <li><a href="#">Contact us</a></li>
+                </ul>
+            </div>
+
+            <div className="col">
+                <h3>Email <div className="underline"><span></span></div></h3>
+                <form>
+                    <i className="far fa-envelope"></i>
+                    <input type='email' placeholder='Enter your email id' required />
+                   
+                    <button type="submit"><i className="fas fa-arrow-right"></i></button>
+                </form>
+
+                <div  className=' text-4xl space-x-6 mx-6'>
+                 
+                    <i className="ri-facebook-circle-line"></i>
+              
+                    <i className="ri-twitter-fill"></i>
+                    
+                    <i className="ri-whatsapp-line"></i>
+                
+                    <i className="ri-linkedin-box-fill"></i>
+                </div>
+            </div>
+            
+        </div>
+        <hr />
+        <p className="text-sm mt-15 mb-10 flex items-center justify-center">©2024 Systaio | All Rights Reserved</p>
+
+   
+   </div>
+    </footer>
+
+</body>
+   
   )
 }
 

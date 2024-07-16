@@ -4,15 +4,18 @@ import HomeSecond from '../HomeSecond';
 import Services from '../Service';
 import Homefive from '../../Components/Homefive';
 import Swiperslider from '../Swiperslider';
+import Ourteam from '../../Components/Ourteam';
 const Home = () => {
   return (
     <div>
     <HomeTop />
     <HomeSecond />
     <Services />
-    {/* <Homefive /> */}
-  
+ 
+    <Homefive />
     <Swiperslider />
+    <Ourteam />
+   
     </div>
   )
 }

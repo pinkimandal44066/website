@@ -340,10 +340,11 @@ const HomeFour = () => {
   return (
 
     
-    <div className=" ">
+    <div className=" mt-10">
   
   <div>
-<p className="text-black lg:text-5xl  md:text-4xl sm:text-3xl text-2xl text-center lg:text-start sm:text-start md:text-start font-semibold">
+<p className="text-black lg:text-5xl 
+ md:text-4xl sm:text-3xl text-2xl text-center lg:text-start sm:text-start md:text-start font-semibold">
     Our <span className="text-[#FF8526]">PRODUCTS</span>
   </p>
 </div>

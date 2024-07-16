@@ -26,19 +26,20 @@ const Navbar = () => {
            "
             >
               <p className="hover:bg-white hover:text-black transition duration-300">
-                HOME
+                Home
               </p>
               <NavLink to="/aboutus" className="hover:bg-white hover:text-black transition duration-300">
-                ABOUT US
+              About Us
               </NavLink>
               <p className="hover:bg-white hover:text-black transition duration-300">
-                SERVICES
+              Services
+
               </p>
               <p className="hover:bg-white hover:text-black transition duration-300">
-                PRODUCTS
+              Products
               </p>
               <p className="hover:bg-white hover:text-black transition duration-300">
-                CONTACT US
+              Contact us
               </p>
               {/* <li>Contact</li> */}
               <i className=" text-2xl ri-facebook-fill"></i>
@@ -76,19 +77,19 @@ const Navbar = () => {
                 />
                 <div className="flex justify-center items-center flex-col mt-16 text-2xl font-medium">
                   <p className="hover:bg-white hover:text-black transition duration-300">
-                    HOME
+                  Home
                   </p>
                   <p className="hover:bg-white hover:text-black transition duration-300">
-                    ABOUT US
+                  About Us
                   </p>
                   <p className="hover:bg-white hover:text-black transition duration-300">
-                    SERVICES
+                  Services
                   </p>
                   <p className="hover:bg-white hover:text-black transition duration-300">
-                    PRODUCTS
+                  Products
                   </p>
                   <p className="hover:bg-white hover:text-black transition duration-300">
-                    CONTACT US
+                  Contact us
                   </p>
 
                   <div className="flex mt-7 gap-7">
