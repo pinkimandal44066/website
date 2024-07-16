@@ -8,7 +8,7 @@ import { NavLink } from 'react-router-dom';
 const HomeSecond = () => {
   return (
     <div >
-    <div className="min-h-[550px] sm:min-h-[300px] bg-brandDark flex justify-center items-center bg-black md:-mt-
+    <div className="min-h-[550px] sm:min-h-[300px] bg-brandDark flex justify-center items-center bg-black md:-mt-20 lg:-mt-0
      text-white ">
         <div className="container pb-8 sm:pb-0 max-w-screen-xl lg:mx-32 mx-5">
           <div className="grid grid-cols-1 sm:grid-cols-2 ">
@@ -64,7 +64,7 @@ const HomeSecond = () => {
   data-aos-once="true"
   src={img3}
   alt="biryani img"
-  className="w-full  sm:w-[450px] mx-auto rounded-full"
+  className="w-full  sm:w-[450px] mx-auto lg:mt-10 md:mt-0 sm:mt-0 mt-0 rounded-full"
 />
 
             </div>

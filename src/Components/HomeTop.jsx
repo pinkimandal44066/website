@@ -20,11 +20,11 @@ const LoaderAnimation = () => {
   }, []);
   return (
     <div>
-      <div style={{ fontFamily: 'PT Serif, serif', fontWeight: 'bold' }} className='' id="loader">
+      {/* <div style={{ fontFamily: 'PT Serif, serif', fontWeight: 'bold' }} className='' id="loader">
     <h1>WELCOME</h1>
     <h1>TO OUR</h1>
     <h1>WEBSITE</h1>
-</div>
+</div> */}
 
       <div id="main">
         <div id="page1">
@@ -88,13 +88,15 @@ const LoaderAnimation = () => {
               </div> */}
 
 
-<div className="relative z-10 text-white  text-center bg-opacity-60 p-0 rounded-lg md:-mt-96 sm:-mt-96 lg:-mt-0 ">
+<div className="relative z-10 text-white  text-center bg-opacity-60 p-0 rounded-lg md:-mt-40 sm:-mt-96  
+lg:-mt-0 ">
 <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-<div className="flex flex-col justify-center items-center border-2 border-white w-28 mx-auto h-16  rounded ">
+<div className="flex flex-col justify-center items-center border-2 border-white w-32 mx-auto h-16  rounded ">
                   {/* <AiOutlineAntDesign class="lg:text-3xl font-semibold text-yellow-500" /> */}
                   <p>WEB DESIGN</p>
                   </div>
-                  <div className="flex flex-col justify-center items-center border-2 border-white w-32 mx-auto h-16 rounded ">
+                  <div className="flex flex-col justify-center items-center border-2 border-white w-32 mx-auto
+                   h-16 rounded ">
                   {/* <AiOutlineAntDesign class="lg:text-3xl font-semibold text-yellow-500" /> */}
                   <p>DEVELOPMENT</p>
                   </div>
@@ -104,7 +106,7 @@ const LoaderAnimation = () => {
                   <p>DIGITAL MARKETING</p>
                   </div>
                   <div className="flex flex-col justify-center items-center border-2 border-white
-                   w-28 mx-auto h-16 rounded ">
+                   w-32 mx-auto h-16 rounded ">
                   {/* <AiOutlineAntDesign class="lg:text-3xl font-semibold text-yellow-500" /> */}
                   <p>MOBILE APPS</p>
                   </div>
@@ -114,7 +116,7 @@ const LoaderAnimation = () => {
                   <p>CONTENT MANAGEMENT</p>
                   </div>
                   <div className="flex flex-col justify-center items-center border-2 border-white
-                   w-28 mx-auto h-16 rounded ">
+                   w-32 mx-auto h-16 rounded ">
                   {/* <AiOutlineAntDesign class="lg:text-3xl font-semibold text-yellow-500" /> */}
                   <p>24*7 SUPPORT</p>
                   </div>
