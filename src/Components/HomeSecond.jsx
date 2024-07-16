@@ -8,10 +8,11 @@ import { NavLink } from 'react-router-dom';
 const HomeSecond = () => {
   return (
     <div >
-    <div className="min-h-[550px] sm:min-h-[300px] bg-brandDark flex justify-center items-center bg-black md:-mt-20 lg:-mt-0
+    <div className="bg-brandDark flex justify-center items-center
+     bg-black md:-mt-20 lg:-mt-0 sm:-mt-60
      text-white ">
         <div className="container pb-8 sm:pb-0 max-w-screen-xl lg:mx-32 mx-5">
-          <div className="grid grid-cols-1 sm:grid-cols-2 ">
+          <div className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 md:grid-cols-2 ">
           
             <div className="flex flex-col justify-center gap-6 pt-12 sm:pt-0 text-center sm:text-left order-2 
             sm:order-1 ">
@@ -33,7 +34,7 @@ const HomeSecond = () => {
                   {/* lorem */}
                 </span>{" "} 
               
-               <p className='text-sm'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius nemo, magni enim nostrum quos non et numquam ullam facilis debitis soluta quasi ducimus voluptates. Accusamus quasi officiis consequatur in temporibus?
+               <p className='text-sm '>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius nemo, magni enim nostrum quos non et numquam ullam facilis debitis soluta quasi ducimus voluptates. Accusamus quasi officiis consequatur in temporibus?
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt deleniti reprehenderit ex, eos ea dolorem velit eveniet autem laboriosam asperiores fugit tenetur unde ducimus. Iste sed laudantium quo praesentium commodi.</p>
               </h1>
               <div>

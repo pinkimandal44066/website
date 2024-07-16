@@ -131,8 +131,32 @@ html, body {
     #nav-part2 {
         margin-top: 10px; 
         flex-direction: row;
+       
         
     }
+
+    
+    #page1 video {
+
+  /* height: 96vw;
+
+  position: relative;
+  border-radius: 30px;
+  margin-top: 0vw;
+
+  width: 100%; */
+
+  position: relative;
+  border-radius: 15px;
+  margin-top: 2vw;
+  height: 90vh;
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  margin-left: 0%;
+    }
+
+
 
     /* #nav-part2 h4 {
         margin: 5px 0;
@@ -216,7 +240,7 @@ html, body {
 
 #page1 video {
     position: relative;
-    border-radius: 30px;
+    /* border-radius: 30px; */
     /* margin-top: 0vw; */
   
     width: 100%;
@@ -492,36 +516,7 @@ html, body {
     /* background-color: #EFEAE3; */
 }
 
-#footer {
-    position: fixed;
-    height: 105vh;
-    width: 100%;
-    background-color: #000;
-    color: #fff;
-    z-index: 9;
-    bottom: 0;
-    display: flex;
-    /* align-items: flex-end; */
-    justify-content: flex-end;
-    flex-direction: column;
-    padding: 1vw 3vw;
-}
 
-#footer h1 {
-    font-size: 23vw;
-}
-
-#footer-div {
-    height: 20vh;
-    width: 100%;
-    background-color: red;
-}
-
-#footer-bottom {
-    border-top: 1px solid #dadada;
-    height: 10vh;
-    width: 100%;
-}
 
 #full-scr {
     height: 100vh;
@@ -533,14 +528,14 @@ html, body {
     transition: all ease 0.5s;
 }
 
-#full-div1 {
+/* #full-div1 {
     height: 50%;
     width: 100%;
     background-color: #EFEAE3;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
 
-}
+} */
 
 
 @media (max-width:700px) {
@@ -576,6 +571,7 @@ html, body {
         min-height: 40vh;
         width: 100vw;
         padding: 0 0vw;
+      
     }
 
     /* nav {
@@ -704,27 +700,27 @@ html, body {
         z-index: 9;
     } */
 
-    #page2-bottom h1 {
+    /* #page2-bottom h1 {
         font-size: 8.2vw;
         width: 100%;
         line-height: 9vw;
-    }
+    } */
 
-    #bottom-part2 {
+    /* #bottom-part2 {
         width: 70%;
-        /* background-color: aqua; */
-    }
+        background-color: aqua;
+    } */
 
     /* #bottom-part2 img {
         width: 100%;
         border-radius: 10px;
     } */
 
-    #bottom-part2 p {
+    /* #bottom-part2 p {
         font-weight: 200;
         margin-top: 2vw;
         font-size: 3vw;
-    }
+    } */
 
     /* #page2 #gooey {
         height: 62vw;
