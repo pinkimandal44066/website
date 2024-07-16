@@ -9,7 +9,7 @@ const HomeSecond = () => {
   return (
     <div >
     <div className="bg-brandDark flex justify-center items-center 
-     bg-black md:-mt-20 lg:-mt-0 sm:-mt-60 -mt-0
+     bg-black md:-mt-0 lg:-mt-0 sm:-mt-60 -mt-0
      text-white ">
         <div className="container pb-8 sm:pb-0 max-w-screen-xl lg:mx-32 mx-5">
           <div className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 md:grid-cols-2 ">
@@ -65,7 +65,7 @@ const HomeSecond = () => {
   data-aos-once="true"
   src={img3}
   alt="biryani img"
-  className="w-full  sm:w-[450px] mx-auto lg:mt-10 md:mt-0 sm:mt-0 mt-0 rounded-full"
+  className="w-full  sm:w-[450px] mx-auto lg:mt-10 md:mt-10 sm:mt-0 mt-6 rounded-full"
 />
 
             </div>

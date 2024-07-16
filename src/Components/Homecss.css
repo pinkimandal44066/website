@@ -27,23 +27,38 @@ html, body {
 @media only screen and (min-width: 600px) {
     #page1 video {
         /* Adjust styles for small screens */
-        margin-top: 3vw; /* Example: Adjust margin */
-        height: 70vh; /* Example: Adjust height */
+        margin-top: 0vw; /* Example: Adjust margin */
+        height: 100vh; /* Example: Adjust height */
         object-fit: cover; /* Example: Adjust object-fit property */
         object-position: center; /* Example: Adjust object-position property */
-        border-radius: 15px; /* Example: Adjust border radius */
+        /* border-radius: 15px; Example: Adjust border radius */
         width: 100%; /* Example: Adjust width */
         margin-left: 0%; /* Example: Adjust margin */
         background-color: black;
     }
 }
 
+/* @media only screen and (min-width: 360px) and (max-width: 599px) {
+    #page1 video {
+      
+        margin-top: 10vw; 
+        height: 100vh; 
+        object-fit: cover;
+        object-position: center; 
+       
+        width: 100%; 
+        margin-left: 0%;
+    }
+} */
+
+
+
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
     #page1 video {
         /* Adjust styles for medium screens */
-        margin-top: 2vw; /* Example: Adjust margin */
-        height: 80vh; /* Example: Adjust height */
+        margin-top: 0vw; /* Example: Adjust margin */
+        height: 100vh; /* Example: Adjust height */
         object-fit: cover; /* Example: Adjust object-fit property */
         object-position: center; /* Example: Adjust object-position property */
         border-radius: 15px; /* Example: Adjust border radius */
@@ -92,13 +107,26 @@ html, body {
         border-radius: 0px; /* Example: Adjust border radius */
         width: 100%; /* Example: Adjust width */
         margin-left: 0%; /* Example: Adjust margin */
-        background-color: red;
+        
     }
 }
 
 
-/* 
-#page1 {
+@media only screen and (min-width: 1132px) {
+    #page1 video {
+        /* Adjust styles for large screens */
+        margin-top: 0; /* Example: Adjust margin */
+        height: 100vh; /* Example: Adjust height */
+        object-fit: cover; /* Example: Adjust object-fit property */
+        object-position: center; /* Example: Adjust object-position property */
+        border-radius: 0px; /* Example: Adjust border radius */
+        width: 100%; /* Example: Adjust width */
+        margin-left: 0%; /* Example: Adjust margin */
+    }
+}
+
+
+/* #page1 {
     min-height: 0vh;
     width: 100%;
   
@@ -112,7 +140,7 @@ html, body {
 
 
 
-#page1 {
+/* #page1 {
     min-height: 0vh;
     width: 100%;
   
@@ -122,17 +150,15 @@ html, body {
    
     position: relative;
     padding: 0 2vw;
-}
+} */
 
 
 #page1  video {
-    height: 96vh;
+    height: 100vh;
     background-color: black;
-}
+} 
 
-/* #main {
-    background-color: red;
-} */
+
 
 
 
