@@ -8,8 +8,8 @@ import { NavLink } from 'react-router-dom';
 const HomeSecond = () => {
   return (
     <div >
-    <div className="bg-brandDark flex justify-center items-center
-     bg-black md:-mt-20 lg:-mt-0 sm:-mt-60
+    <div className="bg-brandDark flex justify-center items-center 
+     bg-black md:-mt-20 lg:-mt-0 sm:-mt-60 -mt-0
      text-white ">
         <div className="container pb-8 sm:pb-0 max-w-screen-xl lg:mx-32 mx-5">
           <div className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 md:grid-cols-2 ">

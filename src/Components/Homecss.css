@@ -1,4 +1,14 @@
-/* Extra small devices (phones, 600px and down) */
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    /* background-color: red; */
+    /* position: relative; */
+    
+    z-index: 10;
+}
 @media only screen and (max-width: 600px) {
     #page1 video {
         /* Adjust styles for mobile screens */
@@ -9,6 +19,7 @@
         border-radius: 10px; /* Example: Adjust border radius */
         width: 90%; /* Example: Adjust width */
         margin-left: 5%; /* Example: Adjust margin */
+        background-color: black;
     }
 }
 
@@ -23,6 +34,7 @@
         border-radius: 15px; /* Example: Adjust border radius */
         width: 100%; /* Example: Adjust width */
         margin-left: 0%; /* Example: Adjust margin */
+        background-color: black;
     }
 }
 
@@ -37,6 +49,7 @@
         border-radius: 15px; /* Example: Adjust border radius */
         width: 100%; /* Example: Adjust width */
         margin-left: 0%; /* Example: Adjust margin */
+        background-color: black;
     }
 }
 
@@ -51,6 +64,7 @@
         border-radius: 15px; /* Example: Adjust border radius */
         width: 100%; /* Example: Adjust width */
         margin-left: 0%; /* Example: Adjust margin */
+        background-color: black;
     }
 }
 @media (max-width: 700px) {
@@ -63,6 +77,7 @@
         object-position: center;
         width: 100%;
         margin-left: 0%;
+        background-color: black;
     }
 }
 
@@ -71,14 +86,29 @@
     #page1 video {
         /* Adjust styles for extra large screens */
         margin-top: 0; /* Example: Adjust margin */
-        height: 90vh; /* Example: Adjust height */
+        height: 100vh; /* Example: Adjust height */
         object-fit: cover; /* Example: Adjust object-fit property */
         object-position: center; /* Example: Adjust object-position property */
-        border-radius: 15px; /* Example: Adjust border radius */
+        border-radius: 0px; /* Example: Adjust border radius */
         width: 100%; /* Example: Adjust width */
         margin-left: 0%; /* Example: Adjust margin */
+        background-color: red;
     }
 }
+
+
+/* 
+#page1 {
+    min-height: 0vh;
+    width: 100%;
+  
+  
+    background-color:black;
+   
+   
+    position: relative;
+    padding: 0 2vw;
+} */
 
 
 
@@ -92,4 +122,81 @@
    
     position: relative;
     padding: 0 2vw;
+}
+
+
+#page1  video {
+    height: 96vh;
+    background-color: black;
+}
+
+/* #main {
+    background-color: red;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#loader{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    transition: all ease 0.7s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#loader h1{
+    font-size: 4vw;
+    color: transparent;
+    background: linear-gradient(to right,orange,orangered);
+    -webkit-background-clip: text;
+    position: absolute;
+    opacity: 0;
+    animation-name: load;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-timing-function: linear;
+}
+#loader h1:nth-child(2){
+    animation-delay: 2s;
+}
+#loader h1:nth-child(3){
+    animation-delay: 3s;
+}
+
+@keyframes load {
+    0%{
+        opacity: 0;
+    }
+    10%{
+        opacity: 1;
+    }
+    90%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+@media (max-width:600px) {
+    #loader h1{
+        font-size: 9vw;
+      
+    }
 }

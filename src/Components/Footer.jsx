@@ -165,7 +165,7 @@ const Footer = () => {
                     <button type="submit"><i className="fas fa-arrow-right"></i></button>
                 </form>
 
-                <div  className=' text-4xl space-x-6 mx-6'>
+                <div  className=' text-4xl space-x-6 mx-6 cursor-pointer'>
                  
                     <i className="ri-facebook-circle-line"></i>
               

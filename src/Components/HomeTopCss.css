@@ -226,7 +226,7 @@ html, body {
     width: 25vw;
     font-size: 1.8vw;
     line-height: 2vw;
-    background-color: red;
+    /* background-color: red; */
 
 }
 
@@ -234,7 +234,7 @@ html, body {
     font-size: 10vw;
     text-align: right;
     line-height: 8vw;
-    background-color: red;
+    /* background-color: red; */
 
 }
 
