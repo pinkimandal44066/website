@@ -14,7 +14,7 @@ const Navbar = () => {
 
   return (
     <div className=" bg-black">
-      <div className="max-w-screen-xl lg:mx-auto mx-5 pt-5">
+      <div className="max-w-screen-xl lg:mx-auto mx-5 lg:pt-6 md:pt-12">
         <div className="lg:flex  z-[999]  md:flex hidden lg:justify-between justify-evenly items-center">
           <div className="cursor-pointer">
             <img className="lg:w-44 md:w-32 w-20" src={logo} />
