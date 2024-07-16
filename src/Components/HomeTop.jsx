@@ -4,8 +4,8 @@ import logo from "../../public/Systaiologo.png";
 import video from "../../public/Systaiovideo.mp4";
 import { AiOutlineAntDesign } from "react-icons/ai";
 
-import "./HomeTopCss.css";
-
+// import "./HomeTopCss.css";
+import "./Homecss.css";
 const LoaderAnimation = () => {
   const [flag, setFlag] = useState(false);
 

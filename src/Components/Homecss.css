@@ -1,0 +1,95 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    #page1 video {
+        /* Adjust styles for mobile screens */
+        margin-top: 5vw; /* Example: Increased margin for smaller screens */
+        height: 50vh; /* Example: Reduce height for smaller screens */
+        object-fit: contain; /* Example: Change object-fit property */
+        object-position: top; /* Example: Change object-position property */
+        border-radius: 10px; /* Example: Adjust border radius */
+        width: 90%; /* Example: Adjust width */
+        margin-left: 5%; /* Example: Adjust margin */
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    #page1 video {
+        /* Adjust styles for small screens */
+        margin-top: 3vw; /* Example: Adjust margin */
+        height: 70vh; /* Example: Adjust height */
+        object-fit: cover; /* Example: Adjust object-fit property */
+        object-position: center; /* Example: Adjust object-position property */
+        border-radius: 15px; /* Example: Adjust border radius */
+        width: 100%; /* Example: Adjust width */
+        margin-left: 0%; /* Example: Adjust margin */
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    #page1 video {
+        /* Adjust styles for medium screens */
+        margin-top: 2vw; /* Example: Adjust margin */
+        height: 80vh; /* Example: Adjust height */
+        object-fit: cover; /* Example: Adjust object-fit property */
+        object-position: center; /* Example: Adjust object-position property */
+        border-radius: 15px; /* Example: Adjust border radius */
+        width: 100%; /* Example: Adjust width */
+        margin-left: 0%; /* Example: Adjust margin */
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    #page1 video {
+        /* Adjust styles for large screens */
+        margin-top: 1vw; /* Example: Adjust margin */
+        height: 85vh; /* Example: Adjust height */
+        object-fit: cover; /* Example: Adjust object-fit property */
+        object-position: center; /* Example: Adjust object-position property */
+        border-radius: 15px; /* Example: Adjust border radius */
+        width: 100%; /* Example: Adjust width */
+        margin-left: 0%; /* Example: Adjust margin */
+    }
+}
+@media (max-width: 700px) {
+    #page1 video {
+        position: relative;
+        border-radius: 15px;
+        margin-top: 2vw;
+        height: 90vh; /* Fixed height for mobile screens */
+        object-fit: cover;
+        object-position: center;
+        width: 100%;
+        margin-left: 0%;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    #page1 video {
+        /* Adjust styles for extra large screens */
+        margin-top: 0; /* Example: Adjust margin */
+        height: 90vh; /* Example: Adjust height */
+        object-fit: cover; /* Example: Adjust object-fit property */
+        object-position: center; /* Example: Adjust object-position property */
+        border-radius: 15px; /* Example: Adjust border radius */
+        width: 100%; /* Example: Adjust width */
+        margin-left: 0%; /* Example: Adjust margin */
+    }
+}
+
+
+
+#page1 {
+    min-height: 0vh;
+    width: 100%;
+  
+  
+    background-color:black;
+   
+   
+    position: relative;
+    padding: 0 2vw;
+}

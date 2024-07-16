@@ -38,7 +38,7 @@ html, body {
     width: 100%;
   
   
-    background-color: black;
+    background-color: red;
    
    
     position: relative;
@@ -146,14 +146,14 @@ html, body {
 
   width: 100%; */
 
-  position: relative;
+  /* position: relative;
   border-radius: 15px;
   margin-top: 2vw;
   height: 90vh;
   object-fit: cover;
   object-position: center;
   width: 100%;
-  margin-left: 0%;
+  margin-left: 0%; */
     }
 
 
@@ -239,11 +239,11 @@ html, body {
 }
 
 #page1 video {
-    position: relative;
+    /* position: relative; */
     /* border-radius: 30px; */
     /* margin-top: 0vw; */
-  
-    width: 100%;
+/*   
+    width: 100%; */
     
     
 }
@@ -540,14 +540,14 @@ html, body {
 
 @media (max-width:700px) {
     #page1 video {
-        position: relative;
+        /* position: relative;
         border-radius: 15px;
         margin-top: 2vw;
         height: 90vh;
         object-fit: cover;
         object-position: center;
         width: 100%;
-        margin-left: 0%;
+        margin-left: 0%; */
     }
 
 
@@ -630,14 +630,14 @@ html, body {
     }
 
     #page1 video {
-        position: relative;
+        /* position: relative;
         border-radius: 15px;
         margin-top: 4vw;
         height: 90vh;
         object-fit: cover;
         object-position: center;
         width: 92%;
-        margin-left: 4%;
+        margin-left: 4%; */
     }
 
     /* #page2 {
