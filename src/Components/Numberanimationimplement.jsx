@@ -101,12 +101,13 @@ import React from 'react';
 import { useSpring, animated } from 'react-spring';
 import { FaRegSmile } from "react-icons/fa";
 const AnimatedNumber = ({ number }) => {
-  const { num } = useSpring({
-    from: { num: 0 },
-    num: number,
-    delay: 200,
-    config: { mass: 1, tension: 20, friction: 10 },
-  });
+    const { num } = useSpring({
+        from: { num: 0 },
+        num: number,
+        delay: 200,
+        config: { mass: 1, tension: 20, friction: 10, duration: 20000 }, 
+      });
+      
 
   return <animated.div>{num.to(n => n.toFixed(0))}</animated.div>;
 };
@@ -162,10 +163,7 @@ const Numberanimationimplement = () => {
         </div>
 
 
-        {/* <div>
-          <h3>Hard Workers</h3>
-          <AnimatedNumber number={32} />
-        </div> */}
+      
       </div>
     </div>
   );
