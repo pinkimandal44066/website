@@ -340,7 +340,7 @@ const HomeFour = () => {
   return (
 
     
-    <div className=" mt-10">
+    <div className=" mt-10 ">
   
   <div>
 <p className="text-black lg:text-5xl 

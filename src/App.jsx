@@ -1,12 +1,7 @@
 import React from "react";
 import Aboutus from "./Components/Pages/Aboutus";
 
-
-
-
-
-
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 // import LocomotiveScroll from 'locomotive-scroll';
 
 import AOS from "aos";
@@ -30,45 +25,18 @@ const App = () => {
   // const locomotiveScroll = new LocomotiveScroll();
   return (
     <div>
- 
-    
-    
-
-
-
-
       <div>
-  
-
-
-     <Router>
-        <Routes>
-          <Route path="/" element={<LayOut/>}>
-            <Route path="/" element={<Home/>} />
-            <Route path="/aboutus" element={<Aboutus/>} />
-          </Route>
-        </Routes>
-      </Router>
-    </div>
+        <Router>
+          <Routes>
+            <Route path="/" element={<LayOut />}>
+              <Route path="/" element={<Home />} />
+              <Route path="/aboutus" element={<Aboutus />} />
+            </Route>
+          </Routes>
+        </Router>
+      </div>
     </div>
   );
 };
 
 export default App;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

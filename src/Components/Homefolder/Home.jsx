@@ -5,6 +5,9 @@ import Services from '../Service';
 import Homefive from '../../Components/Homefive';
 import Swiperslider from '../Swiperslider';
 import Ourteam from '../../Components/Ourteam';
+import Star from '../../Components/Star';
+import Custome from '../../Components/Custome';
+import Numberanimationimplement from '../Numberanimationimplement';
 const Home = () => {
   return (
     <div>
@@ -15,6 +18,9 @@ const Home = () => {
     <Homefive />
     <Swiperslider />
     <Ourteam />
+    <Star />
+    {/* <Custome /> */}
+    <Numberanimationimplement />
    
     </div>
   )

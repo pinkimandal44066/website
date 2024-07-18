@@ -1,9 +1,9 @@
 import React from 'react'
-import home from '../../public/coffee2.png';
-import img1 from '../../public/img1.jpg';
-import img2 from '../../public/img2.jpg';
+// import home from '../../public/coffee2.png';
+// import img1 from '../../public/img1.jpg';
+// import img2 from '../../public/img2.jpg';
 import img3 from '../../public/img3.jpg';
-import aboutus from '../../public/aboutus.jpg';
+
 import { NavLink } from 'react-router-dom';
 const HomeSecond = () => {
   return (

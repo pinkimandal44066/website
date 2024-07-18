@@ -1,4 +1,5 @@
 // import React from 'react'
+
 import Scrolling from '../Scrolling'
 
 const Aboutus = () => {
@@ -6,6 +7,7 @@ const Aboutus = () => {
   return (
     <div>
       dfgfd
+    
     </div>
   )
 }
