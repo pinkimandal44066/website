@@ -209,7 +209,7 @@ const CustomerReview = () => {
     <Swiper
       pagination={true}
       modules={[]}
-      className="mySwiper -mt-10"
+      className="mySwiper mt-10"
     >
       <SwiperSlide>
         <div className="bg-black text-white min-h-screen w-full flex  flex-col items-center justify-center ">

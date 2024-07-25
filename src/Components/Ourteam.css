@@ -22,7 +22,7 @@
     text-align: center;
     font-size: 18px;
     /* background: #000; */
-    background: black;
+    background: white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -40,7 +40,7 @@
     margin: 100px auto;
     width: 380px;
     height: 600px;
-    border-top-right-radius: 20%;
+    border-top-right-radius: 10%;
     z-index: 999px;
     /* background-color: #000; */
   }

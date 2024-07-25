@@ -17,7 +17,9 @@ const Navbar = () => {
       <div className="max-w-screen-xl lg:mx-auto mx-5 lg:pt-6 md:pt-12">
         <div className="lg:flex  z-[999]  md:flex hidden lg:justify-between justify-evenly items-center">
           <div className="cursor-pointer">
+          <NavLink to="/">
             <img className="lg:w-44 md:w-32 w-20" src={logo} />
+            </NavLink>
           </div>
 
           <div className="">
@@ -25,9 +27,11 @@ const Navbar = () => {
               className="flex lg:gap-7 md:gap-5  md:text-lg lg:text-xl font-medium text-white cursor-pointer
            "
             >
+              <NavLink to="/">
               <p className="hover:bg-white hover:text-black transition duration-300">
                 Home
               </p>
+              </NavLink>
               <NavLink to="/aboutus" className="hover:bg-white hover:text-black transition duration-300">
               About Us
               </NavLink>
@@ -55,7 +59,9 @@ const Navbar = () => {
           {!isSideMenuOpen && (
             <>
               <div>
+              <NavLink to="/">
                 <img className="w-28" src={logo} alt="Logo" />
+                </NavLink>
               </div>
               <section>
                 <FiMenu
@@ -76,12 +82,16 @@ const Navbar = () => {
                   className="text-2xl   text-black absolute top-7 right-7 rounded-full cursor-pointer shadow-2xl border border-black "
                 />
                 <div className="flex justify-center items-center flex-col mt-16 text-2xl font-medium">
+                <NavLink to="/">
                   <p className="hover:bg-white hover:text-black transition duration-300">
                   Home
                   </p>
+                  </NavLink>
+                  <NavLink to="/aboutus" >
                   <p className="hover:bg-white hover:text-black transition duration-300">
                   About Us
                   </p>
+                  </NavLink>
                   <p className="hover:bg-white hover:text-black transition duration-300">
                   Services
                   </p>

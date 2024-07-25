@@ -23,7 +23,7 @@ const Aboutus = () => {
   return (
     <>
       <div
-        className=" bg-gradient-to-b from-white via-black
+        className=" bg-gradient-to-b from-white via-black 
        to-white mt-10 rounded-tl-[90px] text-2xl rounded-tr-[90px]"
       >
         <div className="max-w-screen-xl lg:mx-auto mx-5">
@@ -31,8 +31,8 @@ const Aboutus = () => {
 
           <div className="flex justify-start items-start lg:mt-16 md:mt-16 sm:mt-16 mt-7 ">
             <div>
-              <p
-                className="font-unison text-white lg:text-[11vw] md:text-[12vw] 
+              <p style={{ fontFamily: 'PTSerif-Bold' }} 
+                className="font-unison text-black lg:text-[11vw] md:text-[12vw] 
               sm:text-[12vw] text-5xl opacity-45"
               >
                 OUR
@@ -40,8 +40,9 @@ const Aboutus = () => {
             </div>
             <div>
               <p
-                className="font-monda text-white font-light lg:text-base md:text-sm sm:text-xs text-[6px] 
-              lg:w-[38vw] w-[45vw] md:w-[45vw] opacity-90 leading-relaxed tracking-wider lg:mt-5 md:mt-4 sm:mt-3"
+                className="font-monda text-black lg:font-light lg:text-base md:text-sm sm:text-xs text-[10px] 
+                font-bold mt-10
+              lg:w-[38vw] w-[60vw] md:w-[45vw]  leading-relaxed tracking-wider lg:mt-5 md:mt-4 sm:mt-3"
               >
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                 Expedita officiis placeat nesciunt, ea velit doloribus
@@ -51,7 +52,7 @@ const Aboutus = () => {
             </div>
           </div>
           <div className="flex flex-col lg:items-start items-center lg:ml-44 justify-start  mt-1 ">
-            <p className="font-unison text-white lg:text-9xl md:text-8xl sm:text-7xl text-5xl opacity-90
+            <p style={{ fontFamily: 'PTSerif-Bold' }} className="font-unison text-white lg:text-9xl md:text-8xl sm:text-7xl text-5xl opacity-90
             ">
               TEAM
             </p>

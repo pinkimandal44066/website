@@ -17,7 +17,7 @@ const Home = () => {
  
     <Homefive />
     <Swiperslider />
-    <Ourteam />
+    {/* <Ourteam /> */}
     <Star />
     {/* <Custome /> */}
     <Numberanimationimplement />

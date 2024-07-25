@@ -28,7 +28,7 @@ const LoaderAnimation = () => {
 
       <div id="main" className="">
         <div id="page1">
-          <div className="bg-red-500">
+          <div className="">
             <body className=" relative flex items-center justify-center h-screen">
               <div className="absolute inset-0 overflow-hidden">
                 <video className="lg:mt-10 md:mt-16 sm:mt-28" autoPlay loop muted>
