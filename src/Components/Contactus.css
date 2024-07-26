@@ -1,0 +1,164 @@
+/* General Styles */
+.emailForm {
+    font-family: 'Monda', sans-serif;
+  }
+  
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px auto;
+    max-width: 900px;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  /* Input Styles */
+  .input-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    width: 100%;
+    margin-bottom: 16px;
+  }
+  
+  .form-input {
+    flex: 1;
+    min-width: 200px;
+    padding: 12px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .form-input::placeholder {
+    color: #888;
+  }
+  
+  .form-input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 2px rgba(0,123,255,0.2);
+  }
+  
+  /* File Input Styles */
+  .file-group {
+    width: 100%;
+    margin-bottom: 16px;
+  }
+  
+  .file-input {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    transition: border-color 0.3s ease;
+  }
+  
+  .file-input:focus {
+    border-color: #007bff;
+  }
+  
+  /* Textarea Styles */
+  .message-group {
+    width: 100%;
+    margin-bottom: 16px;
+  }
+  
+  .message-input {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .message-input::placeholder {
+    color: #888;
+  }
+  
+  .message-input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 2px rgba(0,123,255,0.2);
+  }
+  
+  /* Consent Checkbox Styles */
+  .consent-group {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 24px;
+  }
+  
+  .consent-checkbox {
+    width: 16px;
+    height: 16px;
+    accent-color: #007bff;
+  }
+  
+  .consent-text {
+    color: #333;
+    font-size: 14px;
+  }
+  
+  /* Button Styles */
+  .button-group {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .submit-button {
+    background: linear-gradient(145deg, #007bff, #0056b3);
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    padding: 12px 24px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .submit-button:hover {
+    background: linear-gradient(145deg, #0056b3, #003d80);
+    transform: translateY(-2px);
+  }
+  
+  .submit-button i {
+    margin-left: 8px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .input-group {
+      flex-direction: column;
+    }
+  
+    .file-input,
+    .message-input {
+      width: 100%;
+    }
+  
+    .submit-button {
+      width: 100%;
+      font-size: 16px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .submit-button {
+      font-size: 14px;
+      padding: 10px 20px;
+    }
+  
+    .consent-text {
+      font-size: 12px;
+    }
+  }
+  

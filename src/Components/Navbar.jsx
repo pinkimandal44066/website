@@ -42,9 +42,12 @@ const Navbar = () => {
               <p className="hover:bg-white hover:text-black transition duration-300">
               Products
               </p>
+              <NavLink to='/contactus'>
               <p className="hover:bg-white hover:text-black transition duration-300">
               Contact us
               </p>
+              </NavLink>
+        
               {/* <li>Contact</li> */}
               <i className=" text-2xl ri-facebook-fill"></i>
               <i className=" text-2xl ri-instagram-line"></i>

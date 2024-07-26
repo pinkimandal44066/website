@@ -10,6 +10,7 @@ import "aos/dist/aos.css";
 // import Scrolling from "./Components/Scrolling";
 import Home from "./Components/Homefolder/Home";
 import LayOut from "./Components/LayOut";
+import Contactus from "./Components/Contactus";
 // import Slider from 'react-slick';
 const App = () => {
   React.useEffect(() => {
@@ -31,6 +32,7 @@ const App = () => {
             <Route path="/" element={<LayOut />}>
               <Route path="/" element={<Home />} />
               <Route path="/aboutus" element={<Aboutus />} />
+              <Route path="/contactus" element={<Contactus />} />
             </Route>
           </Routes>
         </Router>
