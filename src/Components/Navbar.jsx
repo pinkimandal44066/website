@@ -101,9 +101,11 @@ const Navbar = () => {
                   <p className="hover:bg-white hover:text-black transition duration-300">
                   Products
                   </p>
+                  <NavLink to='/contactus'>
                   <p className="hover:bg-white hover:text-black transition duration-300">
                   Contact us
                   </p>
+                  </NavLink>
 
                   <div className="flex mt-7 gap-7">
                     <i className=" text-2xl ri-facebook-fill"></i>

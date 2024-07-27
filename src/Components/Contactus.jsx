@@ -382,11 +382,12 @@ const Contactus = () => {
                   abc@gmail.com
                 </Link>
               </div> */}
+              
         <div className="mt-20 ">
-              <div className="border-2 border-black  overflow-hidden rounded-lg">
+              <div className=" border-2 border-black  overflow-hidden rounded-lg">
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3650.4378796926185!2d86.4313797740286!3d23.803023386756603!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f6bd41386c516d%3A0xbcd7d938eaed2bdd!2sSystAIO%20Technologies%20%2C%20Website%20Development%20Company%20in%20Dhanbad!5e0!3m2!1sen!2sin!4v1715950634051!5m2!1sen!2sin"
-                  className="lg:w-[615px] lg:h-[477px] md:w-[515px] md:h-[277px] w-full h-full rounded-lg"
+                  className="lg:w-full  lg:h-[477px] md:w-[515px] md:h-[277px] w-full h-full rounded-lg"
                   allowFullScreen=""
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
