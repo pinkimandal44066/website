@@ -357,12 +357,12 @@ const Contactus = () => {
               {/* <h1 className="lg:text-2xl text-lg font-medium text-gray-700">
                 Share Tax.com
               </h1> */}
-              <p style={{ fontFamily: 'PTSerif-Bold' }} className="lg:text-2xl text-xl font-semibold  text-black lg:mt-8 md:mt-10 mt-8 items-center text-center">
+              {/* <p style={{ fontFamily: 'PTSerif-Bold' }} className="lg:text-2xl text-xl font-semibold  text-black lg:mt-8 md:mt-10 mt-8 items-center text-center">
                 Second floor, City Centre, 0413, 
                 Jharkhand 826001
               </p>
               <p style={{ fontFamily: 'PTSerif-Bold' }} className="lg:text-2xl text-xl font-semibold
-               text-black lg:mt-0 md:mt-10 mt-8 items-center text-center">Kasturba Nagar,Dhanbad,</p>
+               text-black lg:mt-0 md:mt-10 mt-8 items-center text-center">Kasturba Nagar,Dhanbad,</p> */}
                        {/* <div className="flex mt-5 ">
                 <BiPhoneCall className="lg:text-3xl mt-1 text-2xl  text-gray-700" />
                 <Link
@@ -382,12 +382,11 @@ const Contactus = () => {
                   abc@gmail.com
                 </Link>
               </div> */}
-              
-        <div className="mt-20 ">
-              <div className=" border-2 border-black  overflow-hidden rounded-lg">
+        <div className="mt-10 ">
+              <div className="border-2 border-black  overflow-hidden rounded-lg">
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3650.4378796926185!2d86.4313797740286!3d23.803023386756603!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f6bd41386c516d%3A0xbcd7d938eaed2bdd!2sSystAIO%20Technologies%20%2C%20Website%20Development%20Company%20in%20Dhanbad!5e0!3m2!1sen!2sin!4v1715950634051!5m2!1sen!2sin"
-                  className="lg:w-full  lg:h-[477px] md:w-[515px] md:h-[277px] w-full h-full rounded-lg"
+                  className="lg:w-full lg:h-[477px] md:w-full md:h-[277px] w-full h-full rounded-lg  "
                   allowFullScreen=""
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
@@ -395,23 +394,28 @@ const Contactus = () => {
                 ></iframe>
               </div>
             </div>
-          <div className="flex flex-col lg:flex-row justify-evenly items-center lg:mx-20 mx-5 ">
-            {/* <div className="">
-              <h1 className="lg:text-5xl text-3xl font-semibold text-[#E79F30] lg:mt-0 md:mt-10 mt-8">
+          <div className="flex flex-col lg:flex-row justify-evenly items-center lg:mx-20  mx-5 ">
+            <div className="">
+              {/* <h1 style={{ fontFamily: 'PTSerif-Bold' }} className="lg:text-5xl text-3xl font-semibold text-black lg:mt-0 md:mt-10 mt-8">
                 Reach out to us
-              </h1>
-              <h1 className="lg:text-3xl text-xl font-semibold text-gray-700 mt-7">
+              </h1> */}
+              {/* <h1 className="lg:text-3xl text-xl font-semibold text-gray-700 mt-7">
                 Contact Us
-              </h1>
-              <h1 className="lg:text-2xl text-lg font-medium text-gray-700">
+              </h1> */}
+              {/* <h1 className="lg:text-2xl text-lg font-medium text-gray-700">
                 Share Tax.com
-              </h1>
-              <p className="lg:text-2xl text-justify text-lg font-light lg:w-[420px] w-full text-gray-800 mt-4">
+              </h1> */}
+              {/* <p style={{ fontFamily: 'PTSerif-Bold' }} className="lg:text-2xl text-justify text-lg font-light lg:w-[420px] w-full text-gray-800 mt-4">
                 Second floor, City Centre, 0413, Kasturba Nagar,Dhanbad,
                 Jharkhand 826001
+              </p> */}
+ <p style={{ fontFamily: 'PTSerif-Bold' }} className="lg:text-2xl text-xl font-semibold  text-black lg:mt-8 md:mt-10 mt-8 items-center text-center">
+                Second floor, City Centre, 0413, 
+                Jharkhand 826001
               </p>
-
-              <div className="text-3xl lg:text-5xl mt-4 text-[#E79F30] flex gap-10">
+              <p style={{ fontFamily: 'PTSerif-Bold' }} className="lg:text-2xl text-xl font-semibold
+               text-black lg:mt-0 md:mt-4 sm:mt-4 mt-2 items-center text-center">Kasturba Nagar,Dhanbad,</p>
+              <div className="text-3xl lg:text-5xl mt-4 text-black flex gap-10 lg:mx-40 md:mx-40 sm:mx-40 mx-20">
                 <Link
                   to="https://www.facebook.com/"
                   target="_blank"
@@ -437,7 +441,7 @@ const Contactus = () => {
                 </Link>
               </div>
 
-              <div className="text-3xl lg:text-5xl mt-4 text-[#E79F30] flex  gap-10">
+              <div className="text-3xl lg:text-5xl mt-4 text-black flex  gap-10">
                 <link
                   href="https://www.facebook.com/"
                   rel="noopener noreferrer"
@@ -453,9 +457,9 @@ const Contactus = () => {
                   rel="noopener noreferrer"
                 />
               </div>
-            </div> */}
-{/* 
-            <div className="mt-20 ">
+            </div>
+
+            {/* <div className="mt-20 ">
               <div className="border-2 border-[#E79F30] overflow-hidden rounded-lg">
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3650.4378796926185!2d86.4313797740286!3d23.803023386756603!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f6bd41386c516d%3A0xbcd7d938eaed2bdd!2sSystAIO%20Technologies%20%2C%20Website%20Development%20Company%20in%20Dhanbad!5e0!3m2!1sen!2sin!4v1715950634051!5m2!1sen!2sin"
