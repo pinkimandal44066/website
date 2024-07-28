@@ -8,6 +8,9 @@ import Ourteam from '../../Components/Ourteam';
 import Star from '../../Components/Star';
 import Custome from '../../Components/Custome';
 import Numberanimationimplement from '../Numberanimationimplement';
+
+// import ServicePage from '../Servicepage';
+
 const Home = () => {
   return (
     <div>
@@ -21,7 +24,8 @@ const Home = () => {
     <Star />
     {/* <Custome /> */}
     <Numberanimationimplement />
-   
+{/* <ServicePage /> */}
+  
     </div>
   )
 }

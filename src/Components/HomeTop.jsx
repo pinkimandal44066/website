@@ -22,8 +22,8 @@ const LoaderAnimation = () => {
     <div>
       <div style={{ fontFamily: 'PT Serif, serif', fontWeight: 'bold' }} className='' id="loader">
     <h1>WELCOME</h1>
-    <h1>TO OUR</h1>
-    <h1>WEBSITE</h1>
+    <h1>TO SYSTAIO</h1>
+    {/* <h1>SYSTAIO</h1> */}
 </div>
 
       <div id="main" className="">

@@ -108,7 +108,7 @@ import logo from '../../public/Systaiologo.png';
 
 const HomeThird = () => {
   return (
-    <div className="w-full -mt-10  ">
+    <div className="w-full   ">
      
       <div className="flex lg:gap-28 md:gap-20 gap-10  font-bold items-center overflow-hidden whitespace-nowrap  p-4
        bg-black">

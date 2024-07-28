@@ -8,9 +8,13 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 // import Scrolling from "./Components/Scrolling";
+import Servicepage from "./Components/Servicepage";
 import Home from "./Components/Homefolder/Home";
 import LayOut from "./Components/LayOut";
 import Contactus from "./Components/Contactus";
+import Webdevelopment from "./Components/Webdevelopment";
+// import Servicepage from "./Servicepage";
+
 // import Slider from 'react-slick';
 const App = () => {
   React.useEffect(() => {
@@ -33,6 +37,8 @@ const App = () => {
               <Route path="/" element={<Home />} />
               <Route path="/aboutus" element={<Aboutus />} />
               <Route path="/contactus" element={<Contactus />} />
+              <Route path="/Servicepage" element={< Servicepage/>} />
+              {/* <Route path="/Webdevelopment" element={< Webdevelopment/>} /> */}
             </Route>
           </Routes>
         </Router>

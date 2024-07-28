@@ -1,16 +1,16 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { FiMenu } from "react-icons/fi";
 import { IoCloseOutline } from "react-icons/io5";
 // import {  useLocation } from "react-router-dom";
 import logo from "../../public/Systaiologo.png";
-import { NavLink } from "react-router-dom";
+import { NavLink,useLocation } from "react-router-dom";
 
 const Navbar = () => {
   const [isSideMenuOpen, setMenu] = useState(false);
-  //   const location = useLocation();
-  //   useEffect(()=> {
-  // setMenu(false);
-  //   }, [location])
+    const location = useLocation();
+    useEffect(()=> {
+  setMenu(false);
+    }, [location])
 
   return (
     <div className=" bg-black">
@@ -35,10 +35,12 @@ const Navbar = () => {
               <NavLink to="/aboutus" className="hover:bg-white hover:text-black transition duration-300">
               About Us
               </NavLink>
+              <NavLink to="/Servicepage">
               <p className="hover:bg-white hover:text-black transition duration-300">
               Services
 
               </p>
+              </NavLink>
               <p className="hover:bg-white hover:text-black transition duration-300">
               Products
               </p>
@@ -95,9 +97,11 @@ const Navbar = () => {
                   About Us
                   </p>
                   </NavLink>
+                  <NavLink to="/Servicepage">
                   <p className="hover:bg-white hover:text-black transition duration-300">
                   Services
                   </p>
+                  </NavLink>
                   <p className="hover:bg-white hover:text-black transition duration-300">
                   Products
                   </p>

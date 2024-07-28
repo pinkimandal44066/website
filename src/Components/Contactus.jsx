@@ -65,9 +65,9 @@ const Contactus = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    const serviceId = 'service_kbrbaoa';
-    const templateId = 'template_cgwyalj';
-    const publicKey = 'QZPkeKuwUdiY7L07D';
+    const serviceId = 'service_3jjjhpg';
+    const templateId = 'template_t57j4ao';
+    const publicKey = 'QJ3LYg2phyi7VCyJY';
 
     const templateParams = {
       from_firstName: firstName,
@@ -83,6 +83,7 @@ const Contactus = () => {
       .send(serviceId, templateId, templateParams, publicKey)
       .then((response) => {
         console.log('Email sent successfully', response);
+        alert('message sent successfully')
         toast.success('Message sent successfully');
         setFirstName('');
         setLastName('');
@@ -185,7 +186,7 @@ const Contactus = () => {
     </form> */}
 
 
-
+<img className="w-full h-80" src="https://img.freepik.com/free-photo/contact-us-communication-support-service-assistance-concept_53876-128103.jpg?ga=GA1.1.2000051094.1716005427&semt=ais_user" alt=""/>
 
 <form onSubmit={handleSubmit} className="emailForm">
   <div className="form-container">
@@ -415,7 +416,41 @@ const Contactus = () => {
               </p>
               <p style={{ fontFamily: 'PTSerif-Bold' }} className="lg:text-2xl text-xl font-semibold
                text-black lg:mt-0 md:mt-4 sm:mt-4 mt-2 items-center text-center">Kasturba Nagar,Dhanbad,</p>
-              <div className="text-3xl lg:text-5xl mt-4 text-black flex gap-10 lg:mx-40 md:mx-40 sm:mx-40 mx-20">
+               
+
+
+               {/* <div style={{ fontFamily: 'PTSerif-Bold' }} className="flex mt-5  lg:mx-36 md:mx-32 sm:mx-32 mx-6">
+                <CiMail className="lg:text-3xl text-2xl mt-1" />
+                <Link
+                  to="mailto:abccdefpvtltd@gmail.com"
+                  className="lg:text-2xl text-xl font-light ml-5"
+                >
+                  abc@gmail.com
+                </Link>
+              </div> */}
+
+              <div style={{ fontFamily: 'PTSerif-Bold' }} className="flex mt-5  lg:mx-36 md:mx-32 sm:mx-32 mx-6">
+                <BiPhoneCall className="lg:text-3xl mt-1 text-2xl  text-gray-700" />
+                <Link
+                  to="tel:+918918304906"
+                  className="lg:text-2xl text-xl font-light ml-5"
+                >
+                +091-093087 88991
+                </Link>
+                
+              </div>
+
+
+              <div style={{ fontFamily: 'PTSerif-Bold' }} className="flex mt-5  lg:mx-36 md:mx-32 sm:mx-32 mx-6">
+                <CiMail className="lg:text-3xl text-2xl mt-1" />
+                <Link
+                  to="mailto:abccdefpvtltd@gmail.com"
+                  className="lg:text-2xl text-xl font-light ml-5"
+                >
+                  abc@gmail.com
+                </Link>
+              </div>
+              <div className="text-3xl lg:text-5xl mt-4 text-black flex gap-10 lg:mx-40 md:mx-32 sm:mx-36 mx-12">
                 <Link
                   to="https://www.facebook.com/"
                   target="_blank"
@@ -456,7 +491,11 @@ const Contactus = () => {
                   href="https://www.youtube.com/channel/YourChannelID"
                   rel="noopener noreferrer"
                 />
+
+           
               </div>
+
+              
             </div>
 
             {/* <div className="mt-20 ">
@@ -523,3 +562,19 @@ const Contactus = () => {
 };
 
 export default Contactus;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
