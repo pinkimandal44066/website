@@ -13,6 +13,7 @@ import Home from "./Components/Homefolder/Home";
 import LayOut from "./Components/LayOut";
 import Contactus from "./Components/Contactus";
 import Webdevelopment from "./Components/Webdevelopment";
+import Products from "./Components/Products";
 // import Servicepage from "./Servicepage";
 
 // import Slider from 'react-slick';
@@ -39,6 +40,7 @@ const App = () => {
               <Route path="/contactus" element={<Contactus />} />
               <Route path="/Servicepage" element={< Servicepage/>} />
               {/* <Route path="/Webdevelopment" element={< Webdevelopment/>} /> */}
+              <Route path="/Products" element={<Products/>} />
             </Route>
           </Routes>
         </Router>

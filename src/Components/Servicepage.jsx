@@ -223,24 +223,17 @@
 
 // import React from 'react'
 import { NavLink } from "react-router-dom";
-// import DINTERIORMODELS from "../dummyfolder/dummyimages/3DINTERIORMODELS.png";
-// import noth from "../dummyfolder/dummyimages/7th.png";
-// import COREHOUSEPLAN from "../dummyfolder/dummyimages/COREHOUSEPLAN.png";
-// import GYPSUMCELLING from "../dummyfolder/dummyimages/GYPSUMCELLING.png";
-// import MODULARKITCHEN from "../dummyfolder/dummyimages/MODULARKITCHEN.png";
-// import TVCABINEI from "../dummyfolder/dummyimages/TVCABINEI.png";
-// import Wardrobe from "../dummyfolder/dummyimages/Wardrobe.png";
-// import Accordion from "./Accordion";
-// import TransitionEffect from "./TransitionEffect";
-// import img2 from '../../public/img2.jpg';
+import Scrolling from "./Scrolling";
+
 import Navbar from "./Navbar";
 import Accordion from "./Accordion";
 
-const Services = () => {
+
+const Servicepage = () => {
   return (
    
   <>
-  {/* <Navbar /> */}
+
 
   
       <div className="max-w-screen-xl lg:mx-auto mx-5 lg:mt-10 md:mt-14 sm:mt-24 mt-20">
@@ -248,12 +241,12 @@ const Services = () => {
       <div className="">
         <p  style={{ fontFamily: 'PTSerif-Bold' }} className="text-center lg:text-3xl md:text-2xl sm:text-2xl text-xl font-medium ">
         We are providing innovative and 
-          {/* <span className="text-[#FF8526]">Kalyan Design Studios</span> */}
+       
         </p>
 
         <p  style={{ fontFamily: 'PTSerif-Bold' }} className="text-center lg:text-3xl md:text-2xl sm:text-2xl text-xl font-medium ">
       impactful web solutions...
-          {/* <span className="text-[#FF8526]">Kalyan Design Studios</span> */}
+         
         </p>
         <p style={{ fontFamily: 'PTSerif-Bold' }} className="mt-4 lg:text-base md:text-base sm:text-base text-xs text-center font-medium">
         In this Internet era,Digital presence is must to grow your business. However one should go to different places for different kind of digital solutions. By keeping this in our mind we are here to provide you the best all in one digital solution at a single place.
@@ -425,7 +418,7 @@ const Services = () => {
 
       <div className="lg:mt-20 md:mt-10 mt-10 text-3xl lg:text-4xl md:text-4xl font-bold ">
         <h1>FAQ’S</h1>
-        {/* <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi ipsam, accusantium obcaecati cum ex pariatur recusandae aut, provident, error eum est eos? Dolore quam temporibus, voluptate quae iusto dolorum optio.</p> */}
+       
       </div>
       <div className="mt-10">
    
@@ -436,5 +429,7 @@ const Services = () => {
   );
 };
 
-export default Services;
+export default  Scrolling(Servicepage); 
+
+
 

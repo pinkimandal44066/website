@@ -7,22 +7,34 @@ const Aboutus = () => {
   
   return (
     <>
-    {/* <div className="flex   items-center justify-evenly ">
-      <div className="max-w-screen-xl lg:mx-auto mx-5 rounded-lg  ">
-        <div className="px-4 py-2">
-          <h2 className="text-lg font-semibold text-gray-800">Heading</h2>
-          <p className="text-gray-600 mt-1 w-full">Lorem ipsum dolor sit amet consectetur 
-            adipisicing elit. Est a ad et cum aliquam non, asperiores amet minus tempore neque 
-            suscipit labore? Cupiditate deleniti rem sunt tenetur? Ut, fugiat porro.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt soluta architecto molestias ex magni nam dolor numquam dignissimos officia! Aspernatur, saepe animi? Similique cupiditate repellendus totam tempora dolore mollitia odit.</p>
-          <p className="text-gray-600 mt-1">Second paragraph goes here...</p>
-        </div>
-      </div>
-      <div className="flex">
-        <img className="object-cover w-48 h-48 rounded-lg shadow-md" src={img2} alt="" />
-      </div>
-    </div> */}
-    
+
+<div className="relative w-full h-60 md:h-80 lg:h-96 flex items-center justify-center">
+
+<div className="absolute inset-0 z-0">
+  <img
+    className="w-full h-full object-cover"
+    src='https://img.freepik.com/premium-photo/people-working-with-computers_23-2147656718.jpg?ga=GA1.1.2000051094.1716005427&semt=ais_user'
+    // src='https://img.freepik.com/free-photo/silhouettes-executives-interacting_1098-1787.jpg?ga=GA1.1.2000051094.1716005427&semt=ais_user'
+    // src="https://img.freepik.com/free-photo/laptop-nature-concept_23-2150246092.jpg?t=st=1722235881~exp=1722239481~hmac=e3660012e75de63d10e6c4181a4ea8f88e86b9b55e47bef1e4ce7577b2a45d3d&w=740"
+    alt="Product"
+  />
+</div>
+
+<div className="absolute inset-0 z-0">
+  <img
+    className="w-full h-full object-cover"
+    src='https://img.freepik.com/premium-photo/people-working-with-computers_23-2147656718.jpg?ga=GA1.1.2000051094.1716005427&semt=ais_user'
+    // src='https://img.freepik.com/free-photo/silhouettes-executives-interacting_1098-1787.jpg?ga=GA1.1.2000051094.1716005427&semt=ais_user'
+    // src="https://img.freepik.com/free-photo/laptop-nature-concept_23-2150246092.jpg?t=st=1722235881~exp=1722239481~hmac=e3660012e75de63d10e6c4181a4ea8f88e86b9b55e47bef1e4ce7577b2a45d3d&w=740"
+    alt="Product"
+  />
+</div>
+
+<div className="absolute inset-0 flex items-center justify-center text-white bg-black bg-opacity-50 p-4 z-10">
+  <span className="text-4xl md:text-6xl lg:text-6xl font-bold">ABOUT US</span>
+</div>
+</div> 
+
 
     <div className="flex flex-col lg:flex-row md:flex-row sm:flex-col lg:mt-10 mt-5">
   <div className=" max-w-screen-xl lg:mx-40 mx-5 lg:w-1/2 md:w-1/2 sm:w-full rounded-lg">

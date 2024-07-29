@@ -41,9 +41,11 @@ const Navbar = () => {
 
               </p>
               </NavLink>
+              <NavLink to='/Products'>
               <p className="hover:bg-white hover:text-black transition duration-300">
               Products
               </p>
+              </NavLink>
               <NavLink to='/contactus'>
               <p className="hover:bg-white hover:text-black transition duration-300">
               Contact us
@@ -71,7 +73,7 @@ const Navbar = () => {
               <section>
                 <FiMenu
                   onClick={() => setMenu(true)}
-                  className="text-4xl   text-white mr-8  cursor-pointer shadow-2xl  "
+                  className="text-4xl   text-black mr-8  cursor-pointer shadow-2xl  "
                 />
               </section>
             </>
@@ -80,11 +82,14 @@ const Navbar = () => {
 
         <div>
           {isSideMenuOpen && (
-            <div className="fixed h-full z-[999] w-screen lg:hidden bg-black bg-opacity-50 backdrop-blur-sm top-0 right-0 cursor-pointer">
-              <section className="text-black bg-white flex-col absolute right-0 top-0 h-screen p-8 gap-8 z-50 w-full flex">
+            <div className="fixed h-full z-[999] w-screen lg:hidden bg-black bg-opacity-50 
+            backdrop-blur-sm top-0 right-0 cursor-pointer">
+              <section className="text-black bg-white flex-col absolute right-0
+               top-0 h-screen p-8 gap-8 z-50 w-full flex">
                 <IoCloseOutline
                   onClick={() => setMenu(false)}
-                  className="text-2xl   text-black absolute top-7 right-7 rounded-full cursor-pointer shadow-2xl border border-black "
+                  className="text-2xl   text-black absolute top-7 right-7 rounded-full cursor-pointer 
+                  shadow-2xl border border-black "
                 />
                 <div className="flex justify-center items-center flex-col mt-16 text-2xl font-medium">
                 <NavLink to="/">
@@ -102,9 +107,11 @@ const Navbar = () => {
                   Services
                   </p>
                   </NavLink>
+                  <NavLink to='/Products'>
                   <p className="hover:bg-white hover:text-black transition duration-300">
                   Products
                   </p>
+                  </NavLink>
                   <NavLink to='/contactus'>
                   <p className="hover:bg-white hover:text-black transition duration-300">
                   Contact us

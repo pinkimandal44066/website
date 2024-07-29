@@ -33,6 +33,7 @@ import { Link } from "react-router-dom";
 import emailjs from "@emailjs/browser";
 import { toast } from "react-hot-toast";
 import './Contactus.css';
+import Scrolling from "./Scrolling";
 // import SideFrom from "../Homefolder/SideFrom";
 const Contactus = () => {
   const [date, setDate] = useState(null);
@@ -561,7 +562,8 @@ const Contactus = () => {
   );
 };
 
-export default Contactus;
+
+export default  Scrolling(Contactus); 
 
 
 
