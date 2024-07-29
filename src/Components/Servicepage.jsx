@@ -266,14 +266,16 @@ const Servicepage = () => {
               </div>
             </div>
             <div className="second-content absolute inset-0 flex justify-center items-center opacity-0 h-full transition-all duration-400 text-0 hover:opacity-100 hover:h-full hover:text-lg hover:font-semibold hover:text-white hover:bg-[#000] hover:bg-opacity-40">
-              <NavLink to="/Webdevelopment">
+              {/* <NavLink to="/Webdevelopment"> */}
+              <div>
                 <h1 className="lg:text-2xl md:text-xl sm:text-base text-[8px]">
                 WEB DESIGN & DEVELOPMENT
                 </h1>
                 <div className="flex justify-center items-center lg:text-9xl md:text-8xl sm:text-8xl text-5xl">
                   <i className="ri-add-line"></i>
                 </div>
-              </NavLink>
+                </div>
+              {/* </NavLink> */}
 
             </div>
           </div>
@@ -288,14 +290,16 @@ const Servicepage = () => {
               </div>
             </div>
             <div className="second-content absolute inset-0 flex justify-center items-center opacity-0 h-full transition-all duration-400 text-0 hover:opacity-100 hover:h-full hover:text-lg hover:font-semibold hover:text-white hover:bg-[#000] hover:bg-opacity-40">
-              <NavLink to="/servicesdetailspage/3d_interiormodels">
+              {/* <NavLink to="/servicesdetailspage/3d_interiormodels"> */}
+              <div>
                 <h1 className="lg:text-2xl md:text-xl sm:text-base text-[8px]">
                 DIGITAL MARKETING
                 </h1>
                 <div className="flex justify-center items-center lg:text-9xl md:text-8xl sm:text-8xl text-5xl">
                   <i className="ri-add-line"></i>
                 </div>
-              </NavLink>
+                </div>
+              {/* </NavLink> */}
 
             </div>
           </div>
@@ -313,14 +317,16 @@ const Servicepage = () => {
               </div>
             </div>
             <div className="second-content absolute inset-0 flex justify-center items-center opacity-0 h-full transition-all duration-400 text-0 hover:opacity-100 hover:h-full hover:text-lg hover:font-semibold hover:text-white hover:bg-[#000] hover:bg-opacity-40">
-              <NavLink to="/servicesdetailspage/tv_cabinet">
+              {/* <NavLink to="/servicesdetailspage/tv_cabinet"> */}
+              <div>
                 <h1 className="lg:text-2xl md:text-xl sm:text-base text-[8px]">
                 MOBILE APPS
                 </h1>
                 <div className="flex justify-center items-center lg:text-9xl md:text-8xl sm:text-8xl text-5xl">
                   <i className="ri-add-line"></i>
                 </div>
-              </NavLink>
+                </div>
+              {/* </NavLink> */}
 
             </div>
           </div>
@@ -335,14 +341,16 @@ const Servicepage = () => {
               </div>
             </div>
             <div className="second-content absolute inset-0 flex justify-center items-center opacity-0 h-full transition-all duration-400 text-0 hover:opacity-100 hover:h-full hover:text-lg hover:font-semibold hover:text-white hover:bg-[#000] hover:bg-opacity-40">
-              <NavLink to="/servicesdetailspage/gypsum_celling">
+              {/* <NavLink to="/servicesdetailspage/gypsum_celling"> */}
+              <div>
                 <h1 className="lg:text-2xl md:text-xl sm:text-base text-[8px]">
                 CONTENT MANAGEMENT
                 </h1>
                 <div className="flex justify-center items-center lg:text-9xl md:text-8xl sm:text-8xl text-5xl">
                   <i className="ri-add-line"></i>
                 </div>
-              </NavLink>
+                </div>
+              {/* </NavLink> */}
 
             </div>
           </div>
@@ -381,14 +389,16 @@ const Servicepage = () => {
               </div>
             </div>
             <div className="second-content absolute inset-0 flex justify-center items-center opacity-0 h-full transition-all duration-400 text-0 hover:opacity-100 hover:h-full hover:text-lg hover:font-semibold hover:text-white hover:bg-[#000] hover:bg-opacity-40">
-              <NavLink to="/servicesdetailspage/wardrobe">
+              {/* <NavLink to="/servicesdetailspage/wardrobe"> */}
+              <div>
                 <h1 className="lg:text-2xl md:text-xl sm:text-base text-[8px]">
                   SOCIAL MEDIA SOLUTIONS
                 </h1>
                 <div className="flex justify-center items-center lg:text-9xl md:text-8xl sm:text-8xl text-5xl">
                   <i className="ri-add-line"></i>
                 </div>
-              </NavLink>
+                </div>
+              {/* </NavLink> */}
 
             </div>
           </div>
@@ -402,14 +412,16 @@ const Servicepage = () => {
               </div>
             </div>
             <div className="second-content absolute inset-0 flex justify-center items-center opacity-0 h-full transition-all duration-400 text-0 hover:opacity-100 hover:h-full hover:text-lg hover:font-semibold hover:text-white hover:bg-[#000] hover:bg-opacity-40">
-              <NavLink to="/servicesdetailspage/pvc_ceiling">
+              {/* <NavLink to="/servicesdetailspage/pvc_ceiling"> */}
+              <div>
                 <h1 className="lg:text-2xl md:text-xl sm:text-base text-[8px]">
               BRANDING DESIGN
                 </h1>
                 <div className="flex justify-center items-center lg:text-9xl md:text-8xl sm:text-8xl text-5xl">
                   <i className="ri-add-line"></i>
                 </div>
-              </NavLink>
+                </div>
+              {/* </NavLink> */}
 
             </div>
           </div>
@@ -433,3 +445,4 @@ export default  Scrolling(Servicepage);
 
 
 
+// vercel.json
