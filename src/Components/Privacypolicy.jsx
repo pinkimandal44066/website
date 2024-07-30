@@ -46,11 +46,11 @@ const PrivacyPolicy = () => {
 </div>
     
     <div className=" flex flex-col max-w-screen-xl lg:mx-auto mx-5 ">
-      <header className=" w-full py-4">
+      {/* <header className=" w-full py-4">
       <p className=" text-2xl font-bold">PLEASE READ THE PRIVACY POLICY CAREFULLY</p>
-        {/* <h1 className="text-center text-3xl font-bold">PRIVACY POLICY</h1> */}
-        {/* <p className="text-center mt-2">PLEASE READ THE PRIVACY POLICY CAREFULLY</p> */}
-      </header>
+        <h1 className="text-center text-3xl font-bold">PRIVACY POLICY</h1>
+        <p className="text-center mt-2">PLEASE READ THE PRIVACY POLICY CAREFULLY</p>
+      </header> */}
       
       <main className=" w-full p-3">
         <p>This privacy policy sets out how SystAIO (hence by referred to as "SystAIO", or "we", or "us") uses and protects any information that you give SystAIO Technologies when you use this website.</p>
