@@ -1,8 +1,13 @@
 import Scrolling from '../Scrolling'
 import img2 from '../../../public/img2.jpg';
 import Ourteam from '../Ourteam';
+import "aos/dist/aos.css";
+import AOS from "aos";
+import { useEffect } from 'react';
 const Aboutus = () => {
-  
+  useEffect(() => {
+    AOS.init({ duration: 1000 });
+  }, []);
 
   
   return (

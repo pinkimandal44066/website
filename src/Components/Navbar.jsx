@@ -51,7 +51,11 @@ const Navbar = () => {
               Contact us
               </p>
               </NavLink>
-        
+              <NavLink to='/Careers'>
+              <p className="hover:bg-white hover:text-black transition duration-300">
+              Careers
+              </p>
+              </NavLink>
               {/* <li>Contact</li> */}
               <i className=" text-2xl ri-facebook-fill"></i>
               <i className=" text-2xl ri-instagram-line"></i>
@@ -118,6 +122,12 @@ const Navbar = () => {
                   </p>
                   </NavLink>
 
+
+                  <NavLink to='/Careers'>
+              <p className="hover:bg-white hover:text-black transition duration-300">
+              Careers
+              </p>
+              </NavLink>
                   <div className="flex mt-7 gap-7">
                     <i className=" text-2xl ri-facebook-fill"></i>
                     <i className=" text-2xl ri-instagram-line"></i>

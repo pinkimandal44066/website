@@ -52,7 +52,7 @@ const PrivacyPolicy = () => {
         <p className="text-center mt-2">PLEASE READ THE PRIVACY POLICY CAREFULLY</p>
       </header> */}
       
-      <main className=" w-full p-3">
+      <main className=" w-full p-3 mt-10">
         <p>This privacy policy sets out how SystAIO (hence by referred to as "SystAIO", or "we", or "us") uses and protects any information that you give SystAIO Technologies when you use this website.</p>
 
 
