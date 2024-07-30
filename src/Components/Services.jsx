@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import "aos/dist/aos.css";
 import AOS from "aos";
-// import "./Servicecss.css"; // Import your CSS file for animations
+
 
 const services = [
   { 
@@ -10,7 +10,7 @@ const services = [
     icon: "🔍" 
   },
   { 
-    title: "DEVELOPMENT", 
+    title: " DEVELOPMENT", 
     description: "AT SystAIO we boast of having highly talented and skilled Web developers who mainly Mainly focused on customized application development to meet your requirements. This helps us to become the 1st Choice & TOP WEB DEVELOPMENT COMPANY.", 
     icon: "📡" 
   },

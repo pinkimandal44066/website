@@ -672,6 +672,7 @@ import React, { useState } from "react";
 import Modal from "./Modal";
 import Scrolling from "./Scrolling";
 import Accordion from "./Accordion";
+import { FaArrowTurnDown } from "react-icons/fa6";
 
 const Servicepage = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -755,9 +756,22 @@ const Servicepage = () => {
           ))}
         </div>
 
-        <div className="lg:mt-20 md:mt-10 mt-10 text-3xl lg:text-4xl md:text-4xl font-bold">
-          <h1>FAQ’S</h1>
-        </div>
+     
+
+
+
+
+
+
+<div className="lg:mt-10 md:mt-10 mt-10 text-3xl lg:text-4xl md:text-4xl font-bold cursor-pointer md:mx-16 sm:mx-10 mx-5 lg:mx-16 flex items-center">
+  <h1>Discover more</h1>
+  <span className="ml-5 mt-10">
+    <FaArrowTurnDown />
+  </span>
+</div>
+
+
+        
         <div className="mt-10">
           <Accordion />
         </div>

@@ -96,7 +96,7 @@ const Services = () => {
         <NavLink to='/Servicepage'>
         <div className="bg-white p-6 rounded-lg shadow-md text-center" data-aos="fade-up">
           <div className="text-yellow-500 text-5xl mb-4">📡</div>
-          <h1 style={{ fontFamily: 'PTSerif-Bold' }} className="font-bold "> DEVELOPMENT</h1>
+          <h1 style={{ fontFamily: 'PTSerif-Bold' }} className="font-bold ">SOFTWARE DEVELOPMENT</h1>
           <p className=" mt-2">
           AT SystAIO we boast of having highly talented and skilled Web developers who mainly Mainly focused on customized application development to meet your requirements. This helps us to become the 1st Choice & "TOP WEB DEVELOPMENT COMPANY"
           </p>

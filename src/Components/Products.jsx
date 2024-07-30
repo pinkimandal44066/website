@@ -141,6 +141,7 @@ import Payrollmanagement from '../../public/Payrollmanagement.avif';
 // import Customerrelationshipmanagement from '../../public/Customerrelationshipmanagement.';
 // import Customerrelationshipmanagement  from '../../public/Customerrelationshipmanagement ';
 import Customerrelationshipmanagement from '../../public/Customerrelationshipmanagement.avif';
+import Progressbartwo from './Progressbartwo'
 const Products = () => {
   return (
 
@@ -306,6 +307,10 @@ CUSTOMER RELATIONSHIP MANAGEMENT
 
         
       </div>
+
+
+
+      <Progressbartwo />
     </>
   );
 };

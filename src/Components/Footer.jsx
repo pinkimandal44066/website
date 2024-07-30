@@ -1,6 +1,7 @@
 import React from "react";
 
 import logo from "../../public/Systaiologo.png";
+import { NavLink } from "react-router-dom";
 const Footer = () => {
   return (
     
@@ -121,13 +122,13 @@ const Footer = () => {
 
 
 
-<div className="container mx-auto  py-10 px-6 lg:px-16">
-  <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-10">
+<div className=" mx-auto  py-10 px-6 lg:px-16  cursor-pointer ">
+  <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-10  ">
     
 
     <div className="col-span-1">
       <img src={logo} alt="Logo" className="mb-4" />
-      <p className="text-sm text-gray-700">
+      <p className="text-sm ">
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam
         alias architecto tempore, veritatis nihil ullam tempora possimus
         nobis rem porro, at perspiciatis nesciunt maiores!
@@ -135,44 +136,63 @@ const Footer = () => {
     </div>
 
   
-    <div className="col-span-1">
+    <div className="col-span-1 lg:mx-10 w-full">
       <h3 className="text-lg font-semibold mb-3">Office</h3>
-      <address className="text-sm text-gray-700">
-        Second floor, City Centre,
-        <br />
-        0413, Luby Circular Rd,
-        <br />
-        Bartand, Kasturba Nagar,
-        <br />
-        Dhanbad, Jharkhand 826001
-        <br />
-        <span className="email-id">abcdefgh@.com</span>
-        <br />
-        <a href="tel:+09109308788991">+091-093087 88991</a>
-      </address>
+      <p className="text-sm ">
+        Second floor, City Centre,0413, Luby Circular Rd,Bartand, Kasturba Nagar, Dhanbad, Jharkhand 826001
+
+
+   
+  
+       
+    
+
+ 
+      </p>
+      <span className="email-id">abcdefgh@.com</span>
+      <div>
+      <a href="tel:+09109308788991">+091-093087 88991</a> 
+      </div>
     </div>
 
 
-    <div className="col-span-1">
-      <h3 className="text-lg font-semibold mb-3">Office</h3>
-      <address className="text-sm text-gray-700">
-        Second floor, City Centre,
-        <br />
-        0413, Luby Circular Rd,
-        <br />
-        Bartand, Kasturba Nagar,
-        <br />
-        Dhanbad, Jharkhand 826001
-        <br />
-        <span className="email-id">abcdefgh@.com</span>
-        <br />
-        <a href="tel:+09109308788991">+091-093087 88991</a>
-      </address>
-    </div>
 
-    <div className="col-span-1">
+
+<div className="col-span-1 lg:mx-16 w-full">
       <h3 className="text-lg font-semibold mb-3">Links</h3>
-      <ul className="text-sm text-gray-700">
+      <ul className="text-sm ">
+       
+    
+        <h1>  FAQs</h1>
+     
+     
+        <NavLink to='/Refundreturnpolicy'>
+          <h1>Refund/Return Policy</h1>
+          </NavLink>
+
+
+
+
+
+       <NavLink to='/Privacypolicy'>
+          <h1>Privacy Policy</h1>
+          </NavLink>
+
+          
+        <li>
+          <a href="#">Support</a>
+        </li>
+        {/* <li>
+          <a href="#">Contact us</a>
+        </li> */}
+      </ul>
+    </div>
+
+
+
+    <div className="col-span-1 w-full lg:mx-5">
+      <h3 className="text-lg font-semibold mb-3">Links</h3>
+      <ul className="text-sm ">
         <li>
           <a href="#">Home</a>
         </li>
@@ -191,19 +211,21 @@ const Footer = () => {
       </ul>
     </div>
 
-    <div className="col-span-1">
+    <div className="col-span-1 lg:-mx-24 md:mx-0 sm:mx-0 mx-2
+    ">
       <h3 className="text-lg font-semibold mb-3">Email</h3>
       <form className="flex mb-4">
         <input
           type="email"
           placeholder="Enter your email id"
           required
-          className="px-4 py-2 rounded-l border-gray-300"
+          className="px-4 py-2 rounded-l border-black"
         />
         <button
           type="submit"
           className="px-4 py-2 bg-black text-white rounded-r"
         >
+          submit
           <i className="fas fa-arrow-right"></i>
         </button>
       </form>
@@ -285,3 +307,13 @@ const Footer = () => {
 };
 
 export default Footer;
+
+
+
+
+
+
+
+
+
+

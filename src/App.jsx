@@ -14,6 +14,8 @@ import LayOut from "./Components/LayOut";
 import Contactus from "./Components/Contactus";
 import Webdevelopment from "./Components/Webdevelopment";
 import Products from "./Components/Products";
+import RefundPolicy from "./Components/Refundreturnpolicy";
+import PrivacyPolicy from "./Components/Privacypolicy";
 // import Servicepage from "./Servicepage";
 
 // import Slider from 'react-slick';
@@ -41,6 +43,8 @@ const App = () => {
               <Route path="/Servicepage" element={< Servicepage/>} />
               <Route path="/Webdevelopment" element={< Webdevelopment/>} />
               <Route path="/Products" element={<Products/>} />
+              <Route path="/Refundreturnpolicy" element={<RefundPolicy/>} />
+              <Route path="/Privacypolicy" element={<PrivacyPolicy/>} />
             </Route>
           </Routes>
         </Router>

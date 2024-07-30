@@ -44,38 +44,39 @@ const Accordion = () => {
       <div className="lg:mt-24 lg:-mx-20 mt-8 mb-40">
         <div className="mx-4 sm:mx-8 md:mx-16 lg:mx-28 xl:mx-36 2xl:mx-48 lg:-mt-16">
           <AccordionItem
-            title="What programming languages do you specialize in?"
-            content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, suscipit rerum. Mollitia quibusdam nisi unde consectetur illum numquam, quam sint placeat. Aspernatur aliquid neque exercitationem adipisci alias deserunt atque aliquam."
+            title="WEB DESIGN "
+            content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, suscipit rerum. Mollitia quibusdam nisi unde consectetur illum numquam, quam sint placeat. Aspernatur aliquid neque exercitationem adipisci alias deserunt atque aliquam.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, suscipit rerum. Mollitia quibusdam nisi unde consectetur illum numquam, quam sint placeat. Aspernatur aliquid neque exercitationem adipisci alias deserunt atque aliquam."
           />
           <AccordionItem
-            title="How can I apply for a job at your company?"
-            content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, suscipit rerum. Mollitia quibusdam nisi unde consectetur illum numquam, quam sint placeat. Aspernatur aliquid neque exercitationem adipisci alias deserunt atque aliquam."
+            title="MOBILE APPS"
+            content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, suscipit rerum. Mollitia quibusdam nisi unde consectetur illum numquam, quam sint placeat. Aspernatur aliquid neque exercitationem adipisci alias deserunt atque aliquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, suscipit rerum. Mollitia quibusdam nisi unde consectetur illum numquam, quam sint placeat. Aspernatur aliquid neque exercitationem adipisci alias deserunt atque aliquam."
           />
        
 
        <AccordionItem
-            title="Do you offer remote work opportunities?"
-            content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, suscipit rerum. Mollitia quibusdam nisi unde consectetur illum numquam, quam sint placeat. Aspernatur aliquid neque exercitationem adipisci alias deserunt atque aliquam."
+            title="SOCIAL MEDIA SOLUTIONS"
+            content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, suscipit rerum. Mollitia quibusdam nisi unde consectetur illum numquam, quam sint placeat. Aspernatur aliquid neque exercitationem adipisci alias deserunt atque aliquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, suscipit rerum. Mollitia quibusdam nisi unde consectetur illum numquam, quam sint placeat. Aspernatur aliquid neque exercitationem adipisci alias deserunt atque aliquam."
           />
 
 
 
 <AccordionItem
-            title="What are your office hours?"
-            content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, suscipit rerum. Mollitia quibusdam nisi unde consectetur illum numquam, quam sint placeat. Aspernatur aliquid neque exercitationem adipisci alias deserunt atque aliquam."
+            title="DIGITAL MARKETING"
+            content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, suscipit rerum. Mollitia quibusdam nisi unde consectetur illum numquam, quam sint placeat. Aspernatur aliquid neque exercitationem adipisci alias deserunt atque aliquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, suscipit rerum. Mollitia quibusdam nisi unde consectetur illum numquam, quam sint placeat. Aspernatur aliquid neque exercitationem adipisci alias deserunt atque aliquam."
           />
 
 
 
 <AccordionItem
-            title="How do I contact your technical support?"
-            content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, suscipit rerum. Mollitia quibusdam nisi unde consectetur illum numquam, quam sint placeat. Aspernatur aliquid neque exercitationem adipisci alias deserunt atque aliquam."
+            title="CONTENT MANAGEMENT"
+            content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, suscipit rerum. Mollitia quibusdam nisi unde consectetur illum numquam, quam sint placeat. Aspernatur aliquid neque exercitationem adipisci alias deserunt atque aliquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, suscipit rerum. Mollitia quibusdam nisi unde consectetur illum numquam, quam sint placeat. Aspernatur aliquid neque exercitationem adipisci alias deserunt atque aliquam."
           />
 
 
 <AccordionItem
-            title="Can I request a demo of your software products?"
-            content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, suscipit rerum. Mollitia quibusdam nisi unde consectetur illum numquam, quam sint placeat. Aspernatur aliquid neque exercitationem adipisci alias deserunt atque aliquam."
+            title="BRANDING DESIGN"
+            content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, suscipit rerum. Mollitia quibusdam nisi unde consectetur illum numquam, quam sint placeat. Aspernatur aliquid neque exercitationem adipisci alias deserunt atque aliquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, suscipit rerum. Mollitia quibusdam nisi unde consectetur illum numquam, quam sint placeat. Aspernatur aliquid neque exercitationem adipisci alias deserunt atque aliquam."
           />
         </div>
       </div>
