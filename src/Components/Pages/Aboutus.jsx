@@ -8,6 +8,8 @@ const Aboutus = () => {
   return (
     <>
 
+
+
 <div className="relative w-full h-60 md:h-80 lg:h-96 flex items-center justify-center">
 
 <div className="absolute inset-0 z-0">
@@ -16,7 +18,7 @@ const Aboutus = () => {
     src='https://img.freepik.com/premium-photo/people-working-with-computers_23-2147656718.jpg?ga=GA1.1.2000051094.1716005427&semt=ais_user'
     // src='https://img.freepik.com/free-photo/silhouettes-executives-interacting_1098-1787.jpg?ga=GA1.1.2000051094.1716005427&semt=ais_user'
     // src="https://img.freepik.com/free-photo/laptop-nature-concept_23-2150246092.jpg?t=st=1722235881~exp=1722239481~hmac=e3660012e75de63d10e6c4181a4ea8f88e86b9b55e47bef1e4ce7577b2a45d3d&w=740"
-    alt="Product"
+    alt=""
   />
 </div>
 
@@ -26,7 +28,7 @@ const Aboutus = () => {
     src='https://img.freepik.com/premium-photo/people-working-with-computers_23-2147656718.jpg?ga=GA1.1.2000051094.1716005427&semt=ais_user'
     // src='https://img.freepik.com/free-photo/silhouettes-executives-interacting_1098-1787.jpg?ga=GA1.1.2000051094.1716005427&semt=ais_user'
     // src="https://img.freepik.com/free-photo/laptop-nature-concept_23-2150246092.jpg?t=st=1722235881~exp=1722239481~hmac=e3660012e75de63d10e6c4181a4ea8f88e86b9b55e47bef1e4ce7577b2a45d3d&w=740"
-    alt="Product"
+    alt=""
   />
 </div>
 

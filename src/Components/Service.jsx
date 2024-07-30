@@ -82,7 +82,7 @@ const Services = () => {
       <h2 className="text-3xl font-bold text-center mb-10">CHECK OUR SERVICES</h2>
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
         {/* Service 1 */}
-        <NavLink to='/Products'>
+        <NavLink to='/Servicepage'>
         <div className="bg-white p-6 rounded-lg shadow-md text-center" data-aos="fade-up">
           
           <div className="text-yellow-500 text-5xl mb-4">🔍</div>
@@ -93,7 +93,7 @@ const Services = () => {
         </div>
         </NavLink>
         {/* Service 2 */}
-        <NavLink to='/Products'>
+        <NavLink to='/Servicepage'>
         <div className="bg-white p-6 rounded-lg shadow-md text-center" data-aos="fade-up">
           <div className="text-yellow-500 text-5xl mb-4">📡</div>
           <h1 style={{ fontFamily: 'PTSerif-Bold' }} className="font-bold "> DEVELOPMENT</h1>
@@ -103,7 +103,7 @@ const Services = () => {
         </div>
         </NavLink>
         {/* Service 3 */}
-        <NavLink to='/Products'>
+        <NavLink to='/Servicepage'>
         <div className="bg-white p-6 rounded-lg shadow-md text-center" data-aos="fade-up">
           <div className="text-yellow-500 text-5xl mb-4">🏢</div>
           <h1 style={{ fontFamily: 'PTSerif-Bold' }} className="font-bold">DIGITAL MARKETING</h1>
@@ -114,7 +114,7 @@ const Services = () => {
         </NavLink>
         
         {/* Service 4 */}
-        <NavLink to='/Products'>
+        <NavLink to='/Servicepage'>
         <div className="bg-white p-6 rounded-lg shadow-md text-center" data-aos="fade-up">
           <div className="text-yellow-500 text-5xl mb-4">💼</div>
           <h1 style={{ fontFamily: 'PTSerif-Bold' }} className="font-bold">MOBILE APPS</h1>
@@ -124,7 +124,7 @@ const Services = () => {
         </div>
         </NavLink>
         {/* Service 5 */}
-        <NavLink to='/Products'>
+        <NavLink to='/Servicepage'>
         <div className="bg-white p-6 rounded-lg shadow-md text-center" data-aos="fade-up">
           <div className="text-yellow-500 text-5xl mb-4">🛠️</div>
           <h1 style={{ fontFamily: 'PTSerif-Bold' }} className="font-bold">CONTENT MANAGEMENT</h1>
@@ -135,7 +135,7 @@ const Services = () => {
         </NavLink>
         
         {/* Service 6 */}
-        <NavLink to='/Products'>
+        <NavLink to='/Servicepage'>
         <div className="bg-white p-6 rounded-lg shadow-md text-center" data-aos="fade-up">
           <div className="text-yellow-500 text-5xl mb-4">📜</div>
           <h1 style={{ fontFamily: 'PTSerif-Bold' }} className="font-bold">24*7 SUPPORT</h1>

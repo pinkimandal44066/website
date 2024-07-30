@@ -216,81 +216,61 @@
 
 
 
-
-
-
-
-
-// import React from 'react'
-import { NavLink } from "react-router-dom";
-import Scrolling from "./Scrolling";
-
-import Navbar from "./Navbar";
-import Accordion from "./Accordion";
-
-
-const Servicepage = () => {
-  return (
-   
-  <>
-
-
-  
-      <div className="max-w-screen-xl lg:mx-auto mx-5 lg:mt-10 md:mt-14 sm:mt-24 mt-20">
-    {/* <TransitionEffect /> */}
-      <div className="">
-        <p  style={{ fontFamily: 'PTSerif-Bold' }} className="text-center lg:text-3xl md:text-2xl sm:text-2xl text-xl font-medium ">
-        We are providing innovative and 
-       
-        </p>
-
-        <p  style={{ fontFamily: 'PTSerif-Bold' }} className="text-center lg:text-3xl md:text-2xl sm:text-2xl text-xl font-medium ">
-      impactful web solutions...
-         
-        </p>
-        <p style={{ fontFamily: 'PTSerif-Bold' }} className="mt-4 lg:text-base md:text-base sm:text-base text-xs text-center font-medium">
-        In this Internet era,Digital presence is must to grow your business. However one should go to different places for different kind of digital solutions. By keeping this in our mind we are here to provide you the best all in one digital solution at a single place.
-        </p>
-      </div>
-
+{/* 
       <div className="flex justify-center lg:gap-6 md:gap-6 sm:gap-6 gap-2 mt-10 lg:mt-10 md:mt-12 items-start">
         <div className="flex flex-col">
-          <div className="card relative w-auto h-auto  cursor-pointer rounded-[10px]">
-            <div className="">
-              <div className="">
-                <img
-                  // src={img2} 
-                  src="https://plus.unsplash.com/premium_photo-1661759337211-39bf166e66fb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8aXQlMjBzZXJ2aWNlc3xlbnwwfHwwfHx8MA%3D%3D"
-                  className=" opacity-100 hover:opacity-40"
-                />
-              </div>
-            </div>
-            <div className="second-content absolute inset-0 flex justify-center items-center opacity-0 h-full transition-all duration-400 text-0 hover:opacity-100 hover:h-full hover:text-lg hover:font-semibold hover:text-white hover:bg-[#000] hover:bg-opacity-40">
-              {/* <NavLink to="/Webdevelopment"> */}
-              <div>
-                <h1 className="lg:text-2xl md:text-xl sm:text-base text-[8px]">
-                WEB DESIGN & DEVELOPMENT
-                </h1>
-                <div className="flex justify-center items-center lg:text-9xl md:text-8xl sm:text-8xl text-5xl">
-                  <i className="ri-add-line"></i>
-                </div>
-                </div>
-              {/* </NavLink> */}
+          
+        
 
-            </div>
-          </div>
+
+
+
+
+
+
+<div className="card relative w-auto h-auto cursor-pointer rounded-[10px]">
+  <div className="">
+    <div className="">
+      <img
+        src="https://plus.unsplash.com/premium_photo-1661759337211-39bf166e66fb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8aXQlMjBzZXJ2aWNlc3xlbnwwfHwwfHx8MA%3D%3D"
+        className=" opacity-100  "
+      />
+    </div>
+  </div>
+  <div className="second-content absolute inset-0 flex justify-center items-center opacity-100
+   h-full text-lg font-semibold text-white bg-[#000] bg-opacity-40 transition-all duration-400">
+    <div>
+      <h1 className="lg:text-2xl md:text-xl sm:text-base text-[8px]">
+        WEB DESIGN & DEVELOPMENT
+      </h1>
+      <div className="flex justify-center items-center lg:text-9xl md:text-8xl sm:text-8xl text-5xl">
+        <i className="ri-add-line"></i>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
           <div className="card relative w-auto h-auto  cursor-pointer rounded-[10px] lg:mt-6 md:mt-6 sm:mt-6 mt-3">
             <div className="">
               <div className="">
                 <img
-                  // src={img2}
+       
                   src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aXQlMjBzZXJ2aWNlc3xlbnwwfHwwfHx8MA%3D%3D"
-                  className=" opacity-100 hover:opacity-40"
+                  className=" opacity-100 "
                 />
               </div>
             </div>
-            <div className="second-content absolute inset-0 flex justify-center items-center opacity-0 h-full transition-all duration-400 text-0 hover:opacity-100 hover:h-full hover:text-lg hover:font-semibold hover:text-white hover:bg-[#000] hover:bg-opacity-40">
-              {/* <NavLink to="/servicesdetailspage/3d_interiormodels"> */}
+            <div className="second-content absolute inset-0 flex justify-center items-center opacity-100
+   h-full text-lg font-semibold text-white bg-[#000] bg-opacity-40 transition-all duration-400">
+      
               <div>
                 <h1 className="lg:text-2xl md:text-xl sm:text-base text-[8px]">
                 DIGITAL MARKETING
@@ -299,7 +279,7 @@ const Servicepage = () => {
                   <i className="ri-add-line"></i>
                 </div>
                 </div>
-              {/* </NavLink> */}
+         
 
             </div>
           </div>
@@ -310,14 +290,15 @@ const Servicepage = () => {
             <div className="">
               <div className="">
                 <img
-                  // src={img2}
+                  
                   src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aXQlMjBzZXJ2aWNlc3xlbnwwfHwwfHx8MA%3D%3D"
-                  className=" opacity-100 hover:opacity-40"
+                  className=" opacity-100 "
                 />
               </div>
             </div>
-            <div className="second-content absolute inset-0 flex justify-center items-center opacity-0 h-full transition-all duration-400 text-0 hover:opacity-100 hover:h-full hover:text-lg hover:font-semibold hover:text-white hover:bg-[#000] hover:bg-opacity-40">
-              {/* <NavLink to="/servicesdetailspage/tv_cabinet"> */}
+            <div className="second-content absolute inset-0 flex justify-center items-center opacity-100
+   h-full text-lg font-semibold text-white bg-[#000] bg-opacity-40 transition-all duration-400">
+
               <div>
                 <h1 className="lg:text-2xl md:text-xl sm:text-base text-[8px]">
                 MOBILE APPS
@@ -326,7 +307,7 @@ const Servicepage = () => {
                   <i className="ri-add-line"></i>
                 </div>
                 </div>
-              {/* </NavLink> */}
+      
 
             </div>
           </div>
@@ -334,14 +315,15 @@ const Servicepage = () => {
             <div className="">
               <div className="">
                 <img
-                  // src={img2}
+               
                   src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aXQlMjBzZXJ2aWNlc3xlbnwwfHwwfHx8MA%3D%3D"
                   className=" opacity-100 hover:opacity-40"
                 />
               </div>
             </div>
-            <div className="second-content absolute inset-0 flex justify-center items-center opacity-0 h-full transition-all duration-400 text-0 hover:opacity-100 hover:h-full hover:text-lg hover:font-semibold hover:text-white hover:bg-[#000] hover:bg-opacity-40">
-              {/* <NavLink to="/servicesdetailspage/gypsum_celling"> */}
+            <div className="second-content absolute inset-0 flex justify-center items-center opacity-100
+   h-full text-lg font-semibold text-white bg-[#000] bg-opacity-40 transition-all duration-400">
+
               <div>
                 <h1 className="lg:text-2xl md:text-xl sm:text-base text-[8px]">
                 CONTENT MANAGEMENT
@@ -350,32 +332,11 @@ const Servicepage = () => {
                   <i className="ri-add-line"></i>
                 </div>
                 </div>
-              {/* </NavLink> */}
+     
 
             </div>
           </div>
-          {/* <div className="card relative w-auto h-auto  cursor-pointer rounded-[10px] lg:mt-6 md:mt-6 sm:mt-6 mt-2">
-            <div className="">
-              <div className="">
-                <img
-                  src={img2}
-                  src="https://images.unsplash.com/photo-1643513208375-df314b16347a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGl0JTIwc2VydmljZXN8ZW58MHx8MHx8fDA%3D"
-                  className=" opacity-100 hover:opacity-40"
-                />
-              </div>
-            </div>
-            <div className="second-content absolute inset-0 flex justify-center items-center opacity-0 h-full transition-all duration-400 text-0 hover:opacity-100 hover:h-full hover:text-lg hover:font-semibold hover:text-white hover:bg-[#000] hover:bg-opacity-40">
-              <NavLink to="/servicesdetailspage/core_house_plan">
-                <h1 className="lg:text-2xl md:text-xl sm:text-base text-[8px]">
-                  CORE HOUSE PLAN
-                </h1>
-                <div className="flex justify-center items-center lg:text-9xl md:text-8xl sm:text-8xl text-5xl">
-                  <i className="ri-add-line"></i>
-                </div>
-              </NavLink>
-
-            </div>
-          </div> */}
+       
         </div>
 
         <div className="flex flex-col">
@@ -383,13 +344,14 @@ const Servicepage = () => {
             <div className="">
               <div className="">
                 <img 
-                // src={img2} 
+           
                 src="https://images.unsplash.com/photo-1642480485642-63b9018eadc2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGl0JTIwc2VydmljZXN8ZW58MHx8MHx8fDA%3D"
                 className=" opacity-100 hover:opacity-40" />
               </div>
             </div>
-            <div className="second-content absolute inset-0 flex justify-center items-center opacity-0 h-full transition-all duration-400 text-0 hover:opacity-100 hover:h-full hover:text-lg hover:font-semibold hover:text-white hover:bg-[#000] hover:bg-opacity-40">
-              {/* <NavLink to="/servicesdetailspage/wardrobe"> */}
+            <div className="second-content absolute inset-0 flex justify-center items-center opacity-100
+            h-full text-lg font-semibold text-white bg-[#000] bg-opacity-40 transition-all duration-400">
+    
               <div>
                 <h1 className="lg:text-2xl md:text-xl sm:text-base text-[8px]">
                   SOCIAL MEDIA SOLUTIONS
@@ -398,7 +360,7 @@ const Servicepage = () => {
                   <i className="ri-add-line"></i>
                 </div>
                 </div>
-              {/* </NavLink> */}
+     
 
             </div>
           </div>
@@ -406,13 +368,14 @@ const Servicepage = () => {
             <div className="">
               <div className="">
                 <img 
-                // src={img2} 
+        
                 src="https://media.istockphoto.com/id/1061856176/photo/internet.webp?b=1&s=170667a&w=0&k=20&c=kQ6zL5-0e7jDtoHrRxOiNWCb9IGCCMshXfrGcmhBHSY="
                 className=" opacity-100 hover:opacity-40" />
               </div>
             </div>
-            <div className="second-content absolute inset-0 flex justify-center items-center opacity-0 h-full transition-all duration-400 text-0 hover:opacity-100 hover:h-full hover:text-lg hover:font-semibold hover:text-white hover:bg-[#000] hover:bg-opacity-40">
-              {/* <NavLink to="/servicesdetailspage/pvc_ceiling"> */}
+            <div className="second-content absolute inset-0 flex justify-center items-center opacity-100
+   h-full text-lg font-semibold text-white bg-[#000] bg-opacity-40 transition-all duration-400">
+      
               <div>
                 <h1 className="lg:text-2xl md:text-xl sm:text-base text-[8px]">
               BRANDING DESIGN
@@ -421,28 +384,393 @@ const Servicepage = () => {
                   <i className="ri-add-line"></i>
                 </div>
                 </div>
-              {/* </NavLink> */}
+        
 
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
-      <div className="lg:mt-20 md:mt-10 mt-10 text-3xl lg:text-4xl md:text-4xl font-bold ">
-        <h1>FAQ’S</h1>
-       
-      </div>
-      <div className="mt-10">
+
+
+
+// import React from 'react'
+// import { NavLink } from "react-router-dom";
+// import Scrolling from "./Scrolling";
+
+// import Navbar from "./Navbar";
+// import Accordion from "./Accordion";
+
+
+// const Servicepage = () => {
+//   return (
    
-      <Accordion />
+//   <>
+
+
+  
+//       <div className="max-w-screen-xl lg:mx-auto mx-5 lg:mt-10 md:mt-14 sm:mt-24 mt-20">
+//     {/* <TransitionEffect /> */}
+//       <div className="">
+//         <p  style={{ fontFamily: 'PTSerif-Bold' }} className="text-center lg:text-3xl md:text-2xl sm:text-2xl text-xl font-medium ">
+//         We are providing innovative and 
+       
+//         </p>
+
+//         <p  style={{ fontFamily: 'PTSerif-Bold' }} className="text-center lg:text-3xl md:text-2xl sm:text-2xl text-xl font-medium ">
+//       impactful web solutions...
+         
+//         </p>
+//         <p style={{ fontFamily: 'PTSerif-Bold' }} className="mt-4 lg:text-base md:text-base sm:text-base text-xs text-center font-medium">
+//         In this Internet era,Digital presence is must to grow your business. However one should go to different places for different kind of digital solutions. By keeping this in our mind we are here to provide you the best all in one digital solution at a single place.
+//         </p>
+//       </div>
+
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+//       <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-4 mt-10">
+//     {/* <!-- First Card --> */}
+//     <div className="card relative w-full h-auto cursor-pointer   overflow-hidden">
+//         <img
+//             src="https://plus.unsplash.com/premium_photo-1661759337211-39bf166e66fb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8aXQlMjBzZXJ2aWNlc3xlbnwwfHwwfHx8MA%3D%3D"
+//             className="w-full h-auto object-cover transition-opacity duration-300"
+//         />
+//         <div className="absolute inset-0 flex flex-col justify-center items-center opacity-100 h-full text-center
+//          font-semibold text-white bg-black bg-opacity-40 transition-all duration-300">
+//             <h1 className="text-lg lg:text-2xl md:text-xl sm:text-base">WEB DESIGN & DEVELOPMENT</h1>
+//             <div className="flex justify-center items-center text-5xl lg:text-9xl md:text-8xl sm:text-8xl">
+//                 <i className="ri-add-line"></i>
+//             </div>
+//         </div>
+//     </div>
+
+//     {/* <!-- Second Card --> */}
+//     <div className="card relative w-full h-auto cursor-pointer overflow-hidden">
+//         <img
+//             src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aXQlMjBzZXJ2aWNlc3xlbnwwfHwwfHx8MA%3D%3D"
+//             className="w-full h-auto object-cover transition-opacity duration-300"
+//         />
+//         <div className="absolute inset-0 flex flex-col justify-center items-center opacity-100 h-full text-center font-semibold text-white bg-black bg-opacity-40 transition-all duration-300">
+//             <h1 className="text-lg lg:text-2xl md:text-xl sm:text-base">MOBILE APPS</h1>
+//             <div className="flex justify-center items-center text-5xl lg:text-9xl md:text-8xl sm:text-8xl">
+//                 <i className="ri-add-line"></i>
+//             </div>
+//         </div>
+//     </div>
+
+//     {/* <!-- Third Card --> */}
+
+
+
+
+
+//     <div className="card relative w-full h-auto cursor-pointer  overflow-hidden">
+//         <img
+//             src="https://images.unsplash.com/photo-1642480485642-63b9018eadc2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGl0JTIwc2VydmljZXN8ZW58MHx8MHx8fDA%3D"
+//             className="w-full h-auto object-cover transition-opacity duration-300"
+//         />
+//         <div className="absolute inset-0 flex flex-col justify-center items-center opacity-100 h-full
+//          text-center font-semibold text-white bg-opacity-40 transition-all duration-300">
+//             <h1 className="text-lg lg:text-2xl md:text-xl sm:text-base">SOCIAL MEDIA SOLUTIONS</h1>
+//             <div className="flex justify-center items-center text-5xl lg:text-9xl md:text-8xl sm:text-8xl">
+//                 <i className="ri-add-line"></i>
+//             </div>
+//         </div>
+//     </div>
+   
+
+//     {/* <!-- Fourth Card --> */}
+
+
+
+
+//     <div className="card relative w-full h-full cursor-pointer  overflow-hidden">
+//         <img
+//             src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aXQlMjBzZXJ2aWNlc3xlbnwwfHwwfHx8MA%3D%3D"
+//             className="w-full h-auto object-cover transition-opacity duration-300"
+//         />
+//         <div className="absolute inset-0 flex flex-col justify-center items-center opacity-100 h-full text-center font-semibold text-white bg-black bg-opacity-40 transition-all duration-300">
+//             <h1 className="text-lg lg:text-2xl md:text-xl sm:text-base">DIGITAL MARKETING</h1>
+//             <div className="flex justify-center items-center text-5xl lg:text-9xl md:text-8xl sm:text-8xl">
+//                 <i className="ri-add-line"></i>
+//             </div>
+//         </div>
+//     </div>
+   
+//     {/* <!-- Fifth Card --> */}
+
+
+
+
+//     <div className="card relative w-full h-auto cursor-pointer  overflow-hidden">
+//         <img
+//             src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aXQlMjBzZXJ2aWNlc3xlbnwwfHwwfHx8MA%3D%3D"
+//             className="w-full h-auto object-cover transition-opacity duration-300"
+//         />
+//         <div className="absolute inset-0 flex flex-col justify-center items-center opacity-100 h-full text-center font-semibold text-white bg-black bg-opacity-40 transition-all duration-300">
+//             <h1 className="text-lg lg:text-2xl md:text-xl sm:text-base">CONTENT MANAGEMENT</h1>
+//             <div className="flex justify-center items-center text-5xl lg:text-9xl md:text-8xl sm:text-8xl">
+//                 <i className="ri-add-line"></i>
+//             </div>
+//         </div>
+//     </div>
+
+//     {/* <!-- Sixth Card --> */}
+//     <div className="card relative w-full h-auto cursor-pointer overflow-hidden">
+//         <img
+//             src="https://www.freepik.com/free-photo/still-life-graphic-design-studio_150835238.htm#fromView=search&page=1&position=49&uuid=bddc6b9b-c432-4cc4-8f11-d22c2f661b86"
+//             className="w-full h-auto object-cover transition-opacity duration-300"
+//         />
+//         <div className="absolute inset-0 flex flex-col justify-center items-center opacity-100 h-full text-center font-semibold text-white bg-black bg-opacity-40 transition-all duration-300">
+//             <h1 className="text-lg lg:text-2xl md:text-xl sm:text-base">BRANDING DESIGN</h1>
+//             <div className="flex justify-center items-center text-5xl lg:text-9xl md:text-8xl sm:text-8xl">
+//                 <i className="ri-add-line"></i>
+//             </div>
+//         </div>
+//     </div>
+// </div>
+
+
+//       <div className="lg:mt-20 md:mt-10 mt-10 text-3xl lg:text-4xl md:text-4xl font-bold ">
+//         <h1>FAQ’S</h1>
+       
+//       </div>
+//       <div className="mt-10">
+   
+//       <Accordion />
+//       </div>
+//     </div>
+//   </>
+//   );
+// };
+
+// export default  Scrolling(Servicepage); 
+
+
+
+
+
+
+
+
+
+
+// import React, { useState } from "react";
+// // import Modal from "./Modal";
+// import Modal from './Modal';
+// import Scrolling from "./Scrolling";
+// import Accordion from "./Accordion";
+
+// const Servicepage = () => {
+//   const [isModalOpen, setIsModalOpen] = useState(false);
+//   const [modalContent, setModalContent] = useState({ title: '', content: '' });
+
+//   const openModal = (title, content) => {
+//     setModalContent({ title, content });
+//     setIsModalOpen(true);
+//   };
+
+//   const closeModal = () => {
+//     setIsModalOpen(false);
+//   };
+
+//   const cards = [
+//     {
+//       title: "WEB DESIGN & DEVELOPMENT",
+//       imgSrc: "https://plus.unsplash.com/premium_photo-1661759337211-39bf166e66fb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8aXQlMjBzZXJ2aWNlc3xlbnwwfHwwfHx8MA%3D%3D",
+//       content: "Detailed information about Web Design & Development."
+//     },
+//     {
+//       title: "MOBILE APPS",
+//       imgSrc: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aXQlMjBzZXJ2aWNlc3xlbnwwfHwwfHx8MA%3D%3D",
+//       content: "Detailed information about Mobile Apps."
+//     },
+
+//     {
+//       title: "MOBILE APPS",
+//       imgSrc: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aXQlMjBzZXJ2aWNlc3xlbnwwfHwwfHx8MA%3D%3D",
+//       content: "Detailed information about Mobile Apps."
+//     },
+    
+//     // Add more cards as needed
+//   ];
+
+//   return (
+//     <>
+//       <div className="max-w-screen-xl lg:mx-auto mx-5 lg:mt-10 md:mt-14 sm:mt-24 mt-20">
+//         <div className="">
+//           <p style={{ fontFamily: 'PTSerif-Bold' }} className="text-center lg:text-3xl md:text-2xl sm:text-2xl text-xl font-medium ">
+//             We are providing innovative and
+//           </p>
+//           <p style={{ fontFamily: 'PTSerif-Bold' }} className="text-center lg:text-3xl md:text-2xl sm:text-2xl text-xl font-medium ">
+//             impactful web solutions...
+//           </p>
+//           <p style={{ fontFamily: 'PTSerif-Bold' }} className="mt-4 lg:text-base md:text-base sm:text-base text-xs text-center font-medium">
+//             In this Internet era, Digital presence is a must to grow your business. However, one should go to different places for different kinds of digital solutions. By keeping this in mind, we are here to provide you the best all-in-one digital solution at a single place.
+//           </p>
+//         </div>
+
+//         <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-4 mt-10">
+//           {cards.map((card, index) => (
+//             <div
+//               key={index}
+//               className="card relative w-full h-auto cursor-pointer overflow-hidden"
+//               onClick={() => openModal(card.title, card.content)}
+//             >
+//               <img
+//                 src={card.imgSrc}
+//                 className="w-full h-auto object-cover transition-opacity duration-300"
+//               />
+//               <div className="absolute inset-0 flex flex-col justify-center items-center opacity-100 h-full text-center font-semibold text-white bg-black bg-opacity-40 transition-all duration-300">
+//                 <h1 className="text-lg lg:text-2xl md:text-xl sm:text-base">{card.title}</h1>
+//                 <div className="flex justify-center items-center text-5xl lg:text-9xl md:text-8xl sm:text-8xl">
+//                   <i className="ri-add-line"></i>
+//                 </div>
+//               </div>
+//             </div>
+//           ))}
+//         </div>
+
+//         <div className="lg:mt-20 md:mt-10 mt-10 text-3xl lg:text-4xl md:text-4xl font-bold">
+//           <h1>FAQ’S</h1>
+//         </div>
+//         <div className="mt-10">
+//           <Accordion />
+//         </div>
+
+//         <Modal
+//           isOpen={isModalOpen}
+//           onClose={closeModal}
+//           title={modalContent.title}
+//           content={modalContent.content}
+//         />
+//       </div>
+//     </>
+//   );
+// };
+
+// export default Scrolling(Servicepage);
+
+
+
+
+// Servicepage.js
+import React, { useState } from "react";
+import Modal from "./Modal";
+import Scrolling from "./Scrolling";
+import Accordion from "./Accordion";
+
+const Servicepage = () => {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [modalContent, setModalContent] = useState({ title: '', content: '' });
+
+  const openModal = (title, content) => {
+    setModalContent({ title, content });
+    setIsModalOpen(true);
+  };
+
+  const closeModal = () => {
+    setIsModalOpen(false);
+  };
+
+  const cards = [
+    {
+      title: "WEB DESIGN ",
+      imgSrc: "https://plus.unsplash.com/premium_photo-1661759337211-39bf166e66fb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8aXQlMjBzZXJ2aWNlc3xlbnwwfHwwfHx8MA%3D%3D",
+      content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est a ad et cum aliquam non, asperiores amet minus tempore neque suscipit labore? Cupiditate deleniti rem sunt tenetur? Ut, fugiat porro. Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt soluta architecto molestias ex magni nam dolor numquam dignissimos officia! Aspernatur, saepe animi? Similique cupiditate repellendus totam tempora dolore mollitia odit."
+    },
+    {
+      title: "MOBILE APPS",
+      imgSrc: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aXQlMjBzZXJ2aWNlc3xlbnwwfHwwfHx8MA%3D%3D",
+      content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est a ad et cum aliquam non, asperiores amet minus tempore neque suscipit labore? Cupiditate deleniti rem sunt tenetur? Ut, fugiat porro. Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt soluta architecto molestias ex magni nam dolor numquam dignissimos officia! Aspernatur, saepe animi? Similique cupiditate repellendus totam tempora dolore mollitia odit."
+    },
+    {
+      title: "SOCIAL MEDIA SOLUTIONS",
+      imgSrc: "https://images.unsplash.com/photo-1642480485642-63b9018eadc2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGl0JTIwc2VydmljZXN8ZW58MHx8MHx8fDA%3D",
+      content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est a ad et cum aliquam non, asperiores amet minus tempore neque suscipit labore? Cupiditate deleniti rem sunt tenetur? Ut, fugiat porro. Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt soluta architecto molestias ex magni nam dolor numquam dignissimos officia! Aspernatur, saepe animi? Similique cupiditate repellendus totam tempora dolore mollitia odit."
+    },
+    {
+      title: "DIGITAL MARKETING",
+      imgSrc: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aXQlMjBzZXJ2aWNlc3xlbnwwfHwwfHx8MA%3D%3D",
+      content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est a ad et cum aliquam non, asperiores amet minus tempore neque suscipit labore? Cupiditate deleniti rem sunt tenetur? Ut, fugiat porro. Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt soluta architecto molestias ex magni nam dolor numquam dignissimos officia! Aspernatur, saepe animi? Similique cupiditate repellendus totam tempora dolore mollitia odit."
+    },
+    {
+      title: "CONTENT MANAGEMENT",
+      imgSrc: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aXQlMjBzZXJ2aWNlc3xlbnwwfHwwfHx8MA%3D%3D",
+      content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est a ad et cum aliquam non, asperiores amet minus tempore neque suscipit labore? Cupiditate deleniti rem sunt tenetur? Ut, fugiat porro. Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt soluta architecto molestias ex magni nam dolor numquam dignissimos officia! Aspernatur, saepe animi? Similique cupiditate repellendus totam tempora dolore mollitia odit."
+    },
+    {
+      title: "BRANDING DESIGN",
+      imgSrc: "https://www.freepik.com/free-photo/still-life-graphic-design-studio_150835238.htm#fromView=search&page=1&position=49&uuid=bddc6b9b-c432-4cc4-8f11-d22c2f661b86",
+      content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est a ad et cum aliquam non, asperiores amet minus tempore neque suscipit labore? Cupiditate deleniti rem sunt tenetur? Ut, fugiat porro. Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt soluta architecto molestias ex magni nam dolor numquam dignissimos officia! Aspernatur, saepe animi? Similique cupiditate repellendus totam tempora dolore mollitia odit."
+    }
+  ];
+
+  return (
+    <>
+      <div className="max-w-screen-xl lg:mx-auto mx-5 lg:mt-10 md:mt-14 sm:mt-24 mt-20">
+        <div className="">
+          <p style={{ fontFamily: 'PTSerif-Bold' }} className="text-center lg:text-3xl md:text-2xl sm:text-2xl text-xl font-medium">
+            We are providing innovative and
+          </p>
+          <p style={{ fontFamily: 'PTSerif-Bold' }} className="text-center lg:text-3xl md:text-2xl sm:text-2xl text-xl font-medium">
+            impactful web solutions...
+          </p>
+          <p style={{ fontFamily: 'PTSerif-Bold' }} className="mt-4 lg:text-base md:text-base sm:text-base text-xs text-center font-medium">
+            In this Internet era, Digital presence is a must to grow your business. However, one should go to different places for different kinds of digital solutions. By keeping this in mind, we are here to provide you the best all-in-one digital solution at a single place.
+          </p>
+        </div>
+
+        <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-4 mt-10">
+          {cards.map((card, index) => (
+            <div
+              key={index}
+              className="card relative w-full h-auto cursor-pointer overflow-hidden"
+              onClick={() => openModal(card.title, card.content)}
+            >
+              <img
+                src={card.imgSrc}
+                className="w-full h-auto object-cover transition-opacity duration-300"
+              />
+              <div className="absolute inset-0 flex flex-col justify-center items-center opacity-100 h-full text-center font-semibold text-white bg-black bg-opacity-40 transition-all duration-300">
+                <h1 className="text-lg lg:text-2xl md:text-xl sm:text-base">{card.title}</h1>
+                <div className="flex justify-center items-center text-5xl lg:text-9xl md:text-8xl sm:text-8xl">
+                  <i className="ri-add-line"></i>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+
+        <div className="lg:mt-20 md:mt-10 mt-10 text-3xl lg:text-4xl md:text-4xl font-bold">
+          <h1>FAQ’S</h1>
+        </div>
+        <div className="mt-10">
+          <Accordion />
+        </div>
+
+        <Modal
+          isOpen={isModalOpen}
+          onClose={closeModal}
+          title={modalContent.title}
+          content={modalContent.content}
+        />
       </div>
-    </div>
-  </>
+    </>
   );
 };
 
-export default  Scrolling(Servicepage); 
-
-
-
-// vercel.json
+export default Scrolling(Servicepage);
