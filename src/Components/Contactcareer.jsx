@@ -1,0 +1,1324 @@
+// // // import React from 'react'
+// // // import Scrolling from './Scrolling'
+// // // const Contactus = () => {
+// // //   return (
+// // //     <div>
+      
+// // //     </div>
+// // //   )
+// // // }
+
+// // // export default Scrolling( Contactus); 
+
+
+
+
+
+
+
+
+// // import React from "react";
+// // import { useEffect, useState } from "react";
+// // import { IoIosArrowDown } from "react-icons/io";
+
+// // import { FaFacebook } from "react-icons/fa";
+// // import { FaInstagramSquare } from "react-icons/fa";
+// // import { IoLogoYoutube } from "react-icons/io";
+// // import { BiPhoneCall } from "react-icons/bi";
+// // import { CiMail } from "react-icons/ci";
+// // import { IoCalendarNumberOutline } from "react-icons/io5";
+
+// // import { NavLink } from "react-router-dom";
+// // import { Link } from "react-router-dom";
+// // import emailjs from "@emailjs/browser";
+// // import { toast } from "react-hot-toast";
+// // import './Contactus.css';
+// // import Scrolling from "./Scrolling";
+// // // import SideFrom from "../Homefolder/SideFrom";
+// // const Contactus = () => {
+// //   const [date, setDate] = useState(null);
+
+// //   const [position, setPosition] = useState("");
+// //   const handlePosition = (e) => {
+// //     setPosition(e.target.value);
+// //   };
+
+
+
+
+
+
+
+
+
+// //   const [firstName, setFirstName] = useState('');
+// //   const [lastName, setLastName] = useState('');
+// //   const [email, setEmail] = useState('');
+// //   const [message, setMessage] = useState('');
+// // //   const [budget, setBudget] = useState('');
+// //   const [file, setFile] = useState(null);
+// //   const [isChecked, setIsChecked] = useState(false);
+
+// //   const handleRadioClick = () => {
+// //     setIsChecked(!isChecked);
+// //   };
+
+// //   const handleSubmit = (e) => {
+// //     e.preventDefault();
+
+// //     const serviceId = 'service_3jjjhpg';
+// //     const templateId = 'template_t57j4ao';
+// //     const publicKey = 'QJ3LYg2phyi7VCyJY';
+
+// //     const templateParams = {
+// //       from_firstName: firstName,
+// //       from_lastName: lastName,
+// //       from_email: email,
+// //     //   from_budget: budget,
+// //       from_file: file,
+// //       message: message,
+// //       to_name: 'Systaio Team',
+// //     };
+
+// //     emailjs
+// //       .send(serviceId, templateId, templateParams, publicKey)
+// //       .then((response) => {
+// //         console.log('Email sent successfully', response);
+// //         alert('message sent successfully')
+// //         toast.success('Message sent successfully');
+// //         setFirstName('');
+// //         setLastName('');
+// //         setEmail('');
+// //         // setBudget('');
+// //         setMessage('');
+// //         setFile(null);
+// //       })
+// //       .catch((error) => {
+// //         console.error('Error sending email:', error);
+// //         toast.error('Failed to send message');
+// //       });
+// //   };
+
+
+
+// //   return (
+// //     <>
+
+
+// // {/* <form onSubmit={handleSubmit} className="emailForm">
+// //       <div className="flex justify-between flex-col items-center font-monda lg:mt-20 md:mt-20 sm:mt-16 mt-10">
+// //         <div className="flex lg:flex-row md:flex-row sm:flex-row flex-col lg:gap-32 gap-8">
+// //           <input
+// //             className="lg:w-[20vw] md:w-60 sm:w-40 w-80 outline-none border-b-2 border-black
+// //              placeholder:text-black placeholder:text-lg bg-transparent"
+// //             type="text"
+// //             required
+// //             placeholder="First Name"
+// //             name="firstName"
+// //             value={firstName}
+// //             onChange={(e) => setFirstName(e.target.value)}
+// //           />
+// //           <input
+// //             className="lg:w-[20vw] md:w-60 sm:w-40 w-80 outline-none border-b-2
+// //              border-black placeholder:text-black placeholder:text-lg bg-transparent"
+// //             type="text"
+// //             required
+// //             placeholder="Last Name"
+// //             name="lastName"
+// //             value={lastName}
+// //             onChange={(e) => setLastName(e.target.value)}
+// //           />
+// //           <input
+// //             className="lg:w-[20vw] md:w-60 sm:w-40 w-80 outline-none border-b-2 border-black placeholder:text-black placeholder:text-lg bg-transparent"
+// //             type="email"
+// //             required
+// //             placeholder="Email"
+// //             name="email"
+// //             value={email}
+// //             onChange={(e) => setEmail(e.target.value)}
+// //           />
+// //         </div>
+// //         <div className="mt-12 flex lg:flex-row md:flex-row sm:flex-row flex-col lg:gap-28 gap-8">
+       
+// //           <input
+// //             className="lg:w-[35vw] w-80 outline-none border-b-2 border-black placeholder:text-black placeholder:text-lg bg-transparent"
+// //             type="file"
+// //             placeholder="Attachment"
+// //             onChange={(e) => setFile(e.target.files[0])}
+// //           />
+// //         </div>
+// //         <div className="mt-12">
+// //           <textarea
+// //             cols="30"
+// //             rows="2"
+// //             required
+// //             value={message}
+// //             onChange={(e) => setMessage(e.target.value)}
+// //             className="mt-2 lg:w-[78vw] w-80 outline-none border-b-2 border-black placeholder:text-black placeholder:text-lg bg-transparent"
+// //             placeholder="Message"
+// //           ></textarea>
+// //         </div>
+// //       </div>
+
+// //       <div className="max-w-screen-xl lg:mx-auto mx-5 mt-10">
+// //         <div className="flex gap-3 lg:ml-8">
+// //           <input
+// //             className="w-4 h-4 mt-1.5"
+// //             type="radio"
+// //             checked={isChecked}
+// //             onClick={handleRadioClick}
+// //             readOnly
+// //           />
+// //           <span className="text-black font-medium font-monda lg:text-lg text-xs">
+// //             I understand that Systaio will securely hold my data in accordance with their privacy policy.
+// //           </span>
+// //         </div>
+
+// //         <div className="flex lg:items-end lg:justify-end justify-center items-center mt-8">
+// //           <button
+// //             type="submit"
+// //        style={{ fontFamily: 'PTSerif-Bold' }}
+// //             className="bg-gradient-to-b from-white via-black to-white  cursor-pointer text-white rounded-full text-xs w-36 h-8 flex justify-center items-center lg:text-lg md:text-sm sm:text-sm md:w-60 md:h-12 lg:w-56 lg:mt-6 lg:h-12 sm:w-52 sm:h-10 mb-24 md:mt-4 font-unison"
+// //           >
+// //             Submit <i className="ri-arrow-right-line"></i>
+// //           </button>
+// //         </div>
+// //       </div>
+// //     </form> */}
+
+
+// // <img className="w-full h-80" src="https://img.freepik.com/free-photo/contact-us-communication-support-service-assistance-concept_53876-128103.jpg?ga=GA1.1.2000051094.1716005427&semt=ais_user" alt=""/>
+
+// // <form onSubmit={handleSubmit} className="emailForm">
+// //   <div className="form-container">
+// //     <div className="input-group">
+// //       <input
+// //         className="form-input"
+// //         type="text"
+// //         required
+// //         placeholder="First Name"
+// //         name="firstName"
+// //         value={firstName}
+// //         onChange={(e) => setFirstName(e.target.value)}
+// //       />
+// //       <input
+// //         className="form-input"
+// //         type="text"
+// //         required
+// //         placeholder="Last Name"
+// //         name="lastName"
+// //         value={lastName}
+// //         onChange={(e) => setLastName(e.target.value)}
+// //       />
+// //       <input
+// //         className="form-input"
+// //         type="email"
+// //         required
+// //         placeholder="Email"
+// //         name="email"
+// //         value={email}
+// //         onChange={(e) => setEmail(e.target.value)}
+// //       />
+// //     </div>
+// //     <div className="file-group">
+// //       <input
+// //         className="file-input"
+// //         type="file"
+// //         placeholder="Attachment"
+// //         onChange={(e) => setFile(e.target.files[0])}
+// //       />
+// //     </div>
+// //     <div className="message-group">
+// //       <textarea
+// //         cols="30"
+// //         rows="4"
+// //         required
+// //         value={message}
+// //         onChange={(e) => setMessage(e.target.value)}
+// //         className="message-input"
+// //         placeholder="Message"
+// //       ></textarea>
+// //     </div>
+// //     <div className="consent-group">
+// //       <input
+// //         className="consent-checkbox"
+// //         type="checkbox"
+// //         checked={isChecked}
+// //         onClick={handleRadioClick}
+// //         readOnly
+// //       />
+// //       <span className="consent-text">
+// //         Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, error! Ea molestias adipisci accusamus odit voluptas.
+// //         {/* I understand that Systaio will securely hold my data in accordance with their privacy policy. */}
+// //       </span>
+// //     </div>
+// //     <div className="button-group">
+// //       {/* <button
+// //         type="submit"
+// //         className="submit-button"
+// //       >
+// //         Submit <i className=""></i>
+// //       </button> */}
+// //        <div className="flex lg:items-end lg:justify-end justify-center items-center mt-8">
+// //           <button
+// //             type="submit"
+// //        style={{ fontFamily: 'PTSerif-Bold' }}
+// //             className="bg-gradient-to-b from-white via-black to-white 
+// //             cursor-pointer text-white rounded-full text-xs w-32 h-10 flex justify-center 
+// //             items-center lg:text-lg md:text-sm sm:text-sm md:w-60 md:h-12 lg:w-40 lg:mt-6 lg:h-10
+// //              sm:w-40 sm:h-10 mb-24 md:mt-4 font-unison"
+// //           >
+// //             Submit <i className="ri-arrow-right-line"></i>
+// //           </button>
+// //         </div>
+
+// //     </div>
+// //   </div>
+// // </form>
+
+// //     {/* <SideFrom /> */}
+    
+// //       <div className="font-Poppins mt-10">
+        
+
+// //         {/* <div>
+// //           <div
+// //             id="contactUs"
+// //             className="flex flex-col lg:flex-row font-Poppins justify-evenly text-gray-700 bg-[#FEF3E2] items-center "
+// //           >
+// //             <div className="lg:w-1/2 lg:pr-10 ">
+// //               <h1 className="lg:text-6xl md:text-4xl text-center mt-5 lg:text-start text-3xl font-medium text-[#E79F30]">
+// //                 Contact Us
+// //               </h1>
+// //               <div className="lg:mt-12 mt-8 text-center  lg:text-start">
+// //                 <h2 className="lg:text-4xl md:text-2xl  text-xl font-medium">
+// //                   Contact Us
+// //                 </h2>
+// //                 <p className="lg:text-2xl text-sm md:text-xl mt-2 font-medium">
+// //                   ShareTax.com
+// //                 </p>
+// //                 <div className="lg:mt-10 mt-8 text-gray-700 font- lg:text-2xl sm:text-xl md:text-2xl text-sm">
+// //                   <h3>Second floor, City Centre, 0413,</h3>
+// //                   <h3> Kasturba Nagar,Dhanbad,</h3>
+// //                   <h3> Jharkhand 826001</h3>
+// //                 </div>
+
+// //                 <div className="flex mt-7 lg:text-5xl text-2xl text-[#E79F30] cursor-pointer gap-8 justify-center lg:justify-start">
+// //                   <Link
+// //                     to="https://www.facebook.com/"
+// //                     target="_blank"
+// //                     rel="noopener noreferrer"
+// //                   >
+// //                     <FaFacebook />
+// //                   </Link>
+
+// //                   <Link
+// //                     to="https://www.instagram.com/accounts/login/?hl=en"
+// //                     target="_blank"
+// //                     rel="noopener noreferrer"
+// //                   >
+// //                     <FaInstagramSquare />
+// //                   </Link>
+
+// //                   <Link
+// //                     to="https://www.youtube.com/channel/YourChannelID"
+// //                     target="_blank"
+// //                     rel="noopener noreferrer"
+// //                   >
+// //                     <IoLogoYoutube />
+// //                   </Link>
+// //                 </div>
+
+// //                 <div className="mt-10">
+// //                   <NavLink
+// //                     to="/enquiry"
+// //                     className="bg-[#E79F30] text-white lg:text-xl text-sm mb-20 font-medium rounded lg:p-4 cursor-pointer md:p-4 p-2"
+// //                   >
+// //                     REQUEST CALL BACK
+// //                   </NavLink>
+// //                 </div>
+// //               </div>
+// //             </div>
+
+// //             <div className="">
+// //               <img
+// //                 src="https://ttlwebassets.tatatechnologies.com/app/uploads/2022/11/28154215/Contact-us-scaled.jpg"
+// //                 className="sm:w-80 md:w-96 lg:w-96 w-60 mt-10 mb-5 rounded-lg"
+// //               />
+// //             </div>
+// //           </div>
+// //         </div> */}
+
+// //         <div className="max-w-screen-xl lg:mx-auto mx-5">
+// //         <h1 style={{ fontFamily: 'PTSerif-Bold' }} className="lg:text-5xl text-3xl font-semibold text-black lg:mt-0 md:mt-10 mt-8 items-center text-center">
+// //                 Reach out to us
+// //               </h1>
+// //               {/* <h1 className="lg:text-3xl text-xl font-semibold text-gray-700 mt-7">
+// //                 Contact Us
+// //               </h1> */}
+// //               {/* <h1 className="lg:text-2xl text-lg font-medium text-gray-700">
+// //                 Share Tax.com
+// //               </h1> */}
+// //               {/* <p style={{ fontFamily: 'PTSerif-Bold' }} className="lg:text-2xl text-xl font-semibold  text-black lg:mt-8 md:mt-10 mt-8 items-center text-center">
+// //                 Second floor, City Centre, 0413, 
+// //                 Jharkhand 826001
+// //               </p>
+// //               <p style={{ fontFamily: 'PTSerif-Bold' }} className="lg:text-2xl text-xl font-semibold
+// //                text-black lg:mt-0 md:mt-10 mt-8 items-center text-center">Kasturba Nagar,Dhanbad,</p> */}
+// //                        {/* <div className="flex mt-5 ">
+// //                 <BiPhoneCall className="lg:text-3xl mt-1 text-2xl  text-gray-700" />
+// //                 <Link
+// //                   to="tel:+918918304906"
+// //                   className="lg:text-2xl text-xl font-light ml-5"
+// //                 >
+// //                 +091-093087 88991
+// //                 </Link>
+                
+// //               </div> */}
+// //               {/* <div className="flex mt-5 items-center text-center">
+// //                 <CiMail className="lg:text-3xl text-2xl mt-1" />
+// //                 <Link
+// //                   to="mailto:abccdefpvtltd@gmail.com"
+// //                   className="lg:text-2xl text-xl font-light ml-5"
+// //                 >
+// //                   abc@gmail.com
+// //                 </Link>
+// //               </div> */}
+// //         <div className="mt-10 ">
+// //               <div className="border-2 border-black  overflow-hidden rounded-lg">
+// //                 <iframe
+// //                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3650.4378796926185!2d86.4313797740286!3d23.803023386756603!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f6bd41386c516d%3A0xbcd7d938eaed2bdd!2sSystAIO%20Technologies%20%2C%20Website%20Development%20Company%20in%20Dhanbad!5e0!3m2!1sen!2sin!4v1715950634051!5m2!1sen!2sin"
+// //                   className="lg:w-full lg:h-[477px] md:w-full md:h-[277px] w-full h-full rounded-lg  "
+// //                   allowFullScreen=""
+// //                   loading="lazy"
+// //                   referrerPolicy="no-referrer-when-downgrade"
+// //                   title="Map"
+// //                 ></iframe>
+// //               </div>
+// //             </div>
+// //           <div className="flex flex-col lg:flex-row justify-evenly items-center lg:mx-20  mx-5 ">
+// //             <div className="">
+// //               {/* <h1 style={{ fontFamily: 'PTSerif-Bold' }} className="lg:text-5xl text-3xl font-semibold text-black lg:mt-0 md:mt-10 mt-8">
+// //                 Reach out to us
+// //               </h1> */}
+// //               {/* <h1 className="lg:text-3xl text-xl font-semibold text-gray-700 mt-7">
+// //                 Contact Us
+// //               </h1> */}
+// //               {/* <h1 className="lg:text-2xl text-lg font-medium text-gray-700">
+// //                 Share Tax.com
+// //               </h1> */}
+// //               {/* <p style={{ fontFamily: 'PTSerif-Bold' }} className="lg:text-2xl text-justify text-lg font-light lg:w-[420px] w-full text-gray-800 mt-4">
+// //                 Second floor, City Centre, 0413, Kasturba Nagar,Dhanbad,
+// //                 Jharkhand 826001
+// //               </p> */}
+// //  <p style={{ fontFamily: 'PTSerif-Bold' }} className="lg:text-2xl text-xl font-semibold  text-black lg:mt-8 md:mt-10 mt-8 items-center text-center">
+// //                 Second floor, City Centre, 0413, 
+// //                 Jharkhand 826001
+// //               </p>
+// //               <p style={{ fontFamily: 'PTSerif-Bold' }} className="lg:text-2xl text-xl font-semibold
+// //                text-black lg:mt-0 md:mt-4 sm:mt-4 mt-2 items-center text-center">Kasturba Nagar,Dhanbad,</p>
+               
+
+
+// //                {/* <div style={{ fontFamily: 'PTSerif-Bold' }} className="flex mt-5  lg:mx-36 md:mx-32 sm:mx-32 mx-6">
+// //                 <CiMail className="lg:text-3xl text-2xl mt-1" />
+// //                 <Link
+// //                   to="mailto:abccdefpvtltd@gmail.com"
+// //                   className="lg:text-2xl text-xl font-light ml-5"
+// //                 >
+// //                   abc@gmail.com
+// //                 </Link>
+// //               </div> */}
+
+// //               <div style={{ fontFamily: 'PTSerif-Bold' }} className="flex mt-5  lg:mx-36 md:mx-32 sm:mx-32 mx-6">
+// //                 <BiPhoneCall className="lg:text-3xl mt-1 text-2xl  text-gray-700" />
+// //                 <Link
+// //                   to="tel:+918918304906"
+// //                   className="lg:text-2xl text-xl font-light ml-5"
+// //                 >
+// //                 +091-093087 88991
+// //                 </Link>
+                
+// //               </div>
+
+
+// //               <div style={{ fontFamily: 'PTSerif-Bold' }} className="flex mt-5  lg:mx-36 md:mx-32 sm:mx-32 mx-6">
+// //                 <CiMail className="lg:text-3xl text-2xl mt-1" />
+// //                 <Link
+// //                   to="mailto:abccdefpvtltd@gmail.com"
+// //                   className="lg:text-2xl text-xl font-light ml-5"
+// //                 >
+// //                   abc@gmail.com
+// //                 </Link>
+// //               </div>
+// //               <div className="text-3xl lg:text-5xl mt-4 text-black flex gap-10 lg:mx-40 md:mx-32 sm:mx-36 mx-12">
+// //                 <Link
+// //                   to="https://www.facebook.com/"
+// //                   target="_blank"
+// //                   rel="noopener noreferrer"
+// //                 >
+// //                   <FaFacebook />
+// //                 </Link>
+
+// //                 <Link
+// //                   to="https://www.instagram.com/accounts/login/?hl=en"
+// //                   target="_blank"
+// //                   rel="noopener noreferrer"
+// //                 >
+// //                   <FaInstagramSquare />
+// //                 </Link>
+
+// //                 <Link
+// //                   to="https://www.youtube.com/channel/YourChannelID"
+// //                   target="_blank"
+// //                   rel="noopener noreferrer"
+// //                 >
+// //                   <IoLogoYoutube />
+// //                 </Link>
+// //               </div>
+
+// //               <div className="text-3xl lg:text-5xl mt-4 text-black flex  gap-10">
+// //                 <link
+// //                   href="https://www.facebook.com/"
+// //                   rel="noopener noreferrer"
+// //                 />
+
+// //                 <link
+// //                   href="https://www.instagram.com/accounts/login/?hl=en"
+// //                   rel="noopener noreferrer"
+// //                 />
+
+// //                 <link
+// //                   href="https://www.youtube.com/channel/YourChannelID"
+// //                   rel="noopener noreferrer"
+// //                 />
+
+           
+// //               </div>
+
+              
+// //             </div>
+
+// //             {/* <div className="mt-20 ">
+// //               <div className="border-2 border-[#E79F30] overflow-hidden rounded-lg">
+// //                 <iframe
+// //                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3650.4378796926185!2d86.4313797740286!3d23.803023386756603!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f6bd41386c516d%3A0xbcd7d938eaed2bdd!2sSystAIO%20Technologies%20%2C%20Website%20Development%20Company%20in%20Dhanbad!5e0!3m2!1sen!2sin!4v1715950634051!5m2!1sen!2sin"
+// //                   className="lg:w-[615px] lg:h-[477px] md:w-[515px] md:h-[277px] w-full h-full rounded-lg"
+// //                   allowFullScreen=""
+// //                   loading="lazy"
+// //                   referrerPolicy="no-referrer-when-downgrade"
+// //                   title="Map"
+// //                 ></iframe>
+// //               </div>
+// //             </div> */}
+// //           </div>
+// //         </div>
+
+     
+// //         <div>
+// //           {/* <div className="flex flex-col lg:flex-row justify-evenly items-center lg:mx-20 mx-5 lg:mt-20 mt-10 ">
+// //             <div className="border-2 border-[#E79F30] overflow-hidden rounded-lg">
+// //               <img
+// //                 className="lg:w-[615px] lg:h-[477px] md:w-[515px] md:h-[277px] w-auto h-auto rounded"
+// //                 src="https://st4.depositphotos.com/2903611/29109/i/450/depositphotos_291091084-stock-photo-businessman-showing-contact-icons-virtual.jpgdata:image/jpeg;base64,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"
+// //               />
+// //             </div>
+// //             <div>
+// //               <h1 className="lg:text-5xl text-3xl lg:mt-0 mt-5 font-semibold text-[#E79F30] ">
+// //                 Reach out to us
+// //               </h1>
+// //               <h1 className="lg:text-3xl text-2xl font-semibold text-gray-700 mt-7">
+// //                 Project Enquiry
+// //               </h1>
+
+// //               <div className="flex mt-5">
+// //                 <BiPhoneCall className="lg:text-3xl mt-1 text-2xl  text-gray-700" />
+// //                 <Link
+// //                   to="tel:+918918304906"
+// //                   className="lg:text-2xl text-xl font-light ml-5"
+// //                 >
+// //                   +91000000000
+// //                 </Link>
+// //               </div>
+
+// //               <h1 className="lg:text-3xl text-2xl font-semibold text-gray-700 mt-10">
+// //                 Media
+// //               </h1>
+
+// //               <div className="flex mt-5">
+// //                 <CiMail className="lg:text-3xl text-2xl mt-1" />
+// //                 <Link
+// //                   to="mailto:abccdefpvtltd@gmail.com"
+// //                   className="lg:text-2xl text-xl font-light ml-5"
+// //                 >
+// //                   abc@gmail.com
+// //                 </Link>
+// //               </div>
+// //             </div>
+// //           </div> */}
+// //         </div>
+// //       </div>
+// //     </>
+// //   );
+// // };
+
+
+// // export default  Scrolling(Contactus); 
+
+
+
+
+
+
+
+// import { useState } from "react";
+// // import { IoIosArrowDown } from "react-icons/io";
+
+// import { FaFacebook } from "react-icons/fa";
+// import { FaInstagramSquare } from "react-icons/fa";
+// import { IoLogoYoutube } from "react-icons/io";
+// import { BiPhoneCall } from "react-icons/bi";
+// import { CiMail } from "react-icons/ci";
+// // import { IoCalendarNumberOutline } from "react-icons/io5";
+
+// // import { NavLink } from "react-router-dom";
+// import { Link } from "react-router-dom";
+// import emailjs from "@emailjs/browser";
+// import { toast } from "react-hot-toast";
+// import "./Contactus.css";
+// import Scrolling from "./Scrolling";
+// // import SideFrom from "../Homefolder/SideFrom";
+// const Contactus = () => {
+//   // const [date, setDate] = useState(null);
+
+//   // const [position, setPosition] = useState("");
+//   // const handlePosition = (e) => {
+//   //   setPosition(e.target.value);
+//   // };
+
+//   const [firstName, setFirstName] = useState("");
+//   const [lastName, setLastName] = useState("");
+//   const [email, setEmail] = useState("");
+//   const [message, setMessage] = useState("");
+//   const [phone, setPhone] = useState("");
+//   const [isChecked, setIsChecked] = useState(false);
+
+//   const handleRadioClick = () => {
+//     setIsChecked(!isChecked);
+//   };
+
+//   const handleSubmit = (e) => {
+//     e.preventDefault();
+
+//     const serviceId = "service_3jjjhpg";
+//     const templateId = "template_sgch3n8";
+//     const publicKey = "QJ3LYg2phyi7VCyJY";
+
+//     const templateParams = {
+//       from_firstName: firstName,
+//       from_lastName: lastName,
+//       from_email: email,
+//       from_phone: phone,
+//       message: message,
+//       to_name: "SystAIO Team",
+//     };
+
+//     emailjs
+//       .send(serviceId, templateId, templateParams, publicKey)
+//       .then((response) => {
+//         console.log("Email sent successfully", response);
+//         toast.success("Message sent successfully");
+//         setFirstName("");
+//         setLastName("");
+//         setEmail("");
+//         setPhone("");
+//         setMessage("");
+//       })
+//       .catch((error) => {
+//         console.error("Error sending email:", error);
+//         toast.error("Failed to send message");
+//       });
+//   };
+
+//   return (
+//     <>
+    
+//       <form onSubmit={handleSubmit} className="emailForm mt-20 bg-white">
+//         <div className="form-container">
+//           <div className="input-group">
+//             <input
+//               className="form-input"
+//               type="text"
+//               required
+//               placeholder="First Name"
+//               name="firstName"
+//               value={firstName}
+//               onChange={(e) => setFirstName(e.target.value)}
+//             />
+
+//             <input
+//               className="form-input"
+//               type="text"
+//               required
+//               placeholder="Last Name"
+//               name="lastName"
+//               value={lastName}
+//               onChange={(e) => setLastName(e.target.value)}
+//             />
+//           </div>
+//           <div className="input-group mt-5">
+//             <input
+//               className="form-input"
+//               type="email"
+//               required
+//               placeholder="Email"
+//               name="email"
+//               value={email}
+//               onChange={(e) => setEmail(e.target.value)}
+//             />
+//             <input
+//               className="form-input"
+//               type="number"
+//               required
+//               placeholder="Phone Number"
+//               name="phone"
+//               value={phone}
+//               onChange={(e) => setPhone(e.target.value)}
+//             />
+//           </div>
+//           <div className="message-group mt-6">
+//             <textarea
+//               cols="30"
+//               rows="2"
+//               required
+//               value={message}
+//               onChange={(e) => setMessage(e.target.value)}
+//               className="message-input"
+//               placeholder="Message"
+//             ></textarea>
+//           </div>
+//           <div className="consent-group">
+//             <input
+//               className="consent-checkbox"
+//               type="checkbox"
+//               checked={isChecked}
+//               onClick={handleRadioClick}
+//               readOnly
+//             />
+//             <span className="consent-text">
+//               Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed,
+//               error! Ea molestias adipisci accusamus odit voluptas.
+//               {/* I understand that Systaio will securely hold my data in accordance with their privacy policy. */}
+//             </span>
+//           </div>
+//           <div className="button-group">
+//             <div className="flex lg:items-end lg:justify-end justify-center items-center mt-8">
+//               <button
+//                 type="submit"
+//                 style={{ fontFamily: "PTSerif-Bold" }}
+//                 className="bg-gradient-to-b from-white via-black to-white 
+//             cursor-pointer text-white rounded-full text-xs w-32 h-10 flex justify-center 
+//             items-center lg:text-lg md:text-sm sm:text-sm md:w-60 md:h-12 lg:w-40 lg:mt-6 lg:h-10
+//              sm:w-40 sm:h-10 mb-24 md:mt-4 font-unison"
+//               >
+//                 Submit <i className="ri-arrow-right-line"></i>
+//               </button>
+//             </div>
+//           </div>
+//         </div>
+//       </form>
+
+     
+//     </>
+//   );
+// };
+
+// export default Scrolling(Contactus);
+
+
+// // import { useState } from "react";
+
+// // function Project() {
+
+// //   const [firstName, setFirstName] = useState('');
+// //   const [lastName, setLastName] = useState('');
+// //   const [email, setEmail] = useState('');
+// //   const [message, setMessage] = useState('');
+// //   const [budget, setBudget] = useState('');
+// //   const [file, setFile] = useState(null);
+// //   const [isChecked, setIsChecked] = useState(false);
+
+// //   const handleRadioClick = () => {
+// //     setIsChecked(!isChecked);
+// //   };
+
+// //   const handleSubmit = (e) => {
+// //     e.preventDefault();
+
+// //     const serviceId = 'service_3jjjhpg';
+// //     const templateId = 'template_sgch3n8';
+// //     const publicKey = 'QJ3LYg2phyi7VCyJY';
+
+// //     const templateParams = {
+// //       from_firstName: firstName,
+// //       from_lastName: lastName,
+// //       from_email: email,
+// //       from_budget: budget,
+// //       from_file: file,
+// //       message: message,
+// //       to_name: 'Hashtago Team',
+// //     };
+
+// //     emailjs
+// //       .send(serviceId, templateId, templateParams, publicKey)
+// //       .then((response) => {
+// //         console.log('Email sent successfully', response);
+// //         // toast.success('Message sent successfully');
+// //         alert("email send")
+// //         setFirstName('');
+// //         setLastName('');
+// //         setEmail('');
+// //         setBudget('');
+// //         setMessage('');
+// //         setFile(null);
+// //       })
+// //       .catch((error) => {
+// //         console.error('Error sending email:', error);
+// //         // toast.error('Failed to send message');
+// //         alert("failed")
+// //       });
+// //   };
+
+// //   return (
+// //     <div className="relative overflow-hidden h-full bg-gradient-to-b from-[#242486] via-[#5A0483] to-[#5A0483] text-white">
+// //       <div className="relative bg-opacity-50 h-full">
+
+// //         <div className="max-w-screen-xl lg:mx-auto mx-5">
+
+// //           <form onSubmit={handleSubmit} className="emailForm">
+// //       <div className="flex justify-between flex-col items-center font-monda lg:mt-20 md:mt-20 sm:mt-16 mt-10">
+// //         <div className="flex lg:flex-row md:flex-row sm:flex-row flex-col lg:gap-32 gap-8">
+// //           <input
+// //             className="lg:w-[20vw] md:w-60 sm:w-40 w-80 outline-none border-b-2 border-white placeholder:text-white placeholder:text-lg bg-transparent"
+// //             type="text"
+// //             required
+// //             placeholder="First Name"
+// //             name="firstName"
+// //             value={firstName}
+// //             onChange={(e) => setFirstName(e.target.value)}
+// //           />
+// //           <input
+// //             className="lg:w-[20vw] md:w-60 sm:w-40 w-80 outline-none border-b-2 border-white placeholder:text-white placeholder:text-lg bg-transparent"
+// //             type="text"
+// //             required
+// //             placeholder="Last Name"
+// //             name="lastName"
+// //             value={lastName}
+// //             onChange={(e) => setLastName(e.target.value)}
+// //           />
+// //           <input
+// //             className="lg:w-[20vw] md:w-60 sm:w-40 w-80 outline-none border-b-2 border-white placeholder:text-white placeholder:text-lg bg-transparent"
+// //             type="email"
+// //             required
+// //             placeholder="Email"
+// //             name="email"
+// //             value={email}
+// //             onChange={(e) => setEmail(e.target.value)}
+// //           />
+// //         </div>
+// //         <div className="mt-12 flex lg:flex-row md:flex-row sm:flex-row flex-col lg:gap-28 gap-8">
+// //           <input
+// //             className="lg:w-[35vw] w-80 outline-none border-b-2 border-white placeholder:text-white placeholder:text-lg bg-transparent"
+// //             type="number"
+// //             required
+// //             placeholder="Budget"
+// //             name="budget"
+// //             value={budget}
+// //             onChange={(e) => setBudget(e.target.value)}
+// //           />
+// //           <input
+// //             className="lg:w-[35vw] w-80 outline-none border-b-2 border-white placeholder:text-white placeholder:text-lg bg-transparent"
+// //             type="file"
+// //             placeholder="Attachment"
+// //             onChange={(e) => setFile(e.target.files[0])}
+// //           />
+// //         </div>
+// //         <div className="mt-12">
+// //           <textarea
+// //             cols="30"
+// //             rows="2"
+// //             required
+// //             value={message}
+// //             onChange={(e) => setMessage(e.target.value)}
+// //             className="mt-2 lg:w-[78vw] w-80 outline-none border-b-2 border-white placeholder:text-white placeholder:text-lg bg-transparent"
+// //             placeholder="Message"
+// //           ></textarea>
+// //         </div>
+// //       </div>
+
+// //       <div className="max-w-screen-xl lg:mx-auto mx-5 mt-10">
+// //         <div className="flex gap-3 lg:ml-8">
+// //           <input
+// //             className="w-4 h-4 mt-1.5"
+// //             type="radio"
+// //             checked={isChecked}
+// //             onClick={handleRadioClick}
+// //             readOnly
+// //           />
+// //           <span className="text- font-medium font-monda lg:text-lg text-xs">
+// //             I understand that Hashtago will securely hold my data in accordance with their privacy policy.
+// //           </span>
+// //         </div>
+
+// //         <div className="flex lg:items-end lg:justify-end justify-center items-center mt-8">
+// //           <button
+// //             type="submit"
+// //             style={{ fontFamily: 'UnisonPro, sans-serif' }}
+// //             className="bg-white cursor-pointer text-black rounded-full text-xs w-36 h-8 flex justify-center items-center lg:text-lg md:text-sm sm:text-sm md:w-60 md:h-12 lg:w-56 lg:mt-6 lg:h-12 sm:w-52 sm:h-10 mb-24 md:mt-4 font-unison"
+// //           >
+// //             Submit <i className="ri-arrow-right-line"></i>
+// //           </button>
+// //         </div>
+// //       </div>
+// //     </form>
+
+// //         </div>
+// //       </div>
+
+// //     </div>
+// //   );
+// // }
+
+// // export default Project;
+
+
+
+
+
+
+
+// import React, { useState } from 'react';
+
+// const JobApplicationForm = () => {
+//   const [firstName, setFirstName] = useState('');
+//   const [lastName, setLastName] = useState('');
+//   const [email, setEmail] = useState('');
+//   const [phone, setPhone] = useState('');
+//   const [resume, setResume] = useState(null);
+//   const [coverLetter, setCoverLetter] = useState('');
+//   const [isChecked, setIsChecked] = useState(false);
+
+//   const handleSubmit = (e) => {
+//     e.preventDefault();
+//     // Handle form submission
+//     console.log({
+//       firstName,
+//       lastName,
+//       email,
+//       phone,
+//       resume,
+//       coverLetter,
+//       isChecked,
+//     });
+//   };
+
+//   return (
+//     <form onSubmit={handleSubmit} className="bg-white p-6 rounded-lg shadow-md">
+//       <h2 className="text-2xl font-bold mb-6">Job Application Form</h2>
+      
+//       <div className="mb-4">
+//         <input
+//           type="text"
+//           placeholder="First Name"
+//           value={firstName}
+//           onChange={(e) => setFirstName(e.target.value)}
+//           className="w-full p-2 border border-gray-300 rounded"
+//           required
+//         />
+//       </div>
+
+//       <div className="mb-4">
+//         <input
+//           type="text"
+//           placeholder="Last Name"
+//           value={lastName}
+//           onChange={(e) => setLastName(e.target.value)}
+//           className="w-full p-2 border border-gray-300 rounded"
+//           required
+//         />
+//       </div>
+
+//       <div className="mb-4">
+//         <input
+//           type="email"
+//           placeholder="Email"
+//           value={email}
+//           onChange={(e) => setEmail(e.target.value)}
+//           className="w-full p-2 border border-gray-300 rounded"
+//           required
+//         />
+//       </div>
+
+//       <div className="mb-4">
+//         <input
+//           type="tel"
+//           placeholder="Phone Number"
+//           value={phone}
+//           onChange={(e) => setPhone(e.target.value)}
+//           className="w-full p-2 border border-gray-300 rounded"
+//           required
+//         />
+//       </div>
+
+//       <div className="mb-4">
+//         <input
+//           type="file"
+//           onChange={(e) => setResume(e.target.files[0])}
+//           className="w-full p-2 border border-gray-300 rounded"
+//           required
+//         />
+//       </div>
+
+//       <div className="mb-4">
+//         <textarea
+//           placeholder="Cover Letter"
+//           value={coverLetter}
+//           onChange={(e) => setCoverLetter(e.target.value)}
+//           className="w-full p-2 border border-gray-300 rounded"
+//           rows="4"
+//           required
+//         ></textarea>
+//       </div>
+
+//       <div className="mb-4 flex items-center">
+//         <input
+//           type="checkbox"
+//           checked={isChecked}
+//           onChange={() => setIsChecked(!isChecked)}
+//           className="mr-2"
+//           required
+//         />
+//         <span>
+//           I agree to the <a href="/privacy-policy" className="text-blue-500 underline">privacy policy</a>.
+//         </span>
+//       </div>
+
+//       <div>
+//         <button
+//           type="submit"
+//           className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600"
+//         >
+//           Submit
+//         </button>
+//       </div>
+//     </form>
+//   );
+// };
+
+// export default JobApplicationForm;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// import React, { useState } from 'react';
+
+// const JobApplicationForm = () => {
+//   const [firstName, setFirstName] = useState('');
+//   const [lastName, setLastName] = useState('');
+//   const [email, setEmail] = useState('');
+//   const [phone, setPhone] = useState('');
+//   const [resume, setResume] = useState(null);
+//   const [coverLetter, setCoverLetter] = useState('');
+//   const [isChecked, setIsChecked] = useState(false);
+
+//   const handleSubmit = (e) => {
+//     e.preventDefault();
+//     // Handle form submission
+//     console.log({
+//       firstName,
+//       lastName,
+//       email,
+//       phone,
+//       resume,
+//       coverLetter,
+//       isChecked,
+//     });
+//   };
+
+//   return (
+//     <div className="flex justify-center items-center min-h-screen bg-gray-100">
+//       <form onSubmit={handleSubmit} className="w-full max-w-lg bg-white p-8 rounded-lg shadow-lg">
+//         <h2 className="text-3xl font-semibold text-center mb-6">Job Application Form</h2>
+        
+//         <div className="grid grid-cols-1 gap-6 mb-6">
+//           <div className="flex flex-col">
+//             <label className="text-gray-700 font-medium mb-2" htmlFor="firstName">First Name</label>
+//             <input
+//               type="text"
+//               id="firstName"
+//               placeholder="First Name"
+//               value={firstName}
+//               onChange={(e) => setFirstName(e.target.value)}
+//               className="p-3 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+//               required
+//             />
+//           </div>
+
+//           <div className="flex flex-col">
+//             <label className="text-gray-700 font-medium mb-2" htmlFor="lastName">Last Name</label>
+//             <input
+//               type="text"
+//               id="lastName"
+//               placeholder="Last Name"
+//               value={lastName}
+//               onChange={(e) => setLastName(e.target.value)}
+//               className="p-3 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+//               required
+//             />
+//           </div>
+//         </div>
+
+//         <div className="grid grid-cols-1 gap-6 mb-6">
+//           <div className="flex flex-col">
+//             <label className="text-gray-700 font-medium mb-2" htmlFor="email">Email</label>
+//             <input
+//               type="email"
+//               id="email"
+//               placeholder="Email"
+//               value={email}
+//               onChange={(e) => setEmail(e.target.value)}
+//               className="p-3 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+//               required
+//             />
+//           </div>
+
+//           <div className="flex flex-col">
+//             <label className="text-gray-700 font-medium mb-2" htmlFor="phone">Phone Number</label>
+//             <input
+//               type="tel"
+//               id="phone"
+//               placeholder="Phone Number"
+//               value={phone}
+//               onChange={(e) => setPhone(e.target.value)}
+//               className="p-3 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+//               required
+//             />
+//           </div>
+//         </div>
+
+//         <div className="mb-6">
+//           <label className="text-gray-700 font-medium mb-2" htmlFor="resume">Resume</label>
+//           <input
+//             type="file"
+//             id="resume"
+//             onChange={(e) => setResume(e.target.files[0])}
+//             className="p-3 border border-gray-300 rounded-lg shadow-sm file:border-0 file:bg-blue-100 file:text-blue-700 file:py-2 file:px-4 file:rounded-lg hover:file:bg-blue-200"
+//             required
+//           />
+//         </div>
+
+//         <div className="mb-6">
+//           <label className="text-gray-700 font-medium mb-2" htmlFor="coverLetter">Cover Letter</label>
+//           <textarea
+//             id="coverLetter"
+//             placeholder="Cover Letter"
+//             value={coverLetter}
+//             onChange={(e) => setCoverLetter(e.target.value)}
+//             className="w-full p-3 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+//             rows="4"
+//             required
+//           ></textarea>
+//         </div>
+
+//         <div className="flex items-center mb-6">
+//           <input
+//             type="checkbox"
+//             id="consent"
+//             checked={isChecked}
+//             onChange={() => setIsChecked(!isChecked)}
+//             className="mr-2"
+//             required
+//           />
+//           <label htmlFor="consent" className="text-gray-700">
+//             I agree to the <a href="/privacy-policy" className="text-blue-500 underline">privacy policy</a>.
+//           </label>
+//         </div>
+
+//         <div className="flex justify-center">
+//           <button
+//             type="submit"
+//             className="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600 transition duration-200"
+//           >
+//             Submit
+//           </button>
+//         </div>
+//       </form>
+//     </div>
+//   );
+// };
+
+// export default JobApplicationForm;
+
+
+
+
+
+
+
+
+
+
+// good
+
+import React, { useState } from 'react';
+
+const JobApplicationForm = () => {
+  const [firstName, setFirstName] = useState('');
+  const [lastName, setLastName] = useState('');
+  const [email, setEmail] = useState('');
+  const [phone, setPhone] = useState('');
+  const [resume, setResume] = useState(null);
+  const [coverLetter, setCoverLetter] = useState('');
+  const [isChecked, setIsChecked] = useState(false);
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    // Handle form submission
+    console.log({
+      firstName,
+      lastName,
+      email,
+      phone,
+      resume,
+      coverLetter,
+      isChecked,
+    });
+  };
+
+  return (
+    <div className="flex justify-center items-center min-h-screen bg-gray-100 py-12 px-4">
+      <form onSubmit={handleSubmit} className="w-full max-w-2xl bg-white p-10 rounded-lg shadow-lg border border-gray-300">
+        <h2 className="text-3xl font-extrabold text-gray-800 mb-8 text-center">Job Application</h2>
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-6">
+          <div className="flex flex-col">
+            <label className="text-gray-700 font-medium mb-2" htmlFor="firstName">First Name</label>
+            <input
+              type="text"
+              id="firstName"
+              placeholder="John"
+              value={firstName}
+              onChange={(e) => setFirstName(e.target.value)}
+              className="p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 transition duration-150"
+              required
+            />
+          </div>
+
+          <div className="flex flex-col">
+            <label className="text-gray-700 font-medium mb-2" htmlFor="lastName">Last Name</label>
+            <input
+              type="text"
+              id="lastName"
+              placeholder="Doe"
+              value={lastName}
+              onChange={(e) => setLastName(e.target.value)}
+              className="p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 transition duration-150"
+              required
+            />
+          </div>
+        </div>
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-6">
+          <div className="flex flex-col">
+            <label className="text-gray-700 font-medium mb-2" htmlFor="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              placeholder="john.doe@example.com"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+              className="p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 transition duration-150"
+              required
+            />
+          </div>
+
+          <div className="flex flex-col">
+            <label className="text-gray-700 font-medium mb-2" htmlFor="phone">Phone Number</label>
+            <input
+              type="tel"
+              id="phone"
+              placeholder="123-456-7890"
+              value={phone}
+              onChange={(e) => setPhone(e.target.value)}
+              className="p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-black transition duration-150"
+              required
+            />
+          </div>
+        </div>
+
+        <div className="mb-6">
+          <label className="text-gray-700 font-medium mb-2" htmlFor="resume">Resume</label>
+          <input
+            type="file"
+            id="resume"
+            onChange={(e) => setResume(e.target.files[0])}
+            className="file:border-0 file:bg-blue-100 file:text-black file:py-2 file:px-4 
+            file:rounded-lg file:cursor-pointer border border-gray-300 rounded-lg p-3 focus:ring-2
+             focus:ring-black transition duration-150"
+            required
+          />
+        </div>
+
+        <div className="mb-6">
+          <label className="text-gray-700 font-medium mb-2" htmlFor="coverLetter">Cover Letter</label>
+          <textarea
+            id="coverLetter"
+            placeholder="Write your cover letter here..."
+            value={coverLetter}
+            onChange={(e) => setCoverLetter(e.target.value)}
+            className="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-black transition duration-150"
+            rows="6"
+            required
+          ></textarea>
+        </div>
+
+        <div className="flex items-center mb-6">
+          <input
+            type="checkbox"
+            id="consent"
+            checked={isChecked}
+            onChange={() => setIsChecked(!isChecked)}
+            className="h-4 w-4 text-blue-600 border-gray-300 rounded focus:ring-black  transition duration-150"
+            required
+          />
+          <label htmlFor="consent" className="ml-2 text-gray-700">
+            I agree to the <a href="/privacy-policy" className="text-black  underline">privacy policy</a>.
+          </label>
+        </div>
+
+        <div className="flex justify-center">
+          <button
+            type="submit"
+            className="bg-black  text-white px-6 py-3 rounded-lg hover:bg-black transition duration-150"
+          >
+            Submit
+          </button>
+        </div>
+      </form>
+    </div>
+  );
+};
+
+export default JobApplicationForm;

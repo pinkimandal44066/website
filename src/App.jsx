@@ -76,6 +76,7 @@ import Products from "./Components/Products";
 import RefundPolicy from "./Components/Refundreturnpolicy";
 import PrivacyPolicy from "./Components/Privacypolicy";
 import Faq from "./Components/Faq";
+import Contactcareer from './Components/Contactcareer';
 import { Toaster } from "react-hot-toast";
 
 // import Slider from 'react-slick';
@@ -106,6 +107,7 @@ const App = () => {
               <Route path="/Refundreturnpolicy" element={<RefundPolicy/>} />
               <Route path="/Privacypolicy" element={<PrivacyPolicy/>} />
               <Route path="/Faq" element={<Faq/>} />
+              <Route path="/Contactcareer" element={<Contactcareer/>} />
             </Route>
           </Routes>
           <Toaster />
