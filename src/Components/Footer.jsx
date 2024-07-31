@@ -225,7 +225,7 @@ const Footer = () => {
           type="submit"
           className="px-4 py-2 bg-black text-white rounded-r"
         >
-          submit
+          {/* submit */}
           <i className="fas fa-arrow-right"></i>
         </button>
       </form>
