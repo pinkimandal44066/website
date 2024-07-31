@@ -1,7 +1,8 @@
 import React from 'react';
+import Scrolling from './Scrolling';
 import { NavLink } from 'react-router-dom';
 
-const CareerPage = () => {
+const Careers = () => {
   return (
   <>
 <div className="relative w-full h-60 md:h-80 lg:h-96 flex items-center justify-center">
@@ -199,4 +200,4 @@ const CareerPage = () => {
   );
 };
 
-export default CareerPage;
+export default  Scrolling(Careers); 

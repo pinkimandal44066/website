@@ -1,4 +1,5 @@
 import React from 'react'
+import Scrolling from './Scrolling';
 import Accordion from './Accordion';
 import Accordionfaq from './Accordionfaq';
 const Faq = () => {
@@ -39,4 +40,4 @@ const Faq = () => {
   )
 }
 
-export default Faq
+export default  Scrolling(Faq); 

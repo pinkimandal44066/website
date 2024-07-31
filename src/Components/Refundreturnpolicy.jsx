@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Scrolling from './Scrolling';
 const RefundPolicy = () => {
   return (
 
@@ -83,4 +83,4 @@ const RefundPolicy = () => {
   );
 };
 
-export default RefundPolicy;
+export default  Scrolling(RefundPolicy); 

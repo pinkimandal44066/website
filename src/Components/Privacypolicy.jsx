@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Scrolling from './Scrolling';
 const PrivacyPolicy = () => {
   return (
 
@@ -109,4 +109,4 @@ const PrivacyPolicy = () => {
   );
 };
 
-export default PrivacyPolicy;
+export default  Scrolling( PrivacyPolicy); 
