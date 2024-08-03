@@ -185,6 +185,12 @@ const Footer = () => {
         {/* <li>
           <a href="#">Contact us</a>
         </li> */}
+
+
+
+<NavLink to='/Careers'>
+          <h1>Careers</h1>
+          </NavLink>
       </ul>
     </div>
 

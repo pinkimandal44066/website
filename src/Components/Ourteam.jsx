@@ -85,30 +85,38 @@ const Aboutus = () => {
               className="mySwiper"
             >
               <SwiperSlide className=" bg-black">
-           
+              <img src="https://e1.pxfuel.com/desktop-wallpaper/789/283/desktop-wallpaper-jash-khan-kartik-aaryan-iphone-thumbnail.jpg" alt="" />
                 {/* <img src={logo}  className=""/> */}
-                <img src={nature } alt=""/>
+                {/* <img src={nature } alt=""/> */}
+                {/* <img src="https://e1.pxfuel.com/desktop-wallpaper/34/305/desktop-wallpaper-kartik-aaryan.jpg" alt="" /> */}
               </SwiperSlide>
               <SwiperSlide>
-                <img src={nature } />
+                <img src="https://e0.pxfuel.com/wallpapers/728/174/desktop-wallpaper-kartik-aaryan-expressions-emotional-thumbnail.jpg" alt="" />
+                {/* <img src={nature } /> */}
               </SwiperSlide>
               <SwiperSlide>
-                <img src={nature } />
+                {/* <img src={nature } /> */}
+                <img src="https://e0.pxfuel.com/wallpapers/311/933/desktop-wallpaper-kartik-aaryan-bollywood-thumbnail.jpg" alt="" />
               </SwiperSlide>
               <SwiperSlide>
-                <img src={nature } />
+                {/* <img src={nature } /> */}
+                <img src="https://e0.pxfuel.com/wallpapers/616/1020/desktop-wallpaper-kartik-aaryan-kartik-aaryan-hero-thumbnail.jpg" alt="" />
               </SwiperSlide>
               <SwiperSlide>
-                <img src={nature } />
+                {/* <img src={nature } /> */}
+                <img src="https://e0.pxfuel.com/wallpapers/614/873/desktop-wallpaper-kartik-aaryan-actor-thumbnail.jpg" alt="" />
               </SwiperSlide>
               <SwiperSlide>
-                <img src={nature } />
+                {/* <img src={nature } /> */}
+                <img src="https://e0.pxfuel.com/wallpapers/862/532/desktop-wallpaper-kartik-aaryan-white-jacket-smart-attitude-thumbnail.jpg" alt="" />
               </SwiperSlide>
               <SwiperSlide>
-                <img src={nature } />
+              <img src="https://e0.pxfuel.com/wallpapers/179/642/desktop-wallpaper-kartik-aaryan-yellow-background-fashion-hoot-thumbnail.jpg" alt="" />
+                {/* <img src={nature } /> */}
               </SwiperSlide>
               <SwiperSlide>
-                <img src={nature } />
+                {/* <img src={nature } /> */}
+                <img src="https://e1.pxfuel.com/desktop-wallpaper/789/283/desktop-wallpaper-jash-khan-kartik-aaryan-iphone-thumbnail.jpg" alt="" />
               </SwiperSlide>
               <SwiperSlide>
                 <img src={nature } />
@@ -137,25 +145,33 @@ const Aboutus = () => {
               className="custom-swiper"
             >
               <SwiperSlide>
-                <img src={nature } />
+              <img src="https://e1.pxfuel.com/desktop-wallpaper/789/283/desktop-wallpaper-jash-khan-kartik-aaryan-iphone-thumbnail.jpg" alt="" />
+              {/* <img src="https://e1.pxfuel.com/desktop-wallpaper/34/305/desktop-wallpaper-kartik-aaryan.jpg" alt="" /> */}
+                {/* <img src={nature } /> */}
               </SwiperSlide>
               <SwiperSlide>
-                <img src={nature } />
+                {/* <img src={nature } /> */}
+                <img src="https://e0.pxfuel.com/wallpapers/728/174/desktop-wallpaper-kartik-aaryan-expressions-emotional-thumbnail.jpg" alt="" />
               </SwiperSlide>
               <SwiperSlide>
-                <img src={nature } />
+                {/* <img src={nature } /> */}
+                <img src="https://e0.pxfuel.com/wallpapers/311/933/desktop-wallpaper-kartik-aaryan-bollywood-thumbnail.jpg" alt="" />
               </SwiperSlide>
               <SwiperSlide>
-                <img src={nature } />
+                {/* <img src={nature } /> */}
+                <img src="https://e0.pxfuel.com/wallpapers/616/1020/desktop-wallpaper-kartik-aaryan-kartik-aaryan-hero-thumbnail.jpg" alt="" />
               </SwiperSlide>
               <SwiperSlide>
-                <img src={nature } />
+                {/* <img src={nature } /> */}
+                <img src="https://e0.pxfuel.com/wallpapers/614/873/desktop-wallpaper-kartik-aaryan-actor-thumbnail.jpg" alt="" />
               </SwiperSlide>
               <SwiperSlide>
-                <img src={nature } />
+                {/* <img src={nature } /> */}
+                <img src="https://e0.pxfuel.com/wallpapers/862/532/desktop-wallpaper-kartik-aaryan-white-jacket-smart-attitude-thumbnail.jpg" alt="" />
               </SwiperSlide>
               <SwiperSlide>
-                <img src={nature } />
+                <img src="https://e0.pxfuel.com/wallpapers/179/642/desktop-wallpaper-kartik-aaryan-yellow-background-fashion-hoot-thumbnail.jpg" alt="" />
+                {/* <img src={nature } /> */}
               </SwiperSlide>
               <SwiperSlide>
                 <img src={nature } />
