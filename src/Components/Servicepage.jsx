@@ -57,7 +57,7 @@ const Servicepage = () => {
       title: "BRANDING DESIGN",
       imgSrc:
       "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aXQlMjBzZXJ2aWNlc3xlbnwwfHwwfHx8MA%3D%3D",
-        // "https://www.freepik.com/free-photo/still-life-graphic-design-studio_150835238.htm#fromView=search&page=1&position=49&uuid=bddc6b9b-c432-4cc4-8f11-d22c2f661b86",
+
       content:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est a ad et cum aliquam non, asperiores amet minus tempore neque suscipit labore? Cupiditate deleniti rem sunt tenetur? Ut, fugiat porro. Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt soluta architecto molestias ex magni nam dolor numquam dignissimos officia! Aspernatur, saepe animi? Similique cupiditate repellendus totam tempora dolore mollitia odit.",
     },
