@@ -18,7 +18,7 @@ const Navbar = () => {
         <div className="lg:flex  z-[999]  md:flex hidden lg:justify-between justify-evenly items-center">
           <div className="cursor-pointer">
           <NavLink to="/">
-            <img className="lg:w-44 md:w-32 w-20" src={logo} />
+            <img className="lg:w-44 md:w-32 w-20 bg-black" src={logo} />
             </NavLink>
           </div>
 
@@ -71,7 +71,7 @@ const Navbar = () => {
             <>
               <div>
               <NavLink to="/">
-                <img className="w-28" src={logo} alt="Logo" />
+                <img className="w-28 bg-black h-10" src={logo} alt="Logo" />
                 </NavLink>
               </div>
               <section>

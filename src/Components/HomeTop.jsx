@@ -3,7 +3,7 @@ import { useState } from "react";
 import logo from "../../public/Systaiologo.png";
 import video from "../../public/Systaiovideo.mp4";
 import { AiOutlineAntDesign } from "react-icons/ai";
-
+import { NavLink } from "react-router-dom";
 // import "./HomeTopCss.css";
 import "./Homecss.css";
 const LoaderAnimation = () => {
@@ -91,34 +91,46 @@ const LoaderAnimation = () => {
 <div className="relative z-10 text-white  text-center bg-opacity-60 p-0 rounded-lg md:-mt-40 sm:-mt-96  
 lg:-mt-0 ">
 <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-<div className="flex flex-col justify-center items-center border-2 border-white w-40 mx-auto h-16  rounded ">
+<div className="flex flex-col justify-center items-center border-2 border-white w-40 mx-auto h-16    cursor-pointer">
                   {/* <AiOutlineAntDesign class="lg:text-3xl font-semibold text-yellow-500" /> */}
+                  <NavLink to='/Servicepage'>
                   <p>WEB DESIGN</p>
+                  </NavLink>
                   </div>
                   <div className="flex flex-col justify-center items-center border-2 border-white w-40 mx-auto
-                   h-16 rounded ">
+                   h-16 rounded  cursor-pointer">
                   {/* <AiOutlineAntDesign class="lg:text-3xl font-semibold text-yellow-500" /> */}
-                  <p>DEVELOPMENT</p>
+                  <NavLink to='/Servicepage'>
+                  <p> SOFTWARE DEVELOPMENT</p>
+                  </NavLink>
                   </div>
                   <div className="flex flex-col justify-center items-center border-2 border-white w-40 
-                   mx-auto h-16 rounded ">
+                   mx-auto h-16 rounded  cursor-pointer">
                   {/* <AiOutlineAntDesign class="lg:text-3xl font-semibold text-yellow-500" /> */}
+                  <NavLink to='/Servicepage'>
                   <p>DIGITAL MARKETING</p>
+                  </NavLink>
                   </div>
                   <div className="flex flex-col justify-center items-center border-2 border-white
-                   w-40 mx-auto h-16 rounded ">
+                   w-40 mx-auto h-16 rounded  cursor-pointer">
                   {/* <AiOutlineAntDesign class="lg:text-3xl font-semibold text-yellow-500" /> */}
+                  <NavLink to='/Servicepage'>
                   <p>MOBILE APPS</p>
+                  </NavLink>
                   </div>
                   <div className="flex flex-col justify-center items-center border-2 border-white
-                   w-40 mx-auto h-16 rounded ">
+                   w-40 mx-auto h-16 rounded  cursor-pointer">
                   {/* <AiOutlineAntDesign class="lg:text-3xl font-semibold text-yellow-500" /> */}
+                  <NavLink to='/Servicepage'>
                   <p>CONTENT MANAGEMENT</p>
+                  </NavLink>
                   </div>
                   <div className="flex flex-col justify-center items-center border-2 border-white
-                   w-40 mx-auto h-16 rounded ">
+                   w-40 mx-auto h-16 rounded  cursor-pointer">
                   {/* <AiOutlineAntDesign class="lg:text-3xl font-semibold text-yellow-500" /> */}
+                  <NavLink to='/Servicepage'>
                   <p>24*7 SUPPORT</p>
+                  </NavLink>
                   </div>
 </div>
 </div>

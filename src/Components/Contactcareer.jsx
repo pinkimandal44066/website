@@ -49,10 +49,10 @@ const Contactcareer = () => {
   };
 
   return (
-    <div className="flex justify-center items-center min-h-screen bg-gray-100 py-12 px-4">
+    <div className="flex justify-center items-center bg-gray-100 py-12 px-4">
       <form
         onSubmit={handleSubmit}
-        className="emailForm w-full max-w-2xl bg-white p-10 rounded-lg shadow-lg border border-gray-300"
+        className="emailForm w-full max-w-2xl bg-white p-10 rounded-lg shadow-lg border border-gray-300 mt-10   lg:mt-0"
       >
         <h2 className="text-3xl font-extrabold text-gray-800 mb-8 text-center">
           Job Application
