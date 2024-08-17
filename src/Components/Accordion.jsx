@@ -45,12 +45,11 @@ const Accordion = () => {
         <div className="mx-4 sm:mx-8 md:mx-16 lg:mx-28 xl:mx-36 2xl:mx-48 lg:-mt-16">
           <AccordionItem
             title="WEB DESIGN "
-            content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, suscipit rerum. Mollitia quibusdam nisi unde consectetur illum numquam, quam sint placeat. Aspernatur aliquid neque exercitationem adipisci alias deserunt atque aliquam.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, suscipit rerum. Mollitia quibusdam nisi unde consectetur illum numquam, quam sint placeat. Aspernatur aliquid neque exercitationem adipisci alias deserunt atque aliquam."
+            content="We Provide high quality, cost-efficient, trustworthy, and result-driven web and eCommerce solutions for the clientele in a global range. We deal with each client individually so that we Tend towards the BEST WEB DESIGNING COMPANY IN INDIA."
           />
           <AccordionItem
             title="MOBILE APPS"
-            content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, suscipit rerum. Mollitia quibusdam nisi unde consectetur illum numquam, quam sint placeat. Aspernatur aliquid neque exercitationem adipisci alias deserunt atque aliquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, suscipit rerum. Mollitia quibusdam nisi unde consectetur illum numquam, quam sint placeat. Aspernatur aliquid neque exercitationem adipisci alias deserunt atque aliquam."
+            content=" We develop Android & IOS mobile applications. We have a team of highly experienced people developing creative mobile apps to give your users a ceaseless & friendly experience. we develop all kinds of apps which leading us towards the reliable APP DEVELOPMENT COMPANY."
           />
        
 
@@ -63,14 +62,14 @@ const Accordion = () => {
 
 <AccordionItem
             title="DIGITAL MARKETING"
-            content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, suscipit rerum. Mollitia quibusdam nisi unde consectetur illum numquam, quam sint placeat. Aspernatur aliquid neque exercitationem adipisci alias deserunt atque aliquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, suscipit rerum. Mollitia quibusdam nisi unde consectetur illum numquam, quam sint placeat. Aspernatur aliquid neque exercitationem adipisci alias deserunt atque aliquam."
+            content="We specialize in SEO services and digital marketing services. We use all the necessary tools in order to take business to places and generate revenue. We always use sophisticated and latest tools to make ourselves best suited for DIGITAL MARKETING COMPANY."
           />
 
 
 
 <AccordionItem
             title="CONTENT MANAGEMENT"
-            content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, suscipit rerum. Mollitia quibusdam nisi unde consectetur illum numquam, quam sint placeat. Aspernatur aliquid neque exercitationem adipisci alias deserunt atque aliquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, suscipit rerum. Mollitia quibusdam nisi unde consectetur illum numquam, quam sint placeat. Aspernatur aliquid neque exercitationem adipisci alias deserunt atque aliquam."
+            content="Good content is the backbone of your website Our focus is to earn customers through high-quality content that is informative and interesting. We write good, quality and fresh content to attract your customer's which obviously a good CONTENT MANAGEMENT COMPANY do."
           />
 
 

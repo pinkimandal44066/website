@@ -200,19 +200,25 @@ const Footer = () => {
       <h3 className="text-lg font-semibold mb-3">Links</h3>
       <ul className="text-sm ">
         <li>
-          <a href="#">Home</a>
+          
+          <NavLink to="/">
+          Home
+          </NavLink>
         </li>
         <li>
-          <a href="#">About Us</a>
+          <NavLink to='/aboutus'>
+         
+          About Us
+          </NavLink>
         </li>
         <li>
-          <a href="#">Services</a>
+          <NavLink to='/Servicepage'>Services</NavLink>
         </li>
         <li>
-          <a href="#">Products</a>
+          <NavLink to='/Products'>Products</NavLink>
         </li>
         <li>
-          <a href="#">Contact us</a>
+          <NavLink to='/contactus'>Contact us</NavLink>
         </li>
       </ul>
     </div>

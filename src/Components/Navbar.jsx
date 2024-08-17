@@ -2,9 +2,11 @@ import { useState, useEffect } from "react";
 import { FiMenu } from "react-icons/fi";
 import { IoCloseOutline } from "react-icons/io5";
 // import {  useLocation } from "react-router-dom";
-import logo from "../../public/Systaiologo.png";
+// import logo from "../../public/Systaiologo.png";
 import { NavLink,useLocation } from "react-router-dom";
-
+// import logo from '../../public/Syst AIO logo.png';
+import logo from '../../public/logoo.jpg';
+// import logo from '../../public/logo.png';
 const Navbar = () => {
   const [isSideMenuOpen, setMenu] = useState(false);
     const location = useLocation();
@@ -18,7 +20,8 @@ const Navbar = () => {
         <div className="lg:flex  z-[999]  md:flex hidden lg:justify-between justify-evenly items-center">
           <div className="cursor-pointer">
           <NavLink to="/">
-            <img className="lg:w-44 md:w-32 w-20 bg-black" src={logo} />
+            {/* <img className="lg:w-44 md:w-32 w-20 bg-black" src={logo} /> */}
+            <img className="lg:w-60 md:w-32 w-20 -mt-5 bg-black" src={logo} />
             </NavLink>
           </div>
 

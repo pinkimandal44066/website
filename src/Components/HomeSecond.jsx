@@ -34,8 +34,7 @@ const HomeSecond = () => {
                   {/* lorem */}
                 </span>{" "} 
               
-               <p className='text-sm '>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius nemo, magni enim nostrum quos non et numquam ullam facilis debitis soluta quasi ducimus voluptates. Accusamus quasi officiis consequatur in temporibus?
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt deleniti reprehenderit ex, eos ea dolorem velit eveniet autem laboriosam asperiores fugit tenetur unde ducimus. Iste sed laudantium quo praesentium commodi.</p>
+               <p className='text-sm '>SystAIO is one of the leading IT services provider in India. We specializes in information technology consulting so your business’ IT systems and strategies are up-to-date and fit your needs. SystAIO supports your business with the IT consultant services to take your business efficiency to the next level.</p>
               </h1>
               <div>
               <NavLink to="/aboutus">
