@@ -44,10 +44,8 @@ const Aboutus = () => {
                 font-bold mt-10
               lg:w-[38vw] w-[60vw] md:w-[45vw]  leading-relaxed tracking-wider lg:mt-5 md:mt-4 sm:mt-3"
               >
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Expedita officiis placeat nesciunt, ea velit doloribus
-                molestiae, maiores soluta id ullam fugiat commodi! Nostrum quasi
-                quo earum? Aut expedita minus tempora.
+               At SYSTAIO, our team combines expertise and passion to deliver exceptional service and innovative solutions to our clients. Our collaboration and professionalism drive every project to new heights of success. Together, we tackle new challenges and continuously strive for excellence. At SYSTAIO, we advance and bring fresh ideas to life as a united force.
+              
               </p>
             </div>
           </div>

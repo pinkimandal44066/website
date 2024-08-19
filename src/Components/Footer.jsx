@@ -1,7 +1,9 @@
 import React from "react";
 
-import logo from "../../public/Systaiologo.png";
+// import logo from "../../public/Systaiologo.png";
 import { NavLink } from "react-router-dom";
+import logo from '../../public/Syst AIO logo.png';
+
 const Footer = () => {
   return (
     
@@ -127,11 +129,10 @@ const Footer = () => {
     
 
     <div className="col-span-1">
-      <img src={logo} alt="Logo" className="mb-4" />
+      <img src={logo} alt="Logo" className="mb-4 -ml-10 -mt-4 " />
       <p className="text-sm ">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam
-        alias architecto tempore, veritatis nihil ullam tempora possimus
-        nobis rem porro, at perspiciatis nesciunt maiores!
+    {/* SYSTAIO is one of Dhanbad's leading IT companies, offering exceptional technological solutions and services. Our experienced team understands your business's digital needs and provides cutting-edge solutions. Contact us to shape your technological future with us.**" */}
+   SYSTAIO is one of Dhanbad's leading IT companies, providing exceptional technological solutions and services. Our experienced team understands your business's digital needs and delivers cutting-edge solutions.
       </p>
     </div>
 
@@ -149,7 +150,7 @@ const Footer = () => {
 
  
       </p>
-      <span className="email-id">abcdefgh@.com</span>
+      <span className="email-id">systaiotech@gmail.com</span>
       <div>
       <a href="tel:+09109308788991">+091-093087 88991</a> 
       </div>

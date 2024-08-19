@@ -190,10 +190,8 @@ const Products = () => {
      
         </p>
         <p  className="mt-4 lg:text-base md:text-base sm:text-base text-xs text-center  lg:mx-40 md:mx-20 sm:mx-12 mx-5">
-       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet quisquam laudantium aliquid minus odio eum harum quo voluptas quod similique excepturi temporibus nemo adipisci nam, dignissimos neque a, tenetur sequi?
-       Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam ullam rem facilis, a error delectus sit porro molestiae officiis ducimus labore asperiores? Fugit quidem tempore dolorem natus, eos nesciunt dolorum?
-       Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, amet culpa. A amet totam sapiente, doloremque id suscipit qui, voluptatem ipsum dolorum, libero omnis porro temporibus. Hic delectus omnis modi.
-       Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem pariatur ducimus sapiente aliquam asperiores id illo quae recusandae sit nisi et nostrum, tenetur reprehenderit excepturi eligendi, nihil eum quam placeat!
+        {/* At SYSTAIO, we deliver state-of-the-art web solutions designed to elevate your digital experience and fortify your online presence. Our innovative tools and strategies ensure that your website stands out in the crowded digital landscape. By leveraging the latest technologies, we enhance functionality and user engagement. Our commitment to excellence guarantees that your online platforms are not only visually appealing but also highly effective. Partner with us to achieve the ultimate in web performance and digital success. Discover how our cutting-edge solutions can transform your online presence. */}
+        At SYSTAIO, we offer cutting-edge web solutions that take your digital experience to new heights. Our team utilizes the latest technologies to enhance your website, strengthening your online presence. We improve both functionality and design to ensure your site stands out in the crowd. Our strategies boost user engagement and build a strong connection with your audience. We not only understand your business needs but also deliver highly effective solutions to meet them. Our services help propel your business forward in the digital arena. With each project, we emphasize quality and innovation. Our cutting-edge solutions will provide a new direction for your online experience. Partner with SYSTAIO to empower your digital future.
         </p>
       </div>
 

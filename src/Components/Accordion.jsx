@@ -55,7 +55,7 @@ const Accordion = () => {
 
        <AccordionItem
             title="SOCIAL MEDIA SOLUTIONS"
-            content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, suscipit rerum. Mollitia quibusdam nisi unde consectetur illum numquam, quam sint placeat. Aspernatur aliquid neque exercitationem adipisci alias deserunt atque aliquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, suscipit rerum. Mollitia quibusdam nisi unde consectetur illum numquam, quam sint placeat. Aspernatur aliquid neque exercitationem adipisci alias deserunt atque aliquam."
+            content="SYSTAIO is a prominent company that has established a distinguished reputation in the field of Social Media Solutions. The company helps businesses enhance their digital presence and create impactful engagement on social media platforms."
           />
 
 
@@ -75,7 +75,7 @@ const Accordion = () => {
 
 <AccordionItem
             title="BRANDING DESIGN"
-            content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, suscipit rerum. Mollitia quibusdam nisi unde consectetur illum numquam, quam sint placeat. Aspernatur aliquid neque exercitationem adipisci alias deserunt atque aliquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, suscipit rerum. Mollitia quibusdam nisi unde consectetur illum numquam, quam sint placeat. Aspernatur aliquid neque exercitationem adipisci alias deserunt atque aliquam."
+            content="SYSTAIO helps businesses create a compelling and cohesive brand identity with its innovative solutions in Branding Design. Their creativity and strategic approach provide brands with a distinctive and impactful presence."
           />
         </div>
       </div>

@@ -4,8 +4,8 @@ import { IoCloseOutline } from "react-icons/io5";
 // import {  useLocation } from "react-router-dom";
 // import logo from "../../public/Systaiologo.png";
 import { NavLink,useLocation } from "react-router-dom";
-// import logo from '../../public/Syst AIO logo.png';
-import logo from '../../public/logoo.jpg';
+import logo from '../../public/Syst AIO logo.png';
+// import logo from '../../public/logoo.jpg';
 // import logo from '../../public/logo.png';
 const Navbar = () => {
   const [isSideMenuOpen, setMenu] = useState(false);
@@ -74,7 +74,7 @@ const Navbar = () => {
             <>
               <div>
               <NavLink to="/">
-                <img className="w-28 bg-black h-10" src={logo} alt="Logo" />
+                <img className="w-28  h-10" src={logo} alt="Logo" />
                 </NavLink>
               </div>
               <section>

@@ -209,7 +209,7 @@ const CustomerReview = () => {
     <Swiper
       pagination={true}
       modules={[]}
-      className="mySwiper mt-10"
+      className="mySwiper mt-10 "
     >
       {/* <SwiperSlide>
         <div className="bg-black text-white min-h-screen w-full flex  flex-col items-center justify-center ">
@@ -385,8 +385,8 @@ const CustomerReview = () => {
               alt=""
               className="w-20  rounded-full mx-auto -mt-0 lg:-mt-10"
             />
-            <h3 className="mt-4 text-xl font-semibold">Abc defg</h3>
-            <p className="text-gray-500">aaaaaaaaaa</p>
+            <h3 className="mt-4 text-xl font-semibold">Amitabh Chaudhry</h3>
+            <p className="">CEO</p>
             <div className="flex justify-center mt-2">
               {[...Array(5)].map((_, index) => (
                 <svg
@@ -400,12 +400,13 @@ const CustomerReview = () => {
               ))}
             </div>
           </div>
-          <p className="lg:mt-10 mt-20">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore
-            praesentium, quam nemo ea consequuntur molestiae enim consequatur,
-            iste expedita eveniet a. Aspernatur accusamus quam magni tempore
-            suscipit ad ea cumque.
+          <p className="lg:mt-10 mt-20 mx-5">
+           
             
+
+          Saystaio delivers software solutions that meet top industry standards, and their customer service is exceptional. Their team's deep expertise and proactive approach provide valuable results for clients.
+
+        
           </p>
         </div>
       </SwiperSlide>
@@ -420,8 +421,8 @@ const CustomerReview = () => {
               alt=""
               className="w-20  rounded-full mx-auto -mt-0 lg:-mt-10"
             />
-            <h3 className="mt-4 text-xl font-semibold">Abc defg</h3>
-            <p className="text-gray-500">aaaaaaaaaa</p>
+            <h3 className="mt-4 text-xl font-semibold">Ravi Kumar</h3>
+            <p className=""> Co-founder</p>
             <div className="flex justify-center mt-2">
               {[...Array(4)].map((_, index) => (
                 <svg
@@ -435,11 +436,9 @@ const CustomerReview = () => {
               ))}
             </div>
           </div>
-          <p className="lg:mt-10 mt-20">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore
-            praesentium, quam nemo ea consequuntur molestiae enim consequatur,
-            iste expedita eveniet a. Aspernatur accusamus quam magni tempore
-            suscipit ad ea cumque.
+          <p className="lg:mt-10 mt-20  mx-5 ">
+         
+          Systaio stands out in the IT software industry for delivering cutting-edge solutions and exceptional client support. Their commitment to quality and responsiveness ensures a seamless experience for their customers.
             
           </p>
         </div>
@@ -456,8 +455,8 @@ const CustomerReview = () => {
               alt=""
               className="w-20  rounded-full mx-auto -mt-0 lg:-mt-10"
             />
-            <h3 className="mt-4 text-xl font-semibold">Abc defg</h3>
-            <p className="text-gray-500">aaaaaaaaaa</p>
+            <h3 className="mt-4 text-xl font-semibold">Vineet Nayar</h3>
+            <p className=""> Founder</p>
             <div className="flex justify-center mt-2">
               {[...Array(5)].map((_, index) => (
                 <svg
@@ -471,11 +470,8 @@ const CustomerReview = () => {
               ))}
             </div>
           </div>
-          <p className="lg:mt-10 mt-20">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore
-            praesentium, quam nemo ea consequuntur molestiae enim consequatur,
-            iste expedita eveniet a. Aspernatur accusamus quam magni tempore
-            suscipit ad ea cumque.
+          <p className="lg:mt-10 mt-20 mx-5">
+          Saystaio offers top-quality software solutions with exceptional customer service. Their skilled team delivers innovative results and is highly responsive.
             
           </p>
         </div>
@@ -493,8 +489,8 @@ const CustomerReview = () => {
               alt=""
               className="w-20  rounded-full mx-auto -mt-0 lg:-mt-10"
             />
-            <h3 className="mt-4 text-xl font-semibold">Abc defg</h3>
-            <p className="text-gray-500">aaaaaaaaaa</p>
+            <h3 className="mt-4 text-xl font-semibold">Sanjay Purohit </h3>
+            <p className=""> Founder and CEO</p>
             <div className="flex justify-center mt-2">
               {[...Array(4)].map((_, index) => (
                 <svg
@@ -508,11 +504,8 @@ const CustomerReview = () => {
               ))}
             </div>
           </div>
-          <p className="lg:mt-10 mt-20">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore
-            praesentium, quam nemo ea consequuntur molestiae enim consequatur,
-            iste expedita eveniet a. Aspernatur accusamus quam magni tempore
-            suscipit ad ea cumque.
+          <p className="lg:mt-10 mt-20 mx-5">
+          Saystaio delivers high-quality software with excellent support. Their expertise and quick response make them a reliable partner.
             
           </p>
         </div>
@@ -529,8 +522,8 @@ const CustomerReview = () => {
               alt=""
               className="w-20  rounded-full mx-auto -mt-0 lg:-mt-10"
             />
-            <h3 className="mt-4 text-xl font-semibold">Abc defg</h3>
-            <p className="text-gray-500">aaaaaaaaaa</p>
+            <h3 className="mt-4 text-xl font-semibold">Sridhar Vembu </h3>
+            <p className="">Founder </p>
             <div className="flex justify-center mt-2">
               {[...Array(5)].map((_, index) => (
                 <svg
@@ -544,11 +537,8 @@ const CustomerReview = () => {
               ))}
             </div>
           </div>
-          <p className="lg:mt-10 mt-20">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore
-            praesentium, quam nemo ea consequuntur molestiae enim consequatur,
-            iste expedita eveniet a. Aspernatur accusamus quam magni tempore
-            suscipit ad ea cumque.
+          <p className="lg:mt-10 mt-20 mx-5">
+          Saystaio excels in providing robust software solutions and outstanding support. Their attention to detail and timely service ensure client satisfaction.
             
           </p>
         </div>
