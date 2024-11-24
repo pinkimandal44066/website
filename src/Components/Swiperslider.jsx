@@ -323,10 +323,11 @@
 // import  { useRef, useState } from 'react';
 // import img11 from "../../../public/Images/img11.png";
 import { motion } from "framer-motion";
-
-import nature from '../../public/nature-2.jpg';
-
-
+import Systaioschoolsoftware from "../../public/Systaio school software.avif";
+// import nature from '../../public/nature-2.jpg';
+import Systaiobillingsoftware from "../../public/Systaio billing software.avif"
+import Systaioerpsoftware from "../../public/Systaio erp software.avif";
+import Systaiohospitalmanagementsystem from "../../public/Systaio hospital management system.avif";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -341,10 +342,17 @@ const HomeFour = () => {
 
     
     <div className=" mt-10 ">
-  
+{/*   
   <div>
 <p className="text-black lg:text-5xl 
  md:text-4xl sm:text-3xl text-2xl text-center lg:text-start sm:text-start md:text-start font-semibold">
+    Our <span className="text-[#FF8526]">PRODUCTS</span>
+  </p>
+</div> */}
+
+<div>
+<p className="text-black lg:text-5xl 
+ md:text-4xl sm:text-3xl text-2xl text-center lg:text-start mx-20 sm:text-start md:text-start font-semibold">
     Our <span className="text-[#FF8526]">PRODUCTS</span>
   </p>
 </div>
@@ -354,40 +362,42 @@ const HomeFour = () => {
       <div className="flex lg:gap-28 md:gap-20 gap-10  font-bold items-center overflow-hidden whitespace-nowrap
        ">
         <motion.img
-          src={nature}
+          src={Systaioschoolsoftware }
           initial={{ x: 0 }}
           animate={{ x: "-100%" }}
           transition={{ ease: "linear", repeat: Infinity, duration: 3 }}
           className="mt-10 ml-5 w-[25%]"
         />
         <motion.img
-          src={nature}
+        // src="https://img.freepik.com/free-vector/different-elements-around-cloud_1223-30.jpg?ga=GA1.1.1829243654.1732361159&semt=ais_hybrid"
+          src={Systaiobillingsoftware}
           initial={{ x: 0 }}
           animate={{ x: "-100%" }}
           transition={{ ease: "linear", repeat: Infinity, duration: 3 }}
           className="mt-10 ml-5 w-[25%]"
         />
         <motion.img
-          src={nature}
+          src={Systaioerpsoftware }
           initial={{ x: 0 }}
           animate={{ x: "-100%" }}
           transition={{ ease: "linear", repeat: Infinity, duration: 3 }}
           className="mt-10 ml-5 w-[25%]"
         />
         <motion.img
-          src={nature}
+        // src="https://img.freepik.com/free-vector/medical-equipment-isometric-composition-with-consumer-devices-gadgets-fitness-tracking-with-people_1284-26996.jpg?ga=GA1.1.1829243654.1732361159&semt=ais_hybrid"
+          src={Systaiohospitalmanagementsystem }
           initial={{ x: 0 }}
           animate={{ x: "-100%" }}
           transition={{ ease: "linear", repeat: Infinity, duration: 3 }}
           className="mt-10 ml-5 w-[25%]"
         />
-        <motion.img
+        {/* <motion.img
           src={nature}
           initial={{ x: 0 }}
           animate={{ x: "-100%" }}
           transition={{ ease: "linear", repeat: Infinity, duration: 3 }}
           className="mt-10 ml-5 w-[25%]"
-        />
+        /> */}
       </div>
 
       {/* img part */}

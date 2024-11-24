@@ -34,13 +34,14 @@ const HomeSecond = () => {
                   {/* lorem */}
                 </span>{" "} 
               
-               <p className='text-sm '>SystAIO is one of the leading IT services provider in India. We specializes in information technology consulting so your business’ IT systems and strategies are up-to-date and fit your needs. SystAIO supports your business with the IT consultant services to take your business efficiency to the next level.</p>
+               <p className='text-sm '>
+               Welcome to *SystAIO Technologies*, your trusted partner in cutting-edge IT solutions and innovation. Based in the vibrant city of Dhanbad, we specialize in delivering tailored software development, AI-driven solutions, cloud computing, and comprehensive IT services to help businesses thrive in the digital age.</p>
               </h1>
               <div>
               <NavLink to="/aboutus">
                 <button className="bg-gradient-to-r from-primary to-secondary border-2 border-primary hover:scale-105
                  duration-200  py-2 px-4 rounded-full text-white  hover:text-black hover:bg-white">
-                  View All
+                 Read More
                 </button>
                 </NavLink>
               </div>

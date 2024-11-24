@@ -67,6 +67,11 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Servicepage from "./Components/Servicepage";
+import Webdesign from "./Components/Servicesdeatilspage/Webdesign";
+import Softwaredevelopment from "./Components/Servicesdeatilspage/Softwaredevelopment";
+import Digitalmarketing from "./Components/Servicesdeatilspage/Digitalmarketing";
+import Mobileapps from "./Components/Servicesdeatilspage/Mobileapps";
+import Influencermarketing from "./Components/Servicesdeatilspage/Influencermarketing";
 import Home from "./Components/Homefolder/Home";
 import LayOut from "./Components/LayOut";
 import Contactus from "./Components/Contactus";
@@ -101,6 +106,12 @@ const App = () => {
               <Route path="/aboutus" element={<Aboutus />} />
               <Route path="/contactus" element={<Contactus />} />
               <Route path="/Servicepage" element={< Servicepage/>} />
+              <Route path="/webdesign" element={< Webdesign/>} />
+              <Route path="/softwaredevelopment" element={< Softwaredevelopment/>} />
+              <Route path="/digitalmarketing" element={< Digitalmarketing/>} />
+              <Route path="/mobileapps" element={< Mobileapps/>} />
+              <Route path="/influencermarketing" element={< Influencermarketing/>} />
+            
               <Route path="/Careers" element={<Careers/>} />
               <Route path="/Webdevelopment" element={< Webdevelopment/>} />
               <Route path="/Products" element={<Products/>} />

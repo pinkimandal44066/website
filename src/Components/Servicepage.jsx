@@ -3,7 +3,7 @@ import Modal from "./Modal";
 import Scrolling from "./Scrolling";
 import Accordion from "./Accordion";
 import { FaArrowTurnDown } from "react-icons/fa6";
-
+import "./Servicepage.css";
 const Servicepage = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [modalContent, setModalContent] = useState({ title: "", content: "" });
@@ -56,7 +56,7 @@ const Servicepage = () => {
     {
       title: "BRANDING DESIGN",
       imgSrc:
-      "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aXQlMjBzZXJ2aWNlc3xlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aXQlMjBzZXJ2aWNlc3xlbnwwfHwwfHx8MA%3D%3D",
 
       content:
         "SYSTAIO helps businesses create a compelling and cohesive brand identity with its innovative solutions in Branding Design. Their creativity and strategic approach provide brands with a distinctive and impactful presence.",
@@ -66,27 +66,29 @@ const Servicepage = () => {
   return (
     <>
       <div className="max-w-screen-xl lg:mx-auto mx-5 lg:mt-10 md:mt-14 sm:mt-24 mt-20">
-        <div className="">
-          <p
-            style={{ fontFamily: "PTSerif-Bold" }}
-            className="text-center lg:text-3xl md:text-2xl sm:text-2xl text-xl font-medium"
-          >
-            We are providing innovative and
-          </p>
-          <p
-            style={{ fontFamily: "PTSerif-Bold" }}
-            className="text-center lg:text-3xl md:text-2xl sm:text-2xl text-xl font-medium"
-          >
-            impactful web solutions...
-          </p>
-          <p
-            style={{ fontFamily: "PTSerif-Bold" }}
-            className="mt-4 lg:text-base md:text-base sm:text-base text-xs text-center font-medium"
-          >
-        In this Internet era,Digital presence is must to grow your business. However one should go to different places for different kind of digital solutions. By keeping this in our mind we are here to provide you the best all in one digital solution at a single place.
-          </p>
-        </div>
-
+      <div className="animate-zoom">
+      <p
+        style={{ fontFamily: "PTSerif-Bold" }}
+        className="text-center lg:text-3xl md:text-2xl sm:text-2xl text-xl font-medium"
+      >
+        We are providing innovative and
+      </p>
+      <p
+        style={{ fontFamily: "PTSerif-Bold" }}
+        className="text-center lg:text-3xl md:text-2xl sm:text-2xl text-xl font-medium"
+      >
+        impactful web solutions...
+      </p>
+      <p
+        style={{ fontFamily: "PTSerif-Bold" }}
+        className="mt-4 lg:text-base md:text-base sm:text-base text-xs text-center font-medium"
+      >
+        In this Internet era, Digital presence is must to grow your business.
+        However one should go to different places for different kind of digital
+        solutions. By keeping this in our mind we are here to provide you the
+        best all-in-one digital solution at a single place.
+      </p>
+    </div>
         <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-4 mt-10">
           {cards.map((card, index) => (
             <div

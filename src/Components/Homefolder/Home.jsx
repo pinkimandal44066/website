@@ -14,7 +14,7 @@ import Numberanimationimplement from '../Numberanimationimplement';
 const Home = () => {
   return (
     <div>
-    <HomeTop />
+    {/* <HomeTop /> */}
     <HomeSecond />
     <Services />
  

@@ -1,0 +1,20 @@
+@keyframes zoom {
+    0% {
+      transform: scale(1);
+      transform-origin: center; /* Ensures scaling happens from the center */
+    }
+    50% {
+      transform: scale(1.2);
+      transform-origin: center; /* Keeps the scaling centered */
+    }
+    100% {
+      transform: scale(1);
+      transform-origin: center;
+    }
+  }
+  
+  .animate-zoom {
+    animation: zoom 3s infinite ease-in-out;
+    display: inline-block; /* Ensure the element stays inline without affecting the layout */
+  }
+  
