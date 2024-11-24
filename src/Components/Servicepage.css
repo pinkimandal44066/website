@@ -1,11 +1,12 @@
+/* Keyframe animation for smooth zoom effect */
 @keyframes zoom {
     0% {
       transform: scale(1);
-      transform-origin: center; /* Ensures scaling happens from the center */
+      transform-origin: center;
     }
     50% {
-      transform: scale(1.2);
-      transform-origin: center; /* Keeps the scaling centered */
+      transform: scale(1.1); /* Slight zoom in */
+      transform-origin: center;
     }
     100% {
       transform: scale(1);
@@ -13,8 +14,24 @@
     }
   }
   
+  /* Apply the zoom animation */
   .animate-zoom {
-    animation: zoom 3s infinite ease-in-out;
-    display: inline-block; /* Ensure the element stays inline without affecting the layout */
+    animation: zoom 3s infinite ease-in-out; /* Duration and infinite looping */
+    display: inline-block; /* Ensures no layout shifts */
+    width: 100%; /* Ensures full width within parent container */
+    box-sizing: border-box; /* Prevents overflow */
+  }
+  
+  /* Parent container to ensure no overflow and center alignment */
+  .container {
+    position: relative;
+    width: 100%; /* Ensures the container takes full width */
+    overflow: hidden; /* Prevents overflow of animated elements */
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    height: 100vh; /* Takes full viewport height */
+    padding: 20px; /* Optional: Add padding to prevent overflow */
+    box-sizing: border-box; /* Prevents overflow from causing shifts */
   }
   
