@@ -143,7 +143,7 @@
 
 
 import Scrolling from '../Scrolling';
-import Ourteam from '../Ourteam';
+// import Ourteam from '../Ourteam';
 import img2 from '../../../public/img2.jpg';
 import "aos/dist/aos.css";
 import AOS from "aos";
@@ -265,7 +265,7 @@ const Aboutus = () => {
 
 
   {/* Image Section */}
-  <div
+  {/* <div
     className="lg:w-1/2 md:w-1/2 sm:w-full flex justify-center mt-8 lg:mt-0"
     data-aos="fade-left"
     data-aos-offset="200"
@@ -279,7 +279,7 @@ const Aboutus = () => {
       />
       <div className="absolute inset-0 bg-gradient-to-r from-purple-500 to-blue-500 opacity-0 group-hover:opacity-30 transition-opacity duration-500 rounded-lg"></div>
     </div>
-  </div>
+  </div> */}
 </div>
 
       <div>
@@ -338,7 +338,7 @@ const Aboutus = () => {
       </div>
 
 
-      <Ourteam />
+      {/* <Ourteam /> */}
     </>
   );
 };

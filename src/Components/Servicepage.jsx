@@ -33,7 +33,7 @@ const Servicepage = () => {
         "We develop Android & IOS mobile applications. We have a team of highly experienced people developing creative mobile apps to give your users a ceaseless & friendly experience. we develop all kinds of apps which leading us towards the reliable APP DEVELOPMENT COMPANY.",
     },
     {
-      title: "SOCIAL MEDIA SOLUTIONS",
+      title: " SOFTWARE SOLUTIONS",
       imgSrc:
         "https://images.unsplash.com/photo-1642480485642-63b9018eadc2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGl0JTIwc2VydmljZXN8ZW58MHx8MHx8fDA%3D",
       content:
@@ -47,11 +47,11 @@ const Servicepage = () => {
         "We specialize in SEO services and digital marketing services. We use all the necessary tools in order to take business to places and generate revenue. We always use sophisticated and latest tools to make ourselves best suited for DIGITAL MARKETING COMPANY.",
     },
     {
-      title: "CONTENT MANAGEMENT",
+      title: "INFLUENCE MARKETING ",
       imgSrc:
         "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aXQlMjBzZXJ2aWNlc3xlbnwwfHwwfHx8MA%3D%3D",
       content:
-        "Good content is the backbone of your website Our focus is to earn customers through high-quality content that is informative and interesting. We write good, quality and fresh content to attract your customer's which obviously a good CONTENT MANAGEMENT COMPANY do.",
+        "Good content is the backbone of your website Our focus is to earn customers through high-quality content that is informative and interesting. We write good, quality and fresh content to attract your customer's which obviously a good Influence Marketing COMPANY do.",
     },
     {
       title: "BRANDING DESIGN",
