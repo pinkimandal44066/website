@@ -29,7 +29,7 @@ const Contactus = () => {
   const [message, setMessage] = useState("");
   const [phone, setPhone] = useState("");
   const [isChecked, setIsChecked] = useState(false);
-
+  const [file, setFile] = useState(null);
   const handleRadioClick = () => {
     setIsChecked(!isChecked);
   };
@@ -66,14 +66,65 @@ const Contactus = () => {
         toast.error("Failed to send message");
       });
   };
-
+  const handleFileChange = (e) => {
+    const selectedFile = e.target.files[0];
+    // Validate file type (only allow pdf, doc, docx)
+    if (selectedFile && (selectedFile.type === 'application/pdf' || selectedFile.type === 'application/msword' || selectedFile.type === 'application/vnd.openxmlformats-officedocument.wordprocessingml.document')) {
+      setFile(selectedFile);
+    } else {
+      alert('Please upload a valid resume file (.pdf, .doc, .docx)');
+    }
+  };
   return (
     <>
-      <img
+      {/* <img
         className="w-full h-80"
         src="https://img.freepik.com/free-photo/contact-us-communication-support-service-assistance-concept_53876-128103.jpg?ga=GA1.1.2000051094.1716005427&semt=ais_user"
         alt=""
-      />
+      /> */}
+
+
+<div className="relative bg-gradient-to-r from-black via-purple-500 to-white w-full h-auto">
+  {/* Container */}
+  <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-center px-6 py-12 sm:py-20">
+  
+    {/* Left: Text Content */}
+    <div className="text-center sm:text-left sm:w-1/2">
+      <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white leading-tight">
+   Contact US
+      </h1>
+      <p className="text-base sm:text-lg md:text-xl text-white mt-4">
+      Reach out to us for innovative IT solutions, support, or inquiries. We're here to help your business grow.
+      </p>
+    </div>
+
+    {/* Right: Cards */}
+    <div className="sm:w-1/2 mt-8 sm:mt-0 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+      
+      {/* Card 1 */}
+      <div className="bg-white shadow-lg rounded-xl p-6 w-full">
+        <p className="text-sm font-semibold text-gray-700 text-center">
+          Amazing Design
+        </p>
+      </div>
+      
+      {/* Card 2 */}
+      <div className="bg-white shadow-lg rounded-xl p-6 w-full">
+        <p className="text-sm font-semibold text-gray-700 text-center">
+          Responsive Layout
+        </p>
+      </div>
+      
+      {/* Card 3 */}
+      <div className="bg-white shadow-lg rounded-xl p-6 w-full">
+        <p className="text-sm font-semibold text-gray-700 text-center">
+          Hero Section in UI
+        </p>
+      </div>
+      
+    </div>
+  </div>
+</div>
       <form onSubmit={handleSubmit} className="emailForm mt-20 bg-white">
         <div className="form-container">
           <div className="input-group">
@@ -128,7 +179,34 @@ const Contactus = () => {
               placeholder="Message"
             ></textarea>
           </div>
+          <div className="max-w-lg mx-auto px-4 py-6">
+      {/* Resume Upload Section */}
+      <div className="upload-container text-center">
+        <h2 className="text-2xl font-semibold mb-4">Upload Your Resume</h2>
+        <input
+          type="file"
+          accept=".pdf,.doc,.docx"
+          onChange={handleFileChange}
+          className="block w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2
+           focus:ring-blue-500"
+        />
+        
+        {/* Displaying the selected file */}
+        {file && (
+          <div className="mt-4 text-sm">
+            <p className="text-gray-600">Selected file: {file.name}</p>
+          </div>
+        )}
 
+        {/* Upload Button */}
+        {/* <button
+          onClick={() => alert('Resume Uploaded (Local Only)')}
+          className="mt-4 bg-blue-500 text-white px-6 py-2 rounded-md"
+        >
+          Upload Resume
+        </button> */}
+      </div>
+    </div>
           <div className="consent-group">
             <input
               className="consent-checkbox"
@@ -154,6 +232,7 @@ const Contactus = () => {
               >
                 Submit <i className="ri-arrow-right-line"></i>
               </button>
+              
             </div>
           </div>
         </div>

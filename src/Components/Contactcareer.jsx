@@ -10,7 +10,18 @@ const Contactcareer = () => {
   const [message, setMessage] = useState("");
   const [phone, setPhone] = useState("");
   const [isChecked, setIsChecked] = useState(false);
+  const [file, setFile] = useState(null);
 
+  // Handle file change
+  const handleFileChange = (e) => {
+    const selectedFile = e.target.files[0];
+    // Validate file type (only allow pdf, doc, docx)
+    if (selectedFile && (selectedFile.type === 'application/pdf' || selectedFile.type === 'application/msword' || selectedFile.type === 'application/vnd.openxmlformats-officedocument.wordprocessingml.document')) {
+      setFile(selectedFile);
+    } else {
+      alert('Please upload a valid resume file (.pdf, .doc, .docx)');
+    }
+  };
   const handleRadioClick = () => {
     setIsChecked(!isChecked);
   };
@@ -146,7 +157,28 @@ const Contactcareer = () => {
           ></textarea>
         </div>
 
-        <div className="flex items-center mb-6">
+
+        <div className="max-w-lg mx-auto px-4 py- ">
+      
+      <div className="upload-container text-center">
+        <h2 className="text-2xl font-semibold mb-4">Upload Your Resume</h2>
+        <input
+          type="file"
+          accept=".pdf,.doc,.docx"
+          onChange={handleFileChange}
+          className="block w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+        />
+        
+        {file && (
+          <div className="mt-4 text-sm">
+            <p className="text-gray-600">Selected file: {file.name}</p>
+          </div>
+        )}
+
+       
+      </div>
+    </div>
+        <div className="flex items-center mb-6 mt-3">
           <input
             type="checkbox"
             id="consent"

@@ -5,7 +5,7 @@ import { NavLink } from 'react-router-dom';
 const Careers = () => {
   return (
   <>
-<div className="relative w-full h-60 md:h-80 lg:h-96 flex items-center justify-center">
+{/* <div className="relative w-full h-60 md:h-80 lg:h-96 flex items-center justify-center">
   <div className="absolute inset-0 z-0">
     <img
       className="w-full h-full object-cover"
@@ -20,13 +20,54 @@ const Careers = () => {
       <p className="text-xl md:text-2xl lg:text-2xl mt-2">Explore exciting career opportunities with us.</p>
     </div>
   </div>
+</div> */}
+
+
+
+
+
+
+<div className="relative bg-gradient-to-r from-black via-purple-500 to-white w-full h-auto">
+  {/* Container */}
+  <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-center px-6 py-12 sm:py-20">
+  
+    {/* Left: Text Content */}
+    <div className="text-center sm:text-left sm:w-1/2">
+      <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white leading-tight">
+      Join Our Team
+      </h1>
+      <p className="text-base sm:text-lg md:text-xl text-white mt-4">
+      xplore exciting career opportunities with us.
+      </p>
+    </div>
+
+    {/* Right: Cards */}
+    <div className="sm:w-1/2 mt-8 sm:mt-0 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+      
+      {/* Card 1 */}
+      <div className="bg-white shadow-lg rounded-xl p-6 w-full">
+        <p className="text-sm font-semibold text-gray-700 text-center">
+          Amazing Design
+        </p>
+      </div>
+      
+      {/* Card 2 */}
+      <div className="bg-white shadow-lg rounded-xl p-6 w-full">
+        <p className="text-sm font-semibold text-gray-700 text-center">
+          Responsive Layout
+        </p>
+      </div>
+      
+      {/* Card 3 */}
+      <div className="bg-white shadow-lg rounded-xl p-6 w-full">
+        <p className="text-sm font-semibold text-gray-700 text-center">
+          Hero Section in UI
+        </p>
+      </div>
+      
+    </div>
+  </div>
 </div>
-
-
-
-
-
-
 
 
   <div className=" bg-gray-100 flex flex-col items-center justify-center p-6">

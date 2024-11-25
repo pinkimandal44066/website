@@ -149,7 +149,7 @@ const Products = () => {
     {/* first part */}
 
 
-    <div className="relative w-full h-60 md:h-80 lg:h-96 flex items-center justify-center">
+    {/* <div className="relative w-full h-60 md:h-80 lg:h-96 flex items-center justify-center">
 
       <div className="absolute inset-0 z-0">
         <img
@@ -170,8 +170,49 @@ const Products = () => {
       <div className="absolute inset-0 flex items-center justify-center text-white bg-black bg-opacity-50 p-4 z-10">
         <span className="text-4xl md:text-6xl lg:text-6xl font-bold">PRODUCTS</span>
       </div>
+    </div> */}
+
+<div className="relative bg-gradient-to-r from-black via-purple-500 to-white w-full h-auto">
+  {/* Container */}
+  <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-center px-6 py-12 sm:py-20">
+  
+    {/* Left: Text Content */}
+    <div className="text-center sm:text-left sm:w-1/2">
+      <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white leading-tight">
+       Products
+      </h1>
+      <p className="text-base sm:text-lg md:text-xl text-white mt-4">
+      We offer innovative software, web solutions, and mobile apps designed to enhance efficiency, drive growth, and empower businesses.
+      </p>
     </div>
 
+    {/* Right: Cards */}
+    <div className="sm:w-1/2 mt-8 sm:mt-0 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+      
+      {/* Card 1 */}
+      <div className="bg-white shadow-lg rounded-xl p-6 w-full">
+        <p className="text-sm font-semibold text-gray-700 text-center">
+          Amazing Design
+        </p>
+      </div>
+      
+      {/* Card 2 */}
+      <div className="bg-white shadow-lg rounded-xl p-6 w-full">
+        <p className="text-sm font-semibold text-gray-700 text-center">
+          Responsive Layout
+        </p>
+      </div>
+      
+      {/* Card 3 */}
+      <div className="bg-white shadow-lg rounded-xl p-6 w-full">
+        <p className="text-sm font-semibold text-gray-700 text-center">
+          Hero Section in UI
+        </p>
+      </div>
+      
+    </div>
+  </div>
+</div>
 
 
 {/* second part */}
@@ -199,7 +240,7 @@ const Products = () => {
       {/* third part */}
 
 
-      <div className="flex justify-center lg:gap-6 md:gap-6 sm:gap-6 gap-2 mt-10 lg:mt-10 md:mt-12 items-start">
+      {/* <div className="flex justify-center lg:gap-6 md:gap-6 sm:gap-6 gap-2 mt-10 lg:mt-10 md:mt-12 items-start">
         <div className="flex flex-col">
           <div className="card relative w-auto h-auto  cursor-pointer rounded-[10px]">
             <div className="">
@@ -304,8 +345,77 @@ CUSTOMER RELATIONSHIP MANAGEMENT
         </div>
 
         
-      </div>
+      </div> */}
 
+<div className="flex justify-center lg:gap-6 md:gap-6 sm:gap-6 gap-2 mt-10 lg:mt-10 md:mt-12 items-start">
+  <div className="flex flex-col">
+    <div className="card relative w-auto h-auto cursor-pointer rounded-[10px]">
+      <div className="">
+        <div className="">
+          <img
+            src={Schoolderpsystem}
+            className="opacity-100"
+          />
+        </div>
+      </div>
+      <div className="second-content absolute inset-0 flex justify-center items-center h-full text-lg font-semibold text-white bg-[#000] bg-opacity-40">
+        <h1 className="lg:text-2xl md:text-xl sm:text-base text-[8px]">
+          SCHOOL ERP SYSTEM
+        </h1>
+      </div>
+    </div>
+
+    <div className="card relative w-auto h-auto cursor-pointer rounded-[10px] lg:mt-6 md:mt-6 sm:mt-6 mt-3">
+      <div className="">
+        <div className="">
+          <img
+            src={Payrollmanagement}
+            className="opacity-100"
+          />
+        </div>
+      </div>
+      <div className="second-content absolute inset-0 flex justify-center items-center h-full text-lg font-semibold text-white bg-[#000] bg-opacity-40">
+        <h1 className="lg:text-2xl md:text-xl sm:text-base text-[8px]">
+          PAYROLL MANAGEMENT
+        </h1>
+      </div>
+    </div>
+  </div>
+
+  <div className="flex flex-col">
+    <div className="card relative w-auto h-auto cursor-pointer rounded-[10px]">
+      <div className="">
+        <div className="">
+          <img
+            src={Stockbillingsystem}
+            className="opacity-100"
+          />
+        </div>
+      </div>
+      <div className="second-content absolute inset-0 flex justify-center items-center h-full text-lg font-semibold text-white bg-[#000] bg-opacity-40">
+        <h1 className="lg:text-2xl md:text-xl sm:text-base text-[8px]">
+          STOCK & BILLING SYSTEM
+        </h1>
+      </div>
+    </div>
+
+    <div className="card relative w-auto h-auto cursor-pointer rounded-[10px] lg:mt-6 md:mt-6 sm:mt-6 mt-2">
+      <div className="">
+        <div className="">
+          <img
+            src={Customerrelationshipmanagement}
+            className="opacity-100"
+          />
+        </div>
+      </div>
+      <div className="second-content absolute inset-0 flex justify-center items-center h-full text-lg font-semibold text-white bg-[#000] bg-opacity-40">
+        <h1 className="lg:text-2xl md:text-xl sm:text-base text-[8px]">
+          CUSTOMER RELATIONSHIP MANAGEMENT
+        </h1>
+      </div>
+    </div>
+  </div>
+</div>
 
 
       <Progressbartwo />

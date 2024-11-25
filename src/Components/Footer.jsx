@@ -413,10 +413,7 @@ const Footer = () => {
           <div className="col-span-1">
             <img src={logo} alt="Logo" className="mb-4 -ml-10 -mt-4" />
             <p className="text-sm">
-              SYSTAIO is one of Dhanbad's leading IT companies, providing
-              exceptional technological solutions and services. Our experienced
-              team understands your business's digital needs and delivers
-              cutting-edge solutions.
+            SYSTAIO is providing exceptional technological solutions and services with its years of Experienced team members. This made us one of the Best IT Company in Dhanbad and encourages us to deliver top notch results.
             </p>
           </div>
 

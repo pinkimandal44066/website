@@ -23,7 +23,7 @@ const Numberanimationimplement = () => {
         SYSTAIO: Leading IT Solutions and Innovation in Dhanbad 
         </h1>
         <p className="text-sm">
-        SYSTAIO Company in Dhanbad is an IT and software development firm. The company provides IT services and solutions. It focuses on technology and innovation. SYSTAIO develops software solutions for both local and global clients. The company offers customized software development and IT consulting services. Its mission is to deliver high-quality solutions and ensure customer satisfaction. The team consists of skilled and experienced professionals. SYSTAIO adopts new technologies to support business growth. Its ultimate goal is to maximize the benefit of technology for clients. The company is well-known in Dhanbad for its services.
+        SystAIO Technologies, a premier IT solutions provider based in Dhanbad, specializes in cutting-edge software development, artificial intelligence, cloud computing, and IT consulting services. Renowned for delivering tailored, scalable, and cost-effective solutions, we empower businesses of all sizes to maximize the benefits of technology, streamline operations, and achieve sustainable growth. With a commitment to innovation and excellence, SystAIO Technologies is the trusted choice for IT services in Dhanbad and beyond.
         </p>
       </div>
 
