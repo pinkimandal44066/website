@@ -156,6 +156,16 @@ const Aboutus = () => {
     window.addEventListener('resize', AOS.refresh); // Refreshes AOS when the window is resized
   }, []);
 
+
+
+  useEffect(() => {
+    // Initialize AOS with options
+    AOS.init({
+      duration: 1000,  // duration of animation
+      once: false,      // make the animation work on every scroll (not just once)
+      offset: 200,      // trigger the animation when the element is 200px from the viewport
+    });
+  }, []);
   return (
     <>
       <div className="relative w-full h-60 md:h-80 lg:h-96 flex items-center justify-center">
@@ -242,7 +252,7 @@ const Aboutus = () => {
 
 
 
-<div
+{/* <div
   className="lg:w-1/2 md:w-1/2 sm:w-full text-center lg:text-left lg:mx-20 mx-5"
   data-aos="fade-right"
   data-aos-offset="200"
@@ -261,7 +271,7 @@ const Aboutus = () => {
     unique needs. Elevate your business efficiency with SystAIO's expert IT
     consultancy services.
   </p>
-</div>
+</div> */}
 
 
   {/* Image Section */}
@@ -280,6 +290,60 @@ const Aboutus = () => {
       <div className="absolute inset-0 bg-gradient-to-r from-purple-500 to-blue-500 opacity-0 group-hover:opacity-30 transition-opacity duration-500 rounded-lg"></div>
     </div>
   </div> */}
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section className="py-10 bg-gray-100">
+      <div className="max-w-screen-xl lg:mx-20 mx-auto  px-6">
+        <div className="text-center mb-10">
+          <h2 className="text-3xl font-bold text-gray-900 mb-4" data-aos="fade-up">Who We Are?</h2>
+          <p className="text-lg text-gray-600" data-aos="fade-up" data-aos-delay="200">
+            We are a team of professionals committed to delivering top-notch services to help you achieve your business goals.
+          </p>
+        </div>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="p-6 bg-white rounded-lg shadow-lg hover:shadow-xl transition-all transform hover:scale-105" data-aos="flip-left" data-aos-delay="400">
+            <h3 className="text-xl font-semibold text-gray-800 mb-4">Experienced Professionals</h3>
+            <p className="text-gray-600">Our team brings years of experience to help your business grow with expertise in various industries.</p>
+          </div>
+          <div className="p-6 bg-white rounded-lg shadow-lg hover:shadow-xl transition-all transform hover:scale-105" data-aos="flip-left" data-aos-delay="600">
+            <h3 className="text-xl font-semibold text-gray-800 mb-4">Client-Centered Approach</h3>
+            <p className="text-gray-600">We prioritize your goals and needs, offering personalized solutions that align with your business vision.</p>
+          </div>
+          <div className="p-6 bg-white rounded-lg shadow-lg hover:shadow-xl transition-all transform hover:scale-105" data-aos="flip-left" data-aos-delay="800">
+            <h3 className="text-xl font-semibold text-gray-800 mb-4">Innovative Solutions</h3>
+            <p className="text-gray-600">Our team is dedicated to finding creative and innovative solutions that drive success for our clients.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
 </div>
 
       <div>
