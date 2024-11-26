@@ -235,8 +235,6 @@ const Aboutus = () => {
 
 
 
-
-
 <div className="relative bg-gradient-to-r from-black via-purple-500 to-white w-full h-auto">
   {/* Container */}
   <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-center px-6 py-12 sm:py-20">
@@ -244,34 +242,34 @@ const Aboutus = () => {
     {/* Left: Text Content */}
     <div className="text-center sm:text-left sm:w-1/2">
       <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white leading-tight">
-      About US
+        About Us
       </h1>
       <p className="text-base sm:text-lg md:text-xl text-white mt-4">
-      At SystAIO, we blend expertise with creativity to craft solutions that empower organizations to achieve efficiency, scalability, and success. Whether you're a startup, a growing enterprise, or an established organization, our dedicated team is here to transform your vision into reality with technology that drives results. Explore our services and discover how we can redefine your digital journey.
+        At SystAIO, we blend expertise with creativity to craft solutions that empower organizations to achieve efficiency, scalability, and success. Whether you're a startup, a growing enterprise, or an established organization, our dedicated team is here to transform your vision into reality with technology that drives results. Explore our services and discover how we can redefine your digital journey.
       </p>
     </div>
 
     {/* Right: Cards */}
     <div className="sm:w-1/2 mt-8 sm:mt-0 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
       
-      {/* Card 1 */}
+      {/* Card 1: Our Vision */}
       <div className="bg-white shadow-lg rounded-xl p-6 w-full">
         <p className="text-sm font-semibold text-gray-700 text-center">
-          Amazing Design
+          Our Vision
         </p>
       </div>
       
-      {/* Card 2 */}
+      {/* Card 2: Our Mission */}
       <div className="bg-white shadow-lg rounded-xl p-6 w-full">
         <p className="text-sm font-semibold text-gray-700 text-center">
-          Responsive Layout
+          Our Mission
         </p>
       </div>
       
-      {/* Card 3 */}
+      {/* Card 3: Our Values */}
       <div className="bg-white shadow-lg rounded-xl p-6 w-full">
         <p className="text-sm font-semibold text-gray-700 text-center">
-          Hero Section in UI
+          Our Values
         </p>
       </div>
       

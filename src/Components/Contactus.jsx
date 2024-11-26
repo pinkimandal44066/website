@@ -84,47 +84,53 @@ const Contactus = () => {
       /> */}
 
 
+
+
+
 <div className="relative bg-gradient-to-r from-black via-purple-500 to-white w-full h-auto">
-  {/* Container */}
+
   <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-center px-6 py-12 sm:py-20">
   
-    {/* Left: Text Content */}
+
     <div className="text-center sm:text-left sm:w-1/2">
       <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white leading-tight">
-   Contact US
+        Get in Touch with Us
       </h1>
       <p className="text-base sm:text-lg md:text-xl text-white mt-4">
-      Reach out to us for innovative IT solutions, support, or inquiries. We're here to help your business grow.
+        Reach out to our team for cutting-edge IT solutions, support, or inquiries. We’re here to help your business thrive with innovation.
       </p>
     </div>
 
-    {/* Right: Cards */}
+  
     <div className="sm:w-1/2 mt-8 sm:mt-0 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
       
-      {/* Card 1 */}
+    
       <div className="bg-white shadow-lg rounded-xl p-6 w-full">
         <p className="text-sm font-semibold text-gray-700 text-center">
-          Amazing Design
+          24/7 Customer Support
         </p>
       </div>
       
-      {/* Card 2 */}
+    
       <div className="bg-white shadow-lg rounded-xl p-6 w-full">
         <p className="text-sm font-semibold text-gray-700 text-center">
-          Responsive Layout
+          Expert IT Consulting
         </p>
       </div>
       
-      {/* Card 3 */}
+  
       <div className="bg-white shadow-lg rounded-xl p-6 w-full">
         <p className="text-sm font-semibold text-gray-700 text-center">
-          Hero Section in UI
+          Custom Development Services
         </p>
       </div>
       
     </div>
   </div>
 </div>
+
+
+
       <form onSubmit={handleSubmit} className="emailForm mt-20 bg-white">
         <div className="form-container">
           <div className="input-group">
@@ -198,13 +204,7 @@ const Contactus = () => {
           </div>
         )}
 
-        {/* Upload Button */}
-        {/* <button
-          onClick={() => alert('Resume Uploaded (Local Only)')}
-          className="mt-4 bg-blue-500 text-white px-6 py-2 rounded-md"
-        >
-          Upload Resume
-        </button> */}
+       
       </div>
     </div>
           <div className="consent-group">
@@ -301,29 +301,7 @@ const Contactus = () => {
                 </Link>
               </div>
               <div className="text-3xl lg:text-5xl mt-4 text-black flex gap-10 lg:mx-40 md:mx-32 sm:mx-36 mx-12">
-                {/* <Link
-                  to="https://www.facebook.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <FaFacebook />
-                </Link>
-
-                <Link
-                  to="https://www.instagram.com/accounts/login/?hl=en"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <FaInstagramSquare />
-                </Link>
-
-                <Link
-                  to="https://www.youtube.com/channel/YourChannelID"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <IoLogoYoutube />
-                </Link> */}
+                
 
                 <i className=" ri-facebook-fill hover:text-blue-600 transition duration-300 cursor-pointer"></i>
                 <i className="ri-instagram-line hover:text-pink-600 transition duration-300 cursor-pointer"></i>

@@ -1,4 +1,4 @@
-/* Keyframe animation for smooth zoom effect */
+
 @keyframes zoom {
     0% {
       transform: scale(1);

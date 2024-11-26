@@ -3,7 +3,7 @@ import Modal from "./Modal";
 import Scrolling from "./Scrolling";
 import Accordion from "./Accordion";
 import { FaArrowTurnDown } from "react-icons/fa6";
-import "./Servicepage.css";
+// import "./Servicepage.css";
 const Servicepage = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [modalContent, setModalContent] = useState({ title: "", content: "" });
@@ -21,42 +21,42 @@ const Servicepage = () => {
     {
       title: "WEB DESIGN ",
       imgSrc:
-        "https://plus.unsplash.com/premium_photo-1661759337211-39bf166e66fb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8aXQlMjBzZXJ2aWNlc3xlbnwwfHwwfHx8MA%3D%3D",
+        "https://img.freepik.com/free-photo/ui-ux-representations-with-laptop_23-2150201871.jpg?ga=GA1.1.1829243654.1732361159&semt=ais_hybrid",
       content:
         "We Provide high quality, cost-efficient, trustworthy, and result-driven web and eCommerce solutions for the clientele in a global range. We deal with each client individually so that we Tend towards the BEST WEB DESIGNING COMPANY IN INDIA.",
     },
     {
       title: "MOBILE APPS",
       imgSrc:
-        "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aXQlMjBzZXJ2aWNlc3xlbnwwfHwwfHx8MA%3D%3D",
+        "https://img.freepik.com/free-vector/gradient-ui-ux-background_23-2149024129.jpg?ga=GA1.1.1829243654.1732361159&semt=ais_hybrid",
       content:
         "We develop Android & IOS mobile applications. We have a team of highly experienced people developing creative mobile apps to give your users a ceaseless & friendly experience. we develop all kinds of apps which leading us towards the reliable APP DEVELOPMENT COMPANY.",
     },
     {
       title: " SOFTWARE SOLUTIONS",
       imgSrc:
-        "https://images.unsplash.com/photo-1642480485642-63b9018eadc2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGl0JTIwc2VydmljZXN8ZW58MHx8MHx8fDA%3D",
+        "https://img.freepik.com/free-photo/programming-background-collage_23-2149901775.jpg?ga=GA1.1.1829243654.1732361159&semt=ais_hybrid",
       content:
         "SYSTAIO is a prominent company that has established a distinguished reputation in the field of Social Media Solutions. The company helps businesses enhance their digital presence and create impactful engagement on social media platforms.",
     },
     {
       title: "DIGITAL MARKETING",
       imgSrc:
-        "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aXQlMjBzZXJ2aWNlc3xlbnwwfHwwfHx8MA%3D%3D",
+        "https://img.freepik.com/free-photo/social-media-marketing-concept-marketing-with-applications_23-2150063134.jpg?ga=GA1.1.1829243654.1732361159&semt=ais_hybrid",
       content:
         "We specialize in SEO services and digital marketing services. We use all the necessary tools in order to take business to places and generate revenue. We always use sophisticated and latest tools to make ourselves best suited for DIGITAL MARKETING COMPANY.",
     },
     {
       title: "INFLUENCE MARKETING ",
       imgSrc:
-        "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aXQlMjBzZXJ2aWNlc3xlbnwwfHwwfHx8MA%3D%3D",
+        "https://img.freepik.com/free-photo/medium-shot-men-holding-smartphone_23-2150208243.jpg?ga=GA1.1.1829243654.1732361159&semt=ais_hybrid",
       content:
         "Good content is the backbone of your website Our focus is to earn customers through high-quality content that is informative and interesting. We write good, quality and fresh content to attract your customer's which obviously a good Influence Marketing COMPANY do.",
     },
     {
       title: "BRANDING DESIGN",
       imgSrc:
-        "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aXQlMjBzZXJ2aWNlc3xlbnwwfHwwfHx8MA%3D%3D",
+        "https://img.freepik.com/free-photo/female-logo-designer-working-her-tablet-connected-laptop_23-2149119262.jpg?ga=GA1.1.1829243654.1732361159&semt=ais_hybrihttps://img.freepik.com/free-vector/hand-drawn-illustration-people-with-smartphone-marketing_52683-66658.jpg?ga=GA1.1.1829243654.1732361159&semt=ais_hybrid",
 
       content:
         "SYSTAIO helps businesses create a compelling and cohesive brand identity with its innovative solutions in Branding Design. Their creativity and strategic approach provide brands with a distinctive and impactful presence.",
@@ -65,7 +65,7 @@ const Servicepage = () => {
 
   return (
     <>
-      <div className="max-w-screen-xl lg:mx-auto mx-5 lg:mt-10 md:mt-14 sm:mt-24 mt-20">
+      <div className="max-w-screen-xl lg:mx-auto mx-5 lg:mt-10 md:mt-10 sm:mt-10 mt-10">
       <div className="animate-zoom">
       <p
         style={{ fontFamily: "PTSerif-Bold" }}
