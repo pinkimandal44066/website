@@ -72,7 +72,7 @@ import Softwaredevelopment from "./Components/Servicesdeatilspage/Softwaredevelo
 import Digitalmarketing from "./Components/Servicesdeatilspage/Digitalmarketing";
 import Mobileapps from "./Components/Servicesdeatilspage/Mobileapps";
 import Influencermarketing from "./Components/Servicesdeatilspage/Influencermarketing";
-import Home from "./Components/Homefolder/Home";
+// import Home from "./Components/Homefolder/Home";
 import LayOut from "./Components/LayOut";
 import Contactus from "./Components/Contactus";
 import Careers from './Components/Careers';
@@ -83,6 +83,7 @@ import PrivacyPolicy from "./Components/Privacypolicy";
 import Faq from "./Components/Faq";
 import Contactcareer from './Components/Contactcareer';
 import { Toaster } from "react-hot-toast";
+import Homeone from "./Components/Homeone";
 
 // import Slider from 'react-slick';
 const App = () => {
@@ -102,7 +103,9 @@ const App = () => {
         <Router>
           <Routes>
                <Route path="/" element={<LayOut />}>
-              <Route path="/" element={<Home />} />
+              {/* <Route path="/" element={<Home />} /> */}
+              <Route path="/" element={<Homeone />} />
+
               <Route path="/aboutus" element={<Aboutus />} />
               <Route path="/contactus" element={<Contactus />} />
               <Route path="/Servicepage" element={< Servicepage/>} />

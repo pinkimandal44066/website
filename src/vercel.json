@@ -1,20 +1,19 @@
 {
-    "headers": [
-      {
-        "source": "/src/assets/unison-pro/Type Juice - Unison Pro Bold Round.otf",
-        "headers": [
-          {
-            "key": "Content-Type",
-            "value": "font/otf"
-          }
-        ]
-      }
-    ],
-    "rewrites": [
-      {
-        "source": "/(.*)",
-        "destination": "/index.html"
-      }
-    ]
-  }
-  
+  "headers": [
+    {
+      "source": "/src/assets/unison-pro/Type Juice - Unison Pro Bold Round.otf",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "font/otf"
+        }
+      ]
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}

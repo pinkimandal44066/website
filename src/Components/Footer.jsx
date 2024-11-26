@@ -64,10 +64,11 @@ const Footer = () => {
               <NavLink to="/Privacypolicy">
                 <h1>Privacy Policy</h1>
               </NavLink>
-
+              <NavLink to="/contactus">
               <li>
-                <a href="#">Support</a>
+              <h1>Support</h1>
               </li>
+              </NavLink>
               {/* <li>
           <a href="#">Contact us</a>
         </li> */}
