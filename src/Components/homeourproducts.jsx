@@ -11,7 +11,7 @@ import './Homefive.css';
 import SystaioAboutus2 from "../../public/SystaioAboutus2.png";
 const HomeFour = () => {
   return (
-    <div className="mt-10 bg-gray-100">
+    <div className="mt-5 ">
      
       <div>
         <p className="text-black lg:text-5xl md:text-4xl sm:text-3xl text-2xl 

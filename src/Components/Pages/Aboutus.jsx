@@ -22,7 +22,7 @@ const Aboutus = () => {
   return (
     <>
       <div
-        className="flex flex-col lg:flex-row  text-white bg-black  items-center justify-between px-4
+        className="flex flex-col lg:flex-row   text-white bg-black  items-center justify-between px-4
  lg:px-20 py-20"
       >
         <div className="lg:w-1/2 w-full text-center lg:text-left mb-8 lg:mb-0">

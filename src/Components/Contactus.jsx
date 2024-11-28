@@ -724,7 +724,7 @@ const Contactus = () => {
     <>
       <div className="relative bg-black cursor-pointer w-full h-auto">
         <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-center px-6 py-12 sm:py-20">
-          <div className="text-center sm:text-left sm:w-1/2">
+          <div className="text-center sm:text-left sm:w-1/2 mt-10">
             <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white leading-tight">
               Get in Touch with Us
             </h1>

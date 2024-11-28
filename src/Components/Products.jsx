@@ -212,73 +212,61 @@ CUSTOMER RELATIONSHIP MANAGEMENT
         
       </div> */}
 
-      <div className="flex justify-center mx-5  lg:mx-28 lg:gap-6 md:gap-6 sm:gap-6 gap-2 mt-10 lg:mt-10 md:mt-12 items-start">
-        <div className="flex flex-col">
-          <div className="card relative w-auto h-auto cursor-pointer rounded-[10px]">
-            <div className="">
-              <div className="">
-                <img src={Schoolderpsystem} className="opacity-100" />
-              </div>
-            </div>
-            <div className="second-content absolute inset-0 flex justify-center items-center h-full text-lg font-semibold text-white bg-[#000] bg-opacity-40">
-              <h1 className="lg:text-2xl md:text-xl sm:text-base text-[8px]">
-                SCHOOL ERP SYSTEM
-              </h1>
-            </div>
-          </div>
+  
 
-          <div className="card relative w-auto h-auto cursor-pointer rounded-[10px] lg:mt-6 md:mt-6 sm:mt-6 mt-3">
-            <div className="">
-              <div className="">
-                <img src={Payrollmanagement} className="opacity-100" />
-              </div>
-            </div>
-            <div className="second-content absolute inset-0 flex justify-center items-center h-full text-lg font-semibold text-white bg-[#000] bg-opacity-40">
-              <h1 className="lg:text-2xl md:text-xl sm:text-base text-[8px]">
-                PAYROLL MANAGEMENT
-              </h1>
-            </div>
-          </div>
-        </div>
+   <div className="mx-5 lg:mx-28">
+  <div className="flex flex-wrap justify-center lg:gap-6 md:gap-6 sm:gap-6 gap-4 mt-10 lg:mt-10 md:mt-12 items-start">
 
-        <div className="flex flex-col">
-          <div className="card relative w-auto h-auto cursor-pointer rounded-[10px]">
-            <div className="">
-              <div className="">
-                <img src={Stockbillingsystem} className="opacity-100" />
-              </div>
-            </div>
-            <div className="second-content absolute inset-0 flex justify-center items-center h-full text-lg font-semibold text-white bg-[#000] bg-opacity-40">
-              <h1 className="lg:text-2xl md:text-xl sm:text-base text-[8px]">
-                STOCK & BILLING SYSTEM
-              </h1>
-            </div>
-          </div>
-
-          <div className="card relative w-auto h-auto cursor-pointer rounded-[10px] lg:mt-6 md:mt-6 sm:mt-6 mt-2">
-            <div className="">
-              <div className="">
-                <img
-                  src={Customerrelationshipmanagement}
-                  className="opacity-100"
-                />
-              </div>
-            </div>
-            <div className="second-content absolute inset-0 flex justify-center items-center h-full text-lg font-semibold text-white bg-[#000] bg-opacity-40">
-              <h1 className="lg:text-2xl md:text-xl sm:text-base text-[8px]">
-                CUSTOMER RELATIONSHIP MANAGEMENT
-              </h1>
-            </div>
-          </div>
+    {/* First Column of Cards */}
+    <div className="flex flex-col w-full sm:w-[100%] lg:w-[45%]">
+      <div className="card relative w-full h-[300px] cursor-pointer rounded-[10px] overflow-hidden mb-6">
+        <img src={Schoolderpsystem} className="w-full h-full object-cover" />
+        <div className="second-content absolute inset-0 flex justify-center items-center h-full text-lg font-semibold text-white bg-[#000] bg-opacity-40">
+          <h1 className="lg:text-2xl md:text-xl sm:text-base text-[8px] text-center">
+            SCHOOL ERP SYSTEM
+          </h1>
         </div>
       </div>
 
+      <div className="card relative w-full h-[300px] cursor-pointer rounded-[10px] overflow-hidden">
+        <img src={Payrollmanagement} className="w-full h-full object-cover" />
+        <div className="second-content absolute inset-0 flex justify-center items-center h-full text-lg font-semibold text-white bg-[#000] bg-opacity-40">
+          <h1 className="lg:text-2xl md:text-xl sm:text-base text-[8px] text-center">
+            PAYROLL MANAGEMENT
+          </h1>
+        </div>
+      </div>
+    </div>
+
+    {/* Second Column of Cards */}
+    <div className="flex flex-col w-full sm:w-[100%] lg:w-[45%]">
+      <div className="card relative w-full h-[300px] cursor-pointer rounded-[10px] overflow-hidden mb-6">
+        <img src={Stockbillingsystem} className="w-full h-full object-cover" />
+        <div className="second-content absolute inset-0 flex justify-center items-center h-full text-lg font-semibold text-white bg-[#000] bg-opacity-40">
+          <h1 className="lg:text-2xl md:text-xl sm:text-base text-[8px] text-center">
+            STOCK & BILLING SYSTEM
+          </h1>
+        </div>
+      </div>
+
+      <div className="card relative w-full h-[300px] cursor-pointer rounded-[10px] overflow-hidden">
+        <img src={Customerrelationshipmanagement} className="w-full h-full object-cover" />
+        <div className="second-content absolute inset-0 flex justify-center items-center h-full text-lg font-semibold text-white bg-[#000] bg-opacity-40">
+          <h1 className="lg:text-2xl md:text-xl sm:text-base text-[7px] text-center">
+            CUSTOMER RELATIONSHIP MANAGEMENT
+          </h1>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
 
 
 
 <WorkTechnology />
 
-      <Progressbartwo />
+      {/* <Progressbartwo /> */}
     </>
   );
 };

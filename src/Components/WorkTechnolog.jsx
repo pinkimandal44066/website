@@ -32,7 +32,7 @@ const WorkTechnology = () => {
   }, [images.length]);
 
   return (
-    <div className="background-worktechno">
+    <div className="background-worktechno mt-10">
       <div className="techno-text-group">
         <h1 style={{ textAlign: "center", color: "#fff" }}>
           We Work On Technologies

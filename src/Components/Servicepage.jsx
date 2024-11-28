@@ -129,7 +129,7 @@ const Servicepage = () => {
             <div
               key={index}
               className="card relative w-full h-auto cursor-pointer overflow-hidden"
-              onClick={() => openModal(card.title, card.content, card.link)} // Passing link to the modal
+              onClick={() => openModal(card.title, card.content, card.link)} 
             >
               <img
                 src={card.imgSrc}

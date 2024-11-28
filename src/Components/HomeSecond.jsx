@@ -147,6 +147,71 @@ import { NavLink } from "react-router-dom";
 const HomeSecond = () => {
   return (
     <>
+
+
+<div style={{ backgroundColor: "#f3f4f6", padding: "3rem 1rem" }}>
+  <h2
+    style={{
+      fontSize: "2rem",
+      fontWeight: "bold",
+      textAlign: "center",
+      marginBottom: "2rem",
+      color: "#1f2937",
+      marginTop: "-20px",
+    }}
+  >
+    SystAIO Technologies
+    <span
+      style={{
+        display: "block",
+        height: "4px",
+        width: "290px",
+        backgroundColor: "black",
+        margin: "0.5rem auto",
+        position: "relative",
+        overflow: "hidden",
+      }}
+    >
+      <span
+        style={{
+          position: "absolute",
+          top: "0",
+          left: "0",
+          height: "100%",
+          width: "100%",
+          backgroundColor: "gray",
+          animation: "expand 2s ease-in-out infinite",
+        }}
+      ></span>
+    </span>
+  </h2>
+  
+
+<div className="max-w-4xl mx-auto -mt-5 ">
+  <p className="text-base font-normal text-gray-700 md:text-lg lg:text-lg leading-relaxed font-serif
+   text-center md:text-left">
+    At our company, we are committed to empowering businesses with innovative IT solutions that drive long-term growth and transformation. Our team specializes in developing cutting-edge, future-proof applications tailored specifically to meet the unique needs of your organization. From streamlining operations to enhancing customer experiences, we leverage the latest technologies to deliver results that matter most to your business.
+  </p>
+</div>
+
+
+
+  <style>
+    {`
+      @keyframes expand {
+        0% { width: 0%; }
+        100% { width: 100%; }
+      }
+    `}
+  </style>
+</div>
+
+
+
+
+
+
+
       <div
         className="relative bg-cover bg-center h-screen"
         style={{
