@@ -194,8 +194,8 @@
 import React, { useEffect } from "react";
 import Video from "../../public/Systaiovideo.mp4";
 import { NavLink } from "react-router-dom";
-// import "./Hometop.css";
-import "./Homecss.css";
+import "./Hometop.css";
+// import "./Homecss.css";
 import { useState } from "react";
 
 const HeroSection = () => {

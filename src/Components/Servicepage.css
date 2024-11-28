@@ -1,37 +1,32 @@
-
 @keyframes zoom {
-    0% {
-      transform: scale(1);
-      transform-origin: center;
-    }
-    50% {
-      transform: scale(1.1); /* Slight zoom in */
-      transform-origin: center;
-    }
-    100% {
-      transform: scale(1);
-      transform-origin: center;
-    }
+  0% {
+    transform: scale(1);
+    transform-origin: center;
   }
-  
-  /* Apply the zoom animation */
-  .animate-zoom {
-    animation: zoom 3s infinite ease-in-out; /* Duration and infinite looping */
-    display: inline-block; /* Ensures no layout shifts */
-    width: 100%; /* Ensures full width within parent container */
-    box-sizing: border-box; /* Prevents overflow */
+  50% {
+    transform: scale(1.1);
   }
-  
-  /* Parent container to ensure no overflow and center alignment */
-  .container {
-    position: relative;
-    width: 100%; /* Ensures the container takes full width */
-    overflow: hidden; /* Prevents overflow of animated elements */
-    display: flex;
-    justify-content: center; /* Center content horizontally */
-    align-items: center; /* Center content vertically */
-    height: 100vh; /* Takes full viewport height */
-    padding: 20px; /* Optional: Add padding to prevent overflow */
-    box-sizing: border-box; /* Prevents overflow from causing shifts */
+  100% {
+    transform: scale(1);
+    transform-origin: center;
   }
-  
+}
+
+.animate-zoom {
+  animation: zoom 3s infinite ease-in-out;
+  display: inline-block;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+  box-sizing: border-box;
+}

@@ -11,10 +11,10 @@ import './Homefive.css';
 import SystaioAboutus2 from "../../public/SystaioAboutus2.png";
 const HomeFour = () => {
   return (
-    <div className="mt-5">
+    <div className="mt-10 bg-gray-100">
      
       <div>
-        <p className="text-black lg:text-5xl md:text-4xl sm:text-3xl text-2xl
+        <p className="text-black lg:text-5xl md:text-4xl sm:text-3xl text-2xl 
          text-center lg:text-start mx-20 font-semibold">
           Our <span className="text-gray-400 font-bold ">PRODUCTS</span>
         </p>

@@ -170,7 +170,7 @@ const Navbar = () => {
       <div className="max-w-screen-xl mx-auto py-4 px-5">
         <div className="hidden lg:flex justify-between items-center">
           <NavLink to="/">
-            <img className="w-40" src={logo} alt="Logo" />
+            <img className="w-60" src={logo} alt="Logo" />
           </NavLink>
           <ul className="flex gap-6 text-white font-medium text-lg">
             <NavLink
