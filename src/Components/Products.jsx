@@ -1,12 +1,13 @@
 import React from "react";
 import Scrolling from "./Scrolling";
-
+import Systaioproductsimg from "../../public/Systaioproductsimg.png";
 import Schoolderpsystem from "../../public/Schoolerpsystem.avif";
 import Stockbillingsystem from "../../public/Stockbillingsystem.avif";
 import Payrollmanagement from "../../public/Payrollmanagement.avif";
 import SystaioAboutus2 from "../../public/SystaioAboutus2.png";
 import Customerrelationshipmanagement from "../../public/Customerrelationshipmanagement.avif";
 import Progressbartwo from "./Progressbartwo";
+import WorkTechnology from "./WorkTechnolog";
 const Products = () => {
   return (
     <>
@@ -60,7 +61,8 @@ const Products = () => {
 
         <div className="lg:w-1/2 w-full">
           <img
-            src={SystaioAboutus2}
+       
+            src={Systaioproductsimg}
             alt="Example"
             className="w-full max-w-md lg:max-w-full mx-auto"
           />
@@ -274,6 +276,7 @@ CUSTOMER RELATIONSHIP MANAGEMENT
 
 
 
+<WorkTechnology />
 
       <Progressbartwo />
     </>

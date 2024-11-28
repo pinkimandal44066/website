@@ -47,7 +47,7 @@ const Aboutus = () => {
         </div>
       </div>
 
-      <div className="flex flex-col lg:flex-row md:flex-row sm:flex-col items-center lg:mt-16 mt-8 px-5 lg:px-20">
+      <div className="flex flex-col lg:flex-row md:flex-row sm:flex-col items-center lg:mt-16 mt-8  lg:px-20">
         <section className="py-10 bg-gray-100">
           <div className="max-w-screen-xl lg:mx-20 mx-auto  px-6">
             <div className="text-center mb-10">
@@ -181,7 +181,7 @@ const Aboutus = () => {
         </p>
       </div>
 
-      <div className="bg-gray-100 py-14 mt-5">
+      <div className="bg-gray-100 py-14 mt-5 ">
         <div className="text-center mb-12">
           <h2
             data-aos="fade-up"
@@ -191,7 +191,7 @@ const Aboutus = () => {
             WHY CHOOSE US?
           </h2>
         </div>
-        <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="max-w-7xl mx-5 grid grid-cols-1 md:grid-cols-3 gap-8 ">
           <div
             data-aos="fade-up"
             className="text-center p-8 bg-white shadow-lg rounded-lg"

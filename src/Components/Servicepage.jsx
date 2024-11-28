@@ -4,7 +4,7 @@ import Modal from "./Modal";
 import Scrolling from "./Scrolling";
 import Accordion from "./Accordion";
 import { FaArrowTurnDown } from "react-icons/fa6";
-import SystaioAboutus2 from "../../public/SystaioAboutus2.png";
+import Sysatioserviceimg from "../../public/Systaioserviceimg.png";
 const Servicepage = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [modalContent, setModalContent] = useState({
@@ -82,15 +82,18 @@ const Servicepage = () => {
         <div className="lg:w-1/2 w-full text-center lg:text-left mb-8 lg:mb-0">
           <h1 className="text-5xl  font-bold  mb-4">Services </h1>
           <p className=" text-base md:text-lg ">
-          At SystAIO, we combine innovation with expertise to deliver scalable and efficient solutions for businesses of all sizes. Whether you're a startup, growing enterprise, or established organization, our team is dedicated to turning your vision into reality. Explore our services to enhance your digital transformation and drive measurable results with cutting-edge technology.
-
-
+            At SystAIO, we combine innovation with expertise to deliver scalable
+            and efficient solutions for businesses of all sizes. Whether you're
+            a startup, growing enterprise, or established organization, our team
+            is dedicated to turning your vision into reality. Explore our
+            services to enhance your digital transformation and drive measurable
+            results with cutting-edge technology.
           </p>
         </div>
 
         <div className="lg:w-1/2 w-full">
           <img
-            src={SystaioAboutus2}
+            src={Sysatioserviceimg}
             alt="Example"
             className="w-full max-w-md lg:max-w-full mx-auto"
           />

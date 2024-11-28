@@ -869,7 +869,7 @@ const Contactus = () => {
                 style={{ fontFamily: "PTSerif-Bold" }}
                 className="lg:text-2xl text-xl font-semibold  text-black lg:mt-8 md:mt-10 mt-8 items-center text-center"
               >
-                0413, 2ND floor,City Centre, Luby Circular Rd,Busstand,
+                0413, 2ND floor,City Centre, Luby Circular Rd, Busstand,
               </p>
               <p
                 style={{ fontFamily: "PTSerif-Bold" }}

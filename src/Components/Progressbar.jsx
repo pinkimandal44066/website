@@ -16,7 +16,7 @@ const ProgressBar = ({ label, percentage }) => {
       <div className="w-full bg-gray-200 rounded-full h-6">
         <div
           className="bg-black h-6 rounded-full"
-          style={{ width: `${percentage}%` }}  // Corrected syntax: `${percentage}%`
+          style={{ width: `${percentage}%` }}  
         ></div>
       </div>
     </div>

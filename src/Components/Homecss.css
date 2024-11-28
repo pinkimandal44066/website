@@ -4,81 +4,66 @@ html, body {
 }
 
 #main {
-    /* background-color: red; */
-    /* position: relative; */
+   
     
     z-index: 10;
 }
 @media only screen and (max-width: 600px) {
     #page1 video {
-        /* Adjust styles for mobile screens */
-        margin-top: 5vw; /* Example: Increased margin for smaller screens */
-        height: 50vh; /* Example: Reduce height for smaller screens */
-        object-fit: contain; /* Example: Change object-fit property */
-        object-position: top; /* Example: Change object-position property */
-        border-radius: 10px; /* Example: Adjust border radius */
-        width: 90%; /* Example: Adjust width */
-        margin-left: 5%; /* Example: Adjust margin */
+       
+        margin-top: 5vw; 
+        height: 50vh; 
+        object-fit: contain; 
+        object-position: top;
+        border-radius: 10px; 
+        width: 90%; 
+        margin-left: 5%; 
         background-color: black;
     }
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
+
 @media only screen and (min-width: 600px) {
     #page1 video {
-        /* Adjust styles for small screens */
-        margin-top: 0vw; /* Example: Adjust margin */
-        height: 100vh; /* Example: Adjust height */
-        object-fit: cover; /* Example: Adjust object-fit property */
-        object-position: center; /* Example: Adjust object-position property */
-        /* border-radius: 15px; Example: Adjust border radius */
-        width: 100%; /* Example: Adjust width */
-        margin-left: 0%; /* Example: Adjust margin */
-        background-color: black;
-    }
-}
-
-/* @media only screen and (min-width: 360px) and (max-width: 599px) {
-    #page1 video {
-      
-        margin-top: 10vw; 
+        
+        margin-top: 0vw;
         height: 100vh; 
         object-fit: cover;
         object-position: center; 
-       
+        
         width: 100%; 
         margin-left: 0%;
-    }
-} */
-
-
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-    #page1 video {
-        /* Adjust styles for medium screens */
-        margin-top: 0vw; /* Example: Adjust margin */
-        height: 100vh; /* Example: Adjust height */
-        object-fit: cover; /* Example: Adjust object-fit property */
-        object-position: center; /* Example: Adjust object-position property */
-        border-radius: 15px; /* Example: Adjust border radius */
-        width: 100%; /* Example: Adjust width */
-        margin-left: 0%; /* Example: Adjust margin */
         background-color: black;
     }
 }
 
-/* Large devices (laptops/desktops, 992px and up) */
+
+
+@media only screen and (min-width: 768px) {
+    #page1 video {
+      
+        margin-top: 0vw;
+        height: 100vh;
+        object-fit: cover; 
+        object-position: center;
+        border-radius: 15px; 
+        width: 100%; 
+        margin-left: 0%;
+        background-color: black;
+    }
+}
+
+
 @media only screen and (min-width: 992px) {
     #page1 video {
-        /* Adjust styles for large screens */
-        margin-top: 1vw; /* Example: Adjust margin */
-        height: 85vh; /* Example: Adjust height */
-        object-fit: cover; /* Example: Adjust object-fit property */
-        object-position: center; /* Example: Adjust object-position property */
-        border-radius: 15px; /* Example: Adjust border radius */
-        width: 100%; /* Example: Adjust width */
-        margin-left: 0%; /* Example: Adjust margin */
+        
+        margin-top: 1vw; 
+        height: 85vh; 
+        object-fit: cover; 
+        object-position: center; 
+        border-radius: 15px; 
+        width: 100%; 
+        margin-left: 0%; 
         background-color: black;
     }
 }
@@ -87,7 +72,7 @@ html, body {
         position: relative;
         border-radius: 15px;
         margin-top: 2vw;
-        height: 90vh; /* Fixed height for mobile screens */
+        height: 90vh;
         object-fit: cover;
         object-position: center;
         width: 100%;
@@ -96,17 +81,17 @@ html, body {
     }
 }
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
+
 @media only screen and (min-width: 1200px) {
     #page1 video {
-        /* Adjust styles for extra large screens */
-        margin-top: 0; /* Example: Adjust margin */
-        height: 100vh; /* Example: Adjust height */
-        object-fit: cover; /* Example: Adjust object-fit property */
-        object-position: center; /* Example: Adjust object-position property */
-        border-radius: 0px; /* Example: Adjust border radius */
-        width: 100%; /* Example: Adjust width */
-        margin-left: 0%; /* Example: Adjust margin */
+        
+        margin-top: 0; 
+        height: 100vh; 
+        object-fit: cover; 
+        object-position: center; 
+        border-radius: 0px;
+        width: 100%; 
+        margin-left: 0%; 
         
     }
 }
@@ -114,43 +99,18 @@ html, body {
 
 @media only screen and (min-width: 1132px) {
     #page1 video {
-        /* Adjust styles for large screens */
-        margin-top: 0; /* Example: Adjust margin */
-        height: 100vh; /* Example: Adjust height */
-        object-fit: cover; /* Example: Adjust object-fit property */
-        object-position: center; /* Example: Adjust object-position property */
-        border-radius: 0px; /* Example: Adjust border radius */
-        width: 100%; /* Example: Adjust width */
-        margin-left: 0%; /* Example: Adjust margin */
+        
+        margin-top: 0; 
+        height: 100vh; 
+        object-fit: cover; 
+        object-position: center; 
+        border-radius: 0px; 
+        width: 100%;
+        margin-left: 0%; 
     }
 }
 
 
-/* #page1 {
-    min-height: 0vh;
-    width: 100%;
-  
-  
-    background-color:black;
-   
-   
-    position: relative;
-    padding: 0 2vw;
-} */
-
-
-
-/* #page1 {
-    min-height: 0vh;
-    width: 100%;
-  
-  
-    background-color:black;
-   
-   
-    position: relative;
-    padding: 0 2vw;
-} */
 
 
 #page1  video {
