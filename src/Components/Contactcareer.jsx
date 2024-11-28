@@ -1,7 +1,7 @@
 import { useState } from "react";
 import emailjs from "@emailjs/browser";
 import { toast } from "react-hot-toast";
-import Scrolling from './Scrolling';
+import Scrolling from "./Scrolling";
 
 const Contactcareer = () => {
   const [firstName, setFirstName] = useState("");
@@ -12,14 +12,19 @@ const Contactcareer = () => {
   const [isChecked, setIsChecked] = useState(false);
   const [file, setFile] = useState(null);
 
-  // Handle file change
   const handleFileChange = (e) => {
     const selectedFile = e.target.files[0];
-    // Validate file type (only allow pdf, doc, docx)
-    if (selectedFile && (selectedFile.type === 'application/pdf' || selectedFile.type === 'application/msword' || selectedFile.type === 'application/vnd.openxmlformats-officedocument.wordprocessingml.document')) {
+
+    if (
+      selectedFile &&
+      (selectedFile.type === "application/pdf" ||
+        selectedFile.type === "application/msword" ||
+        selectedFile.type ===
+          "application/vnd.openxmlformats-officedocument.wordprocessingml.document")
+    ) {
       setFile(selectedFile);
     } else {
-      alert('Please upload a valid resume file (.pdf, .doc, .docx)');
+      alert("Please upload a valid resume file (.pdf, .doc, .docx)");
     }
   };
   const handleRadioClick = () => {
@@ -63,7 +68,8 @@ const Contactcareer = () => {
     <div className="flex justify-center items-center bg-gray-100 py-12 px-4">
       <form
         onSubmit={handleSubmit}
-        className="emailForm w-full max-w-2xl bg-white p-10 rounded-lg shadow-lg border border-gray-300 mt-10   lg:mt-0"
+        className="emailForm w-full max-w-2xl bg-white p-10 rounded-lg shadow-lg border
+         border-gray-300 mt-10   lg:mt-0"
       >
         <h2 className="text-3xl font-extrabold text-gray-800 mb-8 text-center">
           Job Application
@@ -84,7 +90,7 @@ const Contactcareer = () => {
               name="firstName"
               value={firstName}
               onChange={(e) => setFirstName(e.target.value)}
-              className="p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 transition duration-150"
+              className="p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-black  transition duration-150"
             />
           </div>
 
@@ -102,7 +108,7 @@ const Contactcareer = () => {
               name="lastName"
               value={lastName}
               onChange={(e) => setLastName(e.target.value)}
-              className="p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 transition duration-150"
+              className="p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-black  transition duration-150"
             />
           </div>
         </div>
@@ -119,7 +125,7 @@ const Contactcareer = () => {
               name="email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-              className="p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 transition duration-150"
+              className="p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-black  transition duration-150"
             />
           </div>
 
@@ -134,7 +140,8 @@ const Contactcareer = () => {
               name="phone"
               value={phone}
               onChange={(e) => setPhone(e.target.value)}
-              className="p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-black transition duration-150"
+              className="p-3 border border-gray-300 rounded-lg focus:ring-2
+               focus:ring-black transition duration-150"
             />
           </div>
         </div>
@@ -157,27 +164,23 @@ const Contactcareer = () => {
           ></textarea>
         </div>
 
-
         <div className="max-w-lg mx-auto px-4 py- ">
-      
-      <div className="upload-container text-center">
-        <h2 className="text-2xl font-semibold mb-4">Upload Your Resume</h2>
-        <input
-          type="file"
-          accept=".pdf,.doc,.docx"
-          onChange={handleFileChange}
-          className="block w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
-        />
-        
-        {file && (
-          <div className="mt-4 text-sm">
-            <p className="text-gray-600">Selected file: {file.name}</p>
-          </div>
-        )}
+          <div className="upload-container text-center">
+            <h2 className="text-2xl font-semibold mb-4">Upload Your Resume</h2>
+            <input
+              type="file"
+              accept=".pdf,.doc,.docx"
+              onChange={handleFileChange}
+              className="block w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+            />
 
-       
-      </div>
-    </div>
+            {file && (
+              <div className="mt-4 text-sm">
+                <p className="text-gray-600">Selected file: {file.name}</p>
+              </div>
+            )}
+          </div>
+        </div>
         <div className="flex items-center mb-6 mt-3">
           <input
             type="checkbox"
@@ -209,4 +212,4 @@ const Contactcareer = () => {
   );
 };
 
-export default  Scrolling(Contactcareer); 
+export default Scrolling(Contactcareer);

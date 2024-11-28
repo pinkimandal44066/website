@@ -34,10 +34,11 @@ const Footer = () => {
           </div>
 
           <div className="col-span-1 lg:mx-10 w-full ">
-            <h3 className="text-lg font-semibold mb-3 ">Office</h3>
+            <h3 className="text-lg font-semibold mb-3 text-black  sm:text-white ">Office</h3>
+            
             <p className="text-sm ">
               {/* Second floor, City Centre,0413, Luby Circular Rd,Bartand, Kasturba Nagar, Dhanbad, Jharkhand 826001 */}
-              0413, 2ND floor,City Centre, Luby Circular Rd,Busstand, Dhanbad,
+              0413, 2ND floor, City Centre, Luby Circular Rd, Busstand, Dhanbad,
               Jharkhand 826001
             </p>
             <div className="flex">
@@ -46,12 +47,12 @@ const Footer = () => {
             </div>
             <div className="flex">
               <BiPhoneCall className="lg:text-2xl   mt-1 text-2xl  text-gray-700" />
-              <a href="tel:+09109308788991">+091-093087 88991</a>
+              <a href="tel:+9109308788991">+91-093087 88991</a>
             </div>
           </div>
 
           <div className="col-span-1 lg:mx-16 w-full">
-            <h3 className="text-lg font-semibold mb-3 ">Links</h3>
+            <h3 className="text-lg font-semibold mb-3 text-black  sm:text-white ">Links</h3>
             <ul className="text-sm ">
               <NavLink to="/Faq">
                 <h1> FAQs</h1>
@@ -69,9 +70,7 @@ const Footer = () => {
               <h1>Support</h1>
               </li>
               </NavLink>
-              {/* <li>
-          <a href="#">Contact us</a>
-        </li> */}
+           
 
               <NavLink to="/Careers">
                 <h1>Careers</h1>
@@ -81,7 +80,7 @@ const Footer = () => {
 
           <div className="col-span-1 w-full lg:mx-5">
             <h3
-              className="text-lg font-semibold mb-3 
+              className="text-lg font-semibold mb-3 text-black  sm:text-white 
             "
             >
               Links
@@ -109,7 +108,7 @@ const Footer = () => {
             className="col-span-1 lg:-mx-24 md:mx-0 sm:mx-0 mx-0
     "
           >
-            <h3 className="text-lg font-semibold mb-3 ">Email</h3>
+            <h3 className="text-lg font-semibold mb-3 text-black  sm:text-white">Email</h3>
             <form className="flex mb-4">
               <input
                 type="email"
@@ -125,14 +124,23 @@ const Footer = () => {
               </button>
             </form>
             <div className="text-4xl space-x-2">
-              <i className="ri-facebook-fill hover:text-blue-600 transition duration-300 cursor-pointer text-blue-500"></i>
+
+
+            <i className="ri-facebook-fill text-black hover:text-white transition duration-300 cursor-pointer"></i>
+<i className="ri-instagram-line text-black hover:text-white transition duration-300 cursor-pointer"></i>
+<i className="ri-twitter-fill text-black hover:text-white transition duration-300 cursor-pointer"></i>
+<i className="ri-youtube-line text-black hover:text-white transition duration-300 cursor-pointer"></i>
+<i className="ri-whatsapp-line text-black hover:text-white transition duration-300 cursor-pointer"></i>
+<i className="ri-linkedin-box-fill text-black hover:text-white transition duration-300 cursor-pointer"></i>
+
+              {/* <i className="ri-facebook-fill hover:text-blue-600 transition duration-300 cursor-pointer text-blue-500"></i>
               <i className="ri-instagram-line hover:text-pink-500 transition duration-300 cursor-pointer text-pink-400"></i>
               <i className="ri-twitter-fill hover:text-blue-500 transition duration-300 cursor-pointer text-blue-400"></i>
               <i className="ri-youtube-line hover:text-red-600 transition duration-300 cursor-pointer text-red-500"></i>
               <i className="ri-whatsapp-line hover:text-green-500 transition duration-300 cursor-pointer text-green-400"></i>
               <i className="ri-linkedin-box-fill hover:text-blue-700 transition duration-300 cursor-pointer text-blue-600">
-                {" "}
-              </i>
+                
+              </i> */}
             </div>
           </div>
         </div>

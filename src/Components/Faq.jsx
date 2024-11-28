@@ -35,7 +35,7 @@ const Faq = () => {
 
 
 
-<div className="relative bg-gradient-to-r from-black via-purple-500 to-white w-full h-auto">
+<div className="relative bg-black cursor-pointer w-full h-auto">
   {/* Container */}
   <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-center px-6 py-12 sm:py-20">
     

@@ -3,7 +3,7 @@ import Scrolling from "./Scrolling";
 const PrivacyPolicy = () => {
   return (
     <>
-      <div className="relative bg-gradient-to-r from-black via-purple-500 to-white w-full h-auto">
+      <div className="relative bg-black cursor-pointer w-full h-auto">
         <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-center px-6 py-12 sm:py-20">
           <div className="text-center sm:text-left sm:w-1/2">
             <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white leading-tight">
@@ -39,7 +39,7 @@ const PrivacyPolicy = () => {
         </div>
       </div>
 
-      <div className=" flex flex-col max-w-screen-xl lg:mx-auto mx-5 ">
+      <div className=" flex flex-col max-w-screen-xl lg:mx-auto mx-5 cursor-pointer">
         <main className=" w-full p-3 mt-10">
           <p>
             This privacy policy sets out how Systaio (hence by referred to as

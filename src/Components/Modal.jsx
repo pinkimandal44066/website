@@ -1,20 +1,33 @@
-// Modal.js
 import React from "react";
+import { FaTimes } from "react-icons/fa";
+import { NavLink } from "react-router-dom";
 
-const Modal = ({ isOpen, onClose, title, content }) => {
+const Modal = ({ isOpen, onClose, title, content, link }) => {
   if (!isOpen) return null;
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50">
-      <div className="bg-white p-6 rounded-lg max-w-lg w-full relative">
+    <div className="fixed inset-0 flex justify-center items-center bg-black bg-opacity-50 z-50">
+      <div className="bg-white p-6 rounded-lg max-w-lg w-full shadow-lg transition-transform transform scale-95 duration-300 ease-out hover:scale-100">
         <button
           onClick={onClose}
-          className="absolute top-2 right-2 text-xl text-gray-600 hover:text-gray-900"
+          className="absolute top-4 right-4 text-2xl text-black hover:text-gray-800 focus:outline-none"
         >
-          &times;
+          <FaTimes />
         </button>
-        <h2 className="text-2xl font-bold mb-4">{title}</h2>
-        <p>{content}</p>
+
+        <div className="text-center mb-6">
+          <h2 className="text-3xl font-semibold text-gray-800">{title}</h2>
+          <p className="text-lg text-gray-600 mt-4">{content}</p>
+        </div>
+
+        <div className="flex justify-center">
+          <NavLink
+            to={link} 
+            className="bg-black text-white px-6 py-3 rounded-lg hover:bg-black transition duration-150"
+          >
+            View All
+          </NavLink>
+        </div>
       </div>
     </div>
   );

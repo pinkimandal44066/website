@@ -4,7 +4,7 @@ import Scrolling from "./Scrolling";
 import Schoolderpsystem from "../../public/Schoolerpsystem.avif";
 import Stockbillingsystem from "../../public/Stockbillingsystem.avif";
 import Payrollmanagement from "../../public/Payrollmanagement.avif";
-
+import SystaioAboutus2 from "../../public/SystaioAboutus2.png";
 import Customerrelationshipmanagement from "../../public/Customerrelationshipmanagement.avif";
 import Progressbartwo from "./Progressbartwo";
 const Products = () => {
@@ -13,7 +13,7 @@ const Products = () => {
       {/* first part */}
 
       
-      <div className="relative bg-gradient-to-r from-black via-purple-500 to-white w-full h-auto">
+      {/* <div className="relative bg-gradient-to-r from-black via-purple-500 to-white w-full h-auto">
         <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-center px-6 py-12 sm:py-20">
           <div className="text-center sm:text-left sm:w-1/2">
             <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white leading-tight">
@@ -46,8 +46,26 @@ const Products = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
+ <div
+        className="flex flex-col lg:flex-row  text-white bg-black  items-center justify-between px-4
+ lg:px-20 py-20"
+      >
+        <div className="lg:w-1/2 w-full text-center lg:text-left mb-8 lg:mb-0">
+          <h1 className="text-5xl  font-bold  mb-4">Products</h1>
+          <p className=" text-base md:text-lg ">
+          Discover SystAIO's innovative products designed to drive efficiency and scalability. Our range of solutions is tailored to meet the needs of startups, growing enterprises, and established organizations. Leverage our technology to streamline operations, boost productivity, and achieve sustainable growth.
+          </p>
+        </div>
 
+        <div className="lg:w-1/2 w-full">
+          <img
+            src={SystaioAboutus2}
+            alt="Example"
+            className="w-full max-w-md lg:max-w-full mx-auto"
+          />
+        </div>
+      </div>
       {/* second part */}
 
       <div className="mt-10">
@@ -192,7 +210,7 @@ CUSTOMER RELATIONSHIP MANAGEMENT
         
       </div> */}
 
-      <div className="flex justify-center lg:gap-6 md:gap-6 sm:gap-6 gap-2 mt-10 lg:mt-10 md:mt-12 items-start">
+      <div className="flex justify-center mx-5  lg:mx-28 lg:gap-6 md:gap-6 sm:gap-6 gap-2 mt-10 lg:mt-10 md:mt-12 items-start">
         <div className="flex flex-col">
           <div className="card relative w-auto h-auto cursor-pointer rounded-[10px]">
             <div className="">
@@ -253,51 +271,13 @@ CUSTOMER RELATIONSHIP MANAGEMENT
         </div>
       </div>
 
+
+
+
+
       <Progressbartwo />
     </>
   );
 };
 
 export default Scrolling(Products);
-
-// import React from 'react'
-
-// const Products = () => {
-//   return (
-//     <div className="flex">
-//       {/* First Image Container */}
-//       <div className="relative w-full">
-//         {/* Image */}
-//         <img
-//           className="w-full object-cover"
-//           src="https://img.freepik.com/free-photo/laptop-nature-concept_23-2150246092.jpg?t=st=1722235881~exp=1722239481~hmac=e3660012e75de63d10e6c4181a4ea8f88e86b9b55e47bef1e4ce7577b2a45d3d&w=740"
-//           alt="Product"
-//         />
-//         {/* Text Overlay */}
-//         <div className="absolute inset-0 flex flex-col items-center justify-center text-white bg-black bg-opacity-50 p-4">
-//           <span className="text-xl font-bold mb-2">Product Text</span>
-//           <p className="text-base">
-//             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis natus illum illo quos consectetur cupiditate nesciunt distinctio. Libero animi consequatur maxime minus! Praesentium architecto illo, debitis similique neque eaque ab.
-//           </p>
-//         </div>
-//       </div>
-
-//       {/* Repeat for the second image */}
-//       <div className="relative w-full">
-//         <img
-//           className="w-full object-cover"
-//           src="https://img.freepik.com/free-photo/laptop-nature-concept_23-2150246092.jpg?t=st=1722235881~exp=1722239481~hmac=e3660012e75de63d10e6c4181a4ea8f88e86b9b55e47bef1e4ce7577b2a45d3d&w=740"
-//           alt="Product"
-//         />
-//         <div className="absolute inset-0 flex flex-col items-center justify-center text-white bg-black bg-opacity-50 p-4">
-//           <span className="text-xl font-bold mb-2">Product Text</span>
-//           <p className="text-base">
-//             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis natus illum illo quos consectetur cupiditate nesciunt distinctio. Libero animi consequatur maxime minus! Praesentium architecto illo, debitis similique neque eaque ab.
-//           </p>
-//         </div>
-//       </div>
-//     </div>
-//   )
-// }
-
-// export default Products

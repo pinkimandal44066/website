@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom";
 const Careers = () => {
   return (
     <>
-      <div className="relative bg-gradient-to-r from-black via-purple-500 to-white w-full h-auto">
+      <div className="relative bg-black cursor-pointer w-full h-auto">
         <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-center px-6 py-12 sm:py-20">
           <div className="text-center sm:text-left sm:w-1/2">
             <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white leading-tight">
@@ -39,7 +39,7 @@ const Careers = () => {
         </div>
       </div>
 
-      <div className=" bg-gray-100 flex flex-col items-center justify-center p-6">
+      <div className=" bg-gray-100 flex flex-col items-center justify-center p-6 cursor-pointer">
         <section className="w-full  mt-6 max-w-5xl mx-auto bg-white p-6 rounded-lg shadow-md">
           <h2 className="text-2xl font-semibold text-gray-800 mb-4">
             Current Openings

@@ -8,13 +8,13 @@
 // const HomeSecond = () => {
 //   return (
 //     <div >
-//     <div className="bg-brandDark flex justify-center items-center 
+//     <div className="bg-brandDark flex justify-center items-center
 //      bg-black md:-mt-0 lg:-mt-0 sm:-mt-60 -mt-0
 //      text-white ">
 //         <div className="container pb-8 sm:pb-0 max-w-screen-xl lg:mx-32 mx-5">
 //           <div className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 md:grid-cols-2 ">
-          
-//             <div className="flex flex-col justify-center gap-6 pt-12 sm:pt-0 text-center sm:text-left order-2 
+
+//             <div className="flex flex-col justify-center gap-6 pt-12 sm:pt-0 text-center sm:text-left order-2
 //             sm:order-1 ">
 //               <h1
 //                 data-aos="fade-up"
@@ -32,8 +32,8 @@
 //                   className='text-sm'
 //                 >
 //                   {/* lorem */}
-//                 </span>{" "} 
-              
+//                 </span>{" "}
+
 //                <p className='text-sm '>
 //                Welcome to *SystAIO Technologies*, your trusted partner in cutting-edge IT solutions and innovation. Based in the vibrant city of Dhanbad, we specialize in delivering tailored software development, AI-driven solutions, cloud computing, and comprehensive IT services to help businesses thrive in the digital age.</p>
 //               </h1>
@@ -46,7 +46,7 @@
 //                 </NavLink>
 //               </div>
 //             </div>
-           
+
 //             <div
 //               data-aos="zoom-in"
 //               data-aos-duration="300"
@@ -60,7 +60,6 @@
 //               />
 //                */}
 
-
 // <img
 //   data-aos-once="true"
 //   src={img3}
@@ -73,81 +72,120 @@
 //         </div>
 //       </div>
 
-
-
-
-
-
 //     </div>
 //   )
 // }
 
 // export default HomeSecond
 
+// import React from 'react';
+// import { NavLink } from 'react-router-dom';
+// import Systaioaboutus from '../../public/Systaioaboutus.jpg';
+
+// const HomeSecond = () => {
+//   return (
+//     <div>
+//       <div className="bg-black flex justify-center items-center text-white py-12">
+//         <div className=" max-w-screen-xl px-5">
+//           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+//             {/* Text Section */}
+//             <div className="flex flex-col justify-center gap-6 text-center lg:text-  order-2 lg:order-1">
+//               <h1
+//                 data-aos="fade-up"
+//                 data-aos-once="true"
+//                 className="text-4xl md:text-5xl lg:text-6xl font-bold"
+//                 style={{ fontFamily: 'PTSerif-Bold' }}
+//               >
+//                 ABOUT US
+//               </h1>
+//               <p
+//                 className="text-sm md:text-base lg:text-lg leading-relaxed"
+//                 data-aos="fade-right"
+//                 data-aos-delay="200"
+//               >
+//                 Welcome to *SystAIO Technologies*, your trusted partner in cutting-edge IT solutions and innovation. Based in the vibrant city of Dhanbad, we specialize in delivering tailored software development, AI-driven solutions, cloud computing, and comprehensive IT services to help businesses thrive in the digital age.
+//               </p>
+//               <NavLink to="/aboutus">
+//                 <button
+//                   className="bg-gradient-to-r from-primary to-secondary border-2 border-primary hover:scale-105
+//                  duration-200 py-2 px-6 rounded-full text-white hover:text-black hover:bg-white mx-auto lg:mx-0"
+//                 >
+//                   Read More
+//                 </button>
+//               </NavLink>
+//             </div>
+
+//             {/* Image Section */}
+//             <div
+//               data-aos="zoom-in"
+//               data-aos-duration="300"
+//               className="flex justify-center items-center order-1 lg:order-2"
+//             >
+//               <img
+//                 data-aos-once="true"
+//                 src={Systaioaboutus}
+//                 alt="About Us"
+//                 className="w-[280px] sm:w-[350px] md:w-[400px] lg:w-[450px] "
+//               />
+//             </div>
+//           </div>
+//         </div>
+//       </div>
+//     </div>
+//   );
+// };
+
+// export default HomeSecond;
 
 
 
 
 
-
-
-
-
-
-import React from 'react';
-import { NavLink } from 'react-router-dom';
-import Systaioaboutus from '../../public/Systaioaboutus.jpg';
-
+// import React from 'react'
+import Systaioaboutus from "../../public/Systaioaboutus.jpg";
+import { NavLink } from "react-router-dom";
 const HomeSecond = () => {
   return (
-    <div>
-      <div className="bg-black flex justify-center items-center text-white py-12">
-        <div className=" max-w-screen-xl px-5">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-            {/* Text Section */}
-            <div className="flex flex-col justify-center gap-6 text-center lg:text-  order-2 lg:order-1">
-              <h1
-                data-aos="fade-up"
-                data-aos-once="true"
-                className="text-4xl md:text-5xl lg:text-6xl font-bold"
-                style={{ fontFamily: 'PTSerif-Bold' }}
-              >
-                ABOUT US
-              </h1>
-              <p
-                className="text-sm md:text-base lg:text-lg leading-relaxed"
-                data-aos="fade-right"
-                data-aos-delay="200"
-              >
-                Welcome to *SystAIO Technologies*, your trusted partner in cutting-edge IT solutions and innovation. Based in the vibrant city of Dhanbad, we specialize in delivering tailored software development, AI-driven solutions, cloud computing, and comprehensive IT services to help businesses thrive in the digital age.
-              </p>
+    <>
+      <div
+        className="relative bg-cover bg-center h-screen"
+        style={{
+          backgroundImage: `url(${Systaioaboutus})`,
+        }}
+      >
+        <div className="absolute inset-0 bg-black bg-opacity-60"></div>
+
+        <div className="relative z-10 flex flex-col items-center justify-center text-white text-center h-full px-4 sm:px-12 lg:px-24">
+          <div className="flex flex-col justify-center gap-6 pt-32   text-center sm:text-left">
+            <h1
+              className="text-5xl sm:text-6xl lg:text-7xl font-bold"
+              style={{ fontFamily: "PTSerif-Bold" }}
+            >
+              ABOUT US
+            </h1>
+            <p className="text-base sm:text-lg max-w-3xl mx-auto sm:mx-0">
+              Welcome to{" "}
+              <span className="font-semibold">SystAIO Technologies</span>, your
+              trusted partner in cutting-edge IT solutions and innovation. Based
+              in the vibrant city of Dhanbad, we specialize in delivering
+              tailored software development, AI-driven solutions, cloud
+              computing, and comprehensive IT services to help businesses thrive
+              in the digital age.
+            </p>
+            <div>
               <NavLink to="/aboutus">
                 <button
                   className="bg-gradient-to-r from-primary to-secondary border-2 border-primary hover:scale-105
-                 duration-200 py-2 px-6 rounded-full text-white hover:text-black hover:bg-white mx-auto lg:mx-0"
+                 duration-200 py-2 px-4 rounded-full text-white hover:text-black hover:bg-white"
                 >
                   Read More
                 </button>
               </NavLink>
             </div>
-
-            {/* Image Section */}
-            <div
-              data-aos="zoom-in"
-              data-aos-duration="300"
-              className="flex justify-center items-center order-1 lg:order-2"
-            >
-              <img
-                data-aos-once="true"
-                src={Systaioaboutus}
-                alt="About Us"
-                className="w-[280px] sm:w-[350px] md:w-[400px] lg:w-[450px] "
-              />
-            </div>
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 

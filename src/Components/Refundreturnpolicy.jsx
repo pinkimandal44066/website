@@ -3,7 +3,7 @@ import Scrolling from "./Scrolling";
 const RefundPolicy = () => {
   return (
     <>
-      <div className="relative bg-gradient-to-r from-black via-purple-500 to-white w-full h-auto">
+      <div className="relative bg-black cursor-pointer  to-white w-full h-auto">
         <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-center px-6 py-12 sm:py-20">
           <div className="text-center sm:text-left sm:w-1/2">
             <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white leading-tight">
@@ -16,7 +16,7 @@ const RefundPolicy = () => {
             </p>
           </div>
 
-          <div className="sm:w-1/2 mt-8 sm:mt-0 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+          <div className="sm:w-1/2  mt-8 sm:mt-0 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
             <div className="bg-white shadow-lg rounded-xl p-6 w-full">
               <p className="text-sm font-semibold text-gray-700 text-center">
                 Eligibility for Refunds
@@ -38,7 +38,7 @@ const RefundPolicy = () => {
         </div>
       </div>
 
-      <div className="p-8 ">
+      <div className="p-8 cursor-pointer">
         <p className="mb-6 text-4xl font-bold">
           Please read refund & cancellation policy carefully.
         </p>
