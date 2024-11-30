@@ -259,7 +259,7 @@ const HeroSection = () => {
                 className="px-4 py-2 bg-black bg-opacity-55 hover:bg-white hover:font-bold
  hover:text-black text-white  rounded-lg"
               >
-                Software Development
+                Software Solution 
               </button>
             </NavLink>
 
