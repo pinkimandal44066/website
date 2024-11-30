@@ -1,12 +1,12 @@
 import React from "react";
-
+import SystaioWebdesign3 from "../../../public/Systaio Webdesign 3.png";
 const Webdesign = () => {
   const steps = [
-    { title: "Understand Requirements", icon: "🔍" },
-    { title: "Create Wireframes", icon: "🖊️" },
-    { title: "Develop Website", icon: "💻" },
-    { title: "Testing & QA", icon: "✅" },
-    { title: "Launch Project", icon: "🚀" },
+    { title: "Understand Client Needs", icon: "🔍" },
+    { title: "Create Custom Solutions", icon: "🖊️" },
+    { title: "Develop & Implement", icon: "💻" },
+    { title: "Testing & Optimization", icon: "✅" },
+    { title: "Launch & Support", icon: "🚀" },
   ];
 
   return (
@@ -19,18 +19,18 @@ const Webdesign = () => {
               data-aos="fade-right"
             >
               <h1 className="text-4xl md:text-6xl font-bold">
-                Web Design & Development
+                Systaio Web Design & Development
               </h1>
               <p className="mt-4 text-lg">
-                Elevate your business with cutting-edge designs and robust
-                development solutions.
+                Empower your business with custom IT solutions and sleek web
+                designs.
               </p>
             </div>
-            <div className="md:w-1/2 mt-8 md:mt-0" data-aos="fade-left">
+            <div className="md:w-1/2 mt-8 lg:mt-5 " data-aos="fade-left">
               <img
-                src="https://img.freepik.com/free-photo/person-front-computer-working-html_23-2150040428.jpg?semt=ais_hybrid"
+                src={SystaioWebdesign3}
                 alt="Web Design"
-                className="rounded-lg shadow-lg w-full"
+                className="rounded-lg w-full"
               />
             </div>
           </div>
@@ -42,33 +42,33 @@ const Webdesign = () => {
               className="text-3xl font-bold text-black mb-4"
               data-aos="fade-up"
             >
-              Web Design & Development
+              Web Design & Development at Systaio
             </h2>
             <p
               className="text-gray-700 mb-4"
               data-aos="fade-up"
               data-aos-delay="100"
             >
-              At <span className="font-semibold">Systaio</span>, we create
-              innovative and user-friendly websites optimized for performance
-              and scalability.
+              At <span className="font-semibold">Systaio</span>, we specialize
+              in delivering cutting-edge web designs with strong backend
+              solutions that drive growth and performance.
             </p>
             <p
               className="text-gray-600 mb-4"
               data-aos="fade-up"
               data-aos-delay="200"
             >
-              Our team blends design aesthetics with cutting-edge technology to
-              deliver exceptional digital experiences.
+              Our team focuses on seamless, intuitive design and advanced
+              technology integration to provide businesses with digital
+              solutions that truly stand out.
             </p>
             <p
               className="text-gray-600"
               data-aos="fade-up"
               data-aos-delay="300"
             >
-              Whether you're looking to build a brand-new website or revamp an
-              existing one, we provide tailored solutions to meet your business
-              needs.
+              Whether it's building a new platform or optimizing an existing
+              website, Systaio ensures that your digital presence thrives.
             </p>
           </div>
         </section>
@@ -79,29 +79,29 @@ const Webdesign = () => {
               className="text-3xl font-bold text-center mb-8"
               data-aos="fade-up"
             >
-              Why Choose Us?
+              Why Choose Systaio?
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
               {[
                 {
-                  title: "Responsive Designs",
-                  desc: "Works seamlessly on all devices.",
-                  icon: "📱",
+                  title: "Tailored Designs",
+                  desc: "We create designs that reflect your brand's unique identity.",
+                  icon: "🎨",
                 },
                 {
-                  title: "Custom Solutions",
-                  desc: "Tailored to your unique needs.",
-                  icon: "⚙️",
+                  title: "Scalable Solutions",
+                  desc: "We ensure your website grows with your business.",
+                  icon: "📈",
                 },
                 {
-                  title: "SEO Optimized",
-                  desc: "Rank higher on search engines.",
-                  icon: "🚀",
+                  title: "User-Centric Approach",
+                  desc: "We prioritize user experience for maximum engagement.",
+                  icon: "👥",
                 },
                 {
-                  title: "Fast Delivery",
-                  desc: "Timely project completion.",
-                  icon: "⏱️",
+                  title: "Robust Security",
+                  desc: "Our websites are built with the latest security standards.",
+                  icon: "🔒",
                 },
               ].map((item, idx) => (
                 <div

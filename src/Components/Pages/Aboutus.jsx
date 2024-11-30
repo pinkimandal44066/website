@@ -1,6 +1,6 @@
 import Scrolling from "../Scrolling";
 // import Ourteam from '../Ourteam';
-import img2 from "../../../public/img2.jpg";
+
 import "aos/dist/aos.css";
 import AOS from "aos";
 import { useEffect } from "react";

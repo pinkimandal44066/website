@@ -1,12 +1,12 @@
 import React from "react";
-import SystaioSoftwareSolutions from "../../../public/Systaio Software Solutions.png";
-const Softwaredevelopment = () => {
+import SYSTAIOBRANDING3 from "../../../public/SYSTAIO BRANDING3.png";
+const Brandingdesign = () => {
   const steps = [
     { title: "Understand Requirements", icon: "🔍" },
-    { title: "Design Architecture", icon: "📐" },
-    { title: "Develop Software", icon: "💻" },
-    { title: "Testing & QA", icon: "✅" },
-    { title: "Launch Project", icon: "🚀" },
+    { title: "Create Branding Strategy", icon: "📊" },
+    { title: "Design Brand Identity", icon: "🎨" },
+    { title: "Brand Messaging", icon: "🗣️" },
+    { title: "Launch & Monitor", icon: "🚀" },
   ];
 
   return (
@@ -19,17 +19,16 @@ const Softwaredevelopment = () => {
               data-aos="fade-right"
             >
               <h1 className="text-4xl md:text-6xl font-bold">
-                Software Solutions & Development
+                Branding Design
               </h1>
               <p className="mt-4 text-lg">
-                Empowering businesses with innovative software solutions
-                tailored to your needs.
+                Build a strong, unique brand that resonates with your audience.
               </p>
             </div>
-            <div className="md:w-1/2 mt-8 lg:mt-5" data-aos="fade-left">
+            <div className="md:w-1/2 mt-8 md:mt-0" data-aos="fade-left">
               <img
-                src={SystaioSoftwareSolutions}
-                alt="Software Development"
+                src={SYSTAIOBRANDING3}
+                alt="Branding Design"
                 className="rounded-lg  w-full"
               />
             </div>
@@ -42,34 +41,32 @@ const Softwaredevelopment = () => {
               className="text-3xl font-bold text-black mb-4"
               data-aos="fade-up"
             >
-              Software Development at Systaio
+              Our Branding Services
             </h2>
             <p
               className="text-gray-700 mb-4"
               data-aos="fade-up"
               data-aos-delay="100"
             >
-              At <span className="font-semibold">Systaio</span>, we offer
-              cutting-edge software development services that help businesses
-              enhance their operations, improve efficiency, and drive growth.
+              At <span className="font-semibold">Systaio</span>, we specialize
+              in creating unique and powerful branding strategies tailored to
+              your business needs.
             </p>
             <p
               className="text-gray-600 mb-4"
               data-aos="fade-up"
               data-aos-delay="200"
             >
-              Our expert developers work closely with you to understand your
-              business needs and deliver scalable, high-performance software
-              solutions.
+              We work closely with you to craft a brand identity that aligns
+              with your business vision, values, and goals.
             </p>
             <p
               className="text-gray-600"
               data-aos="fade-up"
               data-aos-delay="300"
             >
-              From custom enterprise software to mobile applications, we ensure
-              that our solutions align with your objectives and provide a
-              seamless user experience.
+              From logo design to brand messaging, our team ensures that your
+              brand stands out and communicates effectively with your audience.
             </p>
           </div>
         </section>
@@ -80,29 +77,29 @@ const Softwaredevelopment = () => {
               className="text-3xl font-bold text-center mb-8"
               data-aos="fade-up"
             >
-              Why Choose Systaio for Software Development?
+              Why Choose Us for Your Branding Needs?
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
               {[
                 {
-                  title: "Tailored Solutions",
-                  desc: "We create custom software that fits your unique business needs.",
-                  icon: "⚙️",
+                  title: "Unique Brand Identity",
+                  desc: "Stand out with a customized and memorable brand.",
+                  icon: "💡",
                 },
                 {
-                  title: "Scalable Development",
-                  desc: "Our solutions grow with your business, providing long-term scalability.",
+                  title: "Strategic Branding",
+                  desc: "Build a strategy that resonates with your target audience.",
                   icon: "📈",
                 },
                 {
-                  title: "Expert Developers",
-                  desc: "Our team consists of skilled developers committed to excellence.",
-                  icon: "👨‍💻",
+                  title: "Creative Design Solutions",
+                  desc: "Designs that reflect your values and vision.",
+                  icon: "🎨",
                 },
                 {
-                  title: "Cutting-Edge Technology",
-                  desc: "We use the latest technologies to build modern, efficient systems.",
-                  icon: "💡",
+                  title: "Brand Consistency",
+                  desc: "Maintain consistency across all platforms and touchpoints.",
+                  icon: "🔄",
                 },
               ].map((item, idx) => (
                 <div
@@ -126,7 +123,7 @@ const Softwaredevelopment = () => {
               className="text-4xl font-bold text-center mb-12"
               data-aos="fade-up"
             >
-              Our Software Development Process
+              Our Branding Process
             </h2>
             <div className="relative border-l-4 border-gray-400">
               {steps.map((step, index) => (
@@ -152,4 +149,4 @@ const Softwaredevelopment = () => {
   );
 };
 
-export default Softwaredevelopment;
+export default Brandingdesign;

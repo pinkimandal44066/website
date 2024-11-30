@@ -5,6 +5,12 @@ import Scrolling from "./Scrolling";
 import Accordion from "./Accordion";
 import { FaArrowTurnDown } from "react-icons/fa6";
 import Sysatioserviceimg from "../../public/Systaioserviceimg.png";
+import SystaioWEBDESIGN2 from "../../public/Systaio WEB DESIGN 2.png";
+import SystaioMOBILEAPPS2 from "../../public/Systaio MOBILE APPS 2.png";
+import  SystaioSOFTWARESOLUTIONS2 from "../../public/Systaio SOFTWARE SOLUTIONS 2.png";
+import SystaioDIGITALMARKETING2 from "../../public/Systaio DIGITAL MARKETING 2.png";
+import SystaioINFLUENCEMARKETING2 from "../../public/Systaio INFLUENCE MARKETING  2.png";
+import SystaioBRANDINGDESIGN2 from "../../public/Systaio BRANDING DESIGN 2.png";
 const Servicepage = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [modalContent, setModalContent] = useState({
@@ -25,52 +31,53 @@ const Servicepage = () => {
   const cards = [
     {
       title: "WEB DESIGN ",
-      imgSrc:
-        "https://img.freepik.com/free-photo/ui-ux-representations-with-laptop_23-2150201871.jpg?ga=GA1.1.1829243654.1732361159&semt=ais_hybrid",
+      imgSrc:SystaioWEBDESIGN2, 
+       
       content:
         "We Provide high quality, cost-efficient, trustworthy, and result-driven web and eCommerce solutions for the clientele in a global range. We deal with each client individually so that we Tend towards the BEST WEB DESIGNING COMPANY IN INDIA.",
       link: "/webdesign",
     },
     {
       title: "MOBILE APPS",
-      imgSrc:
-        "https://img.freepik.com/free-vector/gradient-ui-ux-background_23-2149024129.jpg?ga=GA1.1.1829243654.1732361159&semt=ais_hybrid",
+      imgSrc:SystaioMOBILEAPPS2,
+       
       content:
         "We develop Android & IOS mobile applications. We have a team of highly experienced people developing creative mobile apps to give your users a ceaseless & friendly experience. we develop all kinds of apps which leading us towards the reliable APP DEVELOPMENT COMPANY.",
       link: "/mobileapps",
     },
     {
       title: " SOFTWARE SOLUTIONS",
-      imgSrc:
-        "https://img.freepik.com/free-photo/programming-background-collage_23-2149901775.jpg?ga=GA1.1.1829243654.1732361159&semt=ais_hybrid",
+      imgSrc:SystaioSOFTWARESOLUTIONS2,
+        
       content:
         "SYSTAIO is a prominent company that has established a distinguished reputation in the field of Social Media Solutions. The company helps businesses enhance their digital presence and create impactful engagement on social media platforms.",
       link: "/softwaredevelopment",
     },
     {
       title: "DIGITAL MARKETING",
-      imgSrc:
-        "https://img.freepik.com/free-photo/social-media-marketing-concept-marketing-with-applications_23-2150063134.jpg?ga=GA1.1.1829243654.1732361159&semt=ais_hybrid",
+      imgSrc:SystaioDIGITALMARKETING2,
+      
       content:
         "We specialize in SEO services and digital marketing services. We use all the necessary tools in order to take business to places and generate revenue. We always use sophisticated and latest tools to make ourselves best suited for DIGITAL MARKETING COMPANY.",
       link: "/digitalmarketing",
     },
     {
       title: "INFLUENCE MARKETING ",
-      imgSrc:
-        "https://img.freepik.com/free-photo/medium-shot-men-holding-smartphone_23-2150208243.jpg?ga=GA1.1.1829243654.1732361159&semt=ais_hybrid",
+      imgSrc:SystaioINFLUENCEMARKETING2,
+      
       content:
         "Good content is the backbone of your website Our focus is to earn customers through high-quality content that is informative and interesting. We write good, quality and fresh content to attract your customer's which obviously a good Influence Marketing COMPANY do.",
       link: "/influencermarketing",
     },
     {
       title: "BRANDING DESIGN",
-      imgSrc:
-        "https://img.freepik.com/free-photo/female-logo-designer-working-her-tablet-connected-laptop_23-2149119262.jpg?ga=GA1.1.1829243654.1732361159&semt=ais_hybrihttps://img.freepik.com/free-vector/hand-drawn-illustration-people-with-smartphone-marketing_52683-66658.jpg?ga=GA1.1.1829243654.1732361159&semt=ais_hybrid",
+      imgSrc:SystaioBRANDINGDESIGN2,
+        
 
       content:
         "SYSTAIO helps businesses create a compelling and cohesive brand identity with its innovative solutions in Branding Design. Their creativity and strategic approach provide brands with a distinctive and impactful presence.",
-    },
+        link: "/brandingdesign",
+      },
   ];
 
   return (

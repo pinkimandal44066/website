@@ -233,7 +233,7 @@ const Navbar = () => {
           <div className="flex gap-6 text-2xl text-white">
             <i className=" ri-facebook-fill hover:text-blue-600 transition duration-300 cursor-pointer"></i>
             <i className="ri-instagram-line hover:text-pink-600 transition duration-300 cursor-pointer"></i>
-            <i className="ri-youtube-fill hover:text-red-600 transition duration-300 cursor-pointer"></i>
+            <i className="ri-linkedin-box-fill  hover:text-blue-700 transition duration-300 cursor-pointer "></i>
           </div>
         </div>
 
