@@ -47,7 +47,9 @@ const Aboutus = () => {
         </div>
       </div>
 
-      <div className="flex flex-col lg:flex-row md:flex-row sm:flex-col items-center lg:mt-16 mt-8  lg:px-20">
+
+
+     <div className="flex flex-col lg:flex-row md:flex-row sm:flex-col items-center justify-center lg:mt-16 mt-8  lg:px-20 ">
         <section className="py-10 bg-gray-100">
           <div className="max-w-screen-xl lg:mx-20 mx-auto  px-6">
             <div className="text-center mb-10">
@@ -110,6 +112,7 @@ const Aboutus = () => {
           </div>
         </section>
       </div>
+
 
       <div>
         <p
@@ -176,81 +179,82 @@ const Aboutus = () => {
           style={{ fontFamily: "PTSerif-Bold" }}
           className="text-sm lg:mx-40 mx-5 mt-5"
         >
-          "SYASTAIO Companies in Dhanbad: We are dedicated to taking your
-          business to new heights with excellence and innovation."
+          SYASTAIO Companies in Dhanbad: We are dedicated to taking your
+          business to new heights with excellence and innovation.
         </p>
       </div>
 
-      <div className="bg-gray-100 py-14 mt-5 ">
-        <div className="text-center mb-12">
-          <h2
-            data-aos="fade-up"
-            style={{ fontFamily: "PTSerif-Bold" }}
-            className="text-3xl font-semibold"
-          >
-            WHY CHOOSE US?
-          </h2>
-        </div>
-        <div className="max-w-7xl mx-5 grid grid-cols-1 md:grid-cols-3 gap-8 ">
-          <div
-            data-aos="fade-up"
-            className="text-center p-8 bg-white shadow-lg rounded-lg"
-          >
-            <div className="mb-4">
-              <div className="text-4xl">🎨</div>
-            </div>
-            <h3
-              style={{ fontFamily: "PTSerif-Bold" }}
-              className="text-xl font-semibold mb-4"
-            >
-              WE'RE CREATIVE
-            </h3>
-            <p>
-              We believe in creativity & innovation, and we design highly
-              responsive websites with high-quality graphic design and best
-              creative Search Engine Optimization (SEO) keywords.
-            </p>
-          </div>
-          <div
-            data-aos="fade-up"
-            className="text-center p-8 bg-white shadow-lg rounded-lg"
-          >
-            <div className="mb-4">
-              <div className="text-4xl">⏰</div>
-            </div>
-            <h3
-              style={{ fontFamily: "PTSerif-Bold" }}
-              className="text-xl font-semibold mb-4"
-            >
-              WE'RE PUNCTUAL
-            </h3>
-            <p>
-              We value time, which is why we deliver the product exactly as you
-              are looking for within the time frame. Being punctual helps us
-              establish our reputation as a dependable and consistent company.
-            </p>
-          </div>
-          <div
-            data-aos="fade-up"
-            className="text-center p-8 bg-white shadow-lg rounded-lg"
-          >
-            <div className="mb-4">
-              <div className="text-4xl">💼</div>
-            </div>
-            <h3
-              style={{ fontFamily: "PTSerif-Bold" }}
-              className="text-xl font-semibold mb-4"
-            >
-              WE'RE COST EFFECTIVE
-            </h3>
-            <p>
-              We understand the value of money, which is why we create the best
-              responsive design under your budget. We take your budget first and
-              then provide you with the best product under that budget.
-            </p>
-          </div>
-        </div>
+      
+      <div className="bg-gray-100 py-14 mt-5 items-center justify-center">
+  <div className="text-center mb-12">
+    <h2
+      data-aos="fade-up"
+      style={{ fontFamily: "PTSerif-Bold" }}
+      className="text-3xl font-semibold"
+    >
+      WHY CHOOSE US?
+    </h2>
+  </div>
+  <div className="max-w-7xl mx-auto px-5 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5">
+    <div
+      data-aos="fade-up"
+      className="text-center p-8 bg-white shadow-lg rounded-lg"
+    >
+      <div className="mb-4">
+        <div className="text-4xl">🎨</div>
       </div>
+      <h3
+        style={{ fontFamily: "PTSerif-Bold" }}
+        className="text-xl font-semibold mb-4"
+      >
+        WE'RE CREATIVE
+      </h3>
+      <p>
+        We believe in creativity & innovation, and we design highly responsive
+        websites with high-quality graphic design and best creative Search Engine
+        Optimization (SEO) keywords.
+      </p>
+    </div>
+    <div
+      data-aos="fade-up"
+      className="text-center p-8 bg-white shadow-lg rounded-lg"
+    >
+      <div className="mb-4">
+        <div className="text-4xl">⏰</div>
+      </div>
+      <h3
+        style={{ fontFamily: "PTSerif-Bold" }}
+        className="text-xl font-semibold mb-4"
+      >
+        WE'RE PUNCTUAL
+      </h3>
+      <p>
+        We value time, which is why we deliver the product exactly as you are
+        looking for within the time frame. Being punctual helps us establish our
+        reputation as a dependable and consistent company.
+      </p>
+    </div>
+    <div
+      data-aos="fade-up"
+      className="text-center p-8 bg-white shadow-lg rounded-lg"
+    >
+      <div className="mb-4">
+        <div className="text-4xl">💼</div>
+      </div>
+      <h3
+        style={{ fontFamily: "PTSerif-Bold" }}
+        className="text-xl font-semibold mb-4"
+      >
+        WE'RE COST EFFECTIVE
+      </h3>
+      <p>
+        We understand the value of money, which is why we create the best
+        responsive design under your budget. We take your budget first and then
+        provide you with the best product under that budget.
+      </p>
+    </div>
+  </div>
+</div>
 
       {/* <Ourteam /> */}
     </>

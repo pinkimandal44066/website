@@ -203,13 +203,138 @@
 
 
 
+// import React, { useEffect, useState } from "react";
+// import { NavLink } from "react-router-dom";
+// import './Homecss.css';
+
+// const Activity = () => {
+ 
+
+//   const [isLibraryCollapsed, setIsLibraryCollapsed] = useState(true);
+
+//   const toggleLibraryCollapse = () => {
+//     setIsLibraryCollapsed(!isLibraryCollapsed);
+//   };
+
+//   return (
+//     <>
+//   <h2 className="text-3xl font-bold text-center mb-7 mt-7">
+//             CHECK OUR SERVICES
+//           </h2>
+//   <div className="mb-7">
+
+//   <div className="activities-main">
+//      <div className="box">
+//       <img src="https://img.freepik.com/free-photo/close-up-image-programer-working-his-desk-office_1098-18707.jpg?ga=GA1.1.1829243654.1732361159&semt=ais_hybrid"/>
+//       {/* <img src="https://images.unsplash.com/photo-1626265774643-f1943311a86b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGhvc3RlbHxlbnwwfHwwfHx8MA%3D%3D" alt="" /> */}
+//       <NavLink to="/webdesign">
+//       <div className="content">
+//         <h3>   WEB DESIGN & DEVELOPMENT</h3>
+//         <p>
+//         We deliver cost-efficient, trustworthy, and result-driven web and eCommerce solutions globally with personalized care.
+//         </p>
+//       </div>
+//       </NavLink>
+//     </div>
+
+
+
+
+
+//      <div className="box">
+//       <img src="https://img.freepik.com/free-photo/person-working-html-computer_23-2150038840.jpg?ga=GA1.1.1829243654.1732361159&semt=ais_hybrid"/>
+//       {/* <img src="https://plus.unsplash.com/premium_photo-1661634073903-2ecdccdfc8a2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8QnVzfGVufDB8fDB8fHww" alt="" /> */}
+//       <NavLink to="/softwaredevelopment">
+//       <div className="content">
+//         <h3>  SOFTWARE SOLUTIONS</h3>
+//         <p>
+//         At SystAIO, skilled developers focus on custom applications, making us the top choice for web development excellence.
+//         </p>
+//       </div>
+//       </NavLink>
+//     </div>
+
+//      <div className="box">
+//       <img src="https://img.freepik.com/free-photo/full-shot-woman-reading-with-smartphone_23-2149629602.jpg?ga=GA1.1.1829243654.1732361159&semt=ais_hybrid"/>
+//       {/* <img src="https://plus.unsplash.com/premium_photo-1661905921900-a8b49e65feeb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8bGlicmFyeXxlbnwwfHwwfHx8MA%3D%3D" alt="" /> */}
+//       <NavLink to="/digitalmarketing">
+//       <div className="content">
+//         <h3>DIGITAL MARKETING</h3>
+//         <p>
+//         We provide expert SEO and digital marketing services, using advanced tools to boost business growth and revenue effectively.
+//         </p>
+//       </div>
+//       </NavLink>
+//     </div>
+//     </div>
+    
+
+
+
+//         <div className="second-box-main">
+//     <div className="second_box">
+//       <img src="https://img.freepik.com/free-vector/gradient-ui-ux-background_23-2149065783.jpg?ga=GA1.1.1829243654.1732361159&semt=ais_hybrid"/>
+//         {/* <img src="https://images.unsplash.com/photo-1518152006812-edab29b069ac?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHNtYXJ0JTIwY2xhc3N8ZW58MHx8MHx8fDA%3D" alt="" /> */}
+        
+//         <NavLink to="/mobileapps">
+//         <div className="content">
+//           <h3 style={{ textAlign: "center" }}>MOBILE APPS </h3>
+//           <p>
+//           We create innovative Android and iOS apps, offering seamless user experiences, making us a trusted app development company.
+//           </p>
+//         </div>
+//         </NavLink>
+//       </div>
+//     <div className="second_box">
+//       <img src="https://img.freepik.com/free-photo/female-make-up-blogger-with-streaming-with-camera-laptop-home_23-2148771522.jpg?ga=GA1.1.1829243654.1732361159&semt=ais_hybrid"/>
+//         {/* <img src="https://images.unsplash.com/photo-1518152006812-edab29b069ac?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHNtYXJ0JTIwY2xhc3N8ZW58MHx8MHx8fDA%3D" alt="" /> */}
+      
+//         <NavLink to="/influencermarketing">
+//         <div className="content">
+//           <h3 style={{ textAlign: "center" }}>INFLUENCER MARKETING</h3>
+//           <p>
+//           We deliver fresh, high-quality, engaging content to attract customers, establishing us as a top content management company.
+//           </p>
+//         </div>
+//         </NavLink>
+//       </div>
+//     <div className="second_box">
+//     <img src="https://img.freepik.com/free-photo/female-make-up-blogger-with-streaming-with-camera-laptop-home_23-2148771522.jpg?ga=GA1.1.1829243654.1732361159&semt=ais_hybrid"/>
+
+//       {/* <img src="https://img.freepik.com/premium-photo/3d-people-man-person-24-7-concept-support_441797-7920.jpg?ga=GA1.1.1829243654.1732361159&semt=ais_hybrid"/> */}
+//         {/* <img src="https://images.unsplash.com/photo-1518152006812-edab29b069ac?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHNtYXJ0JTIwY2xhc3N8ZW58MHx8MHx8fDA%3D" alt="" /> */}
+//         <div className="content">
+//           <h3 style={{ textAlign: "center" }}>24*7 SUPPORT</h3>
+//           <p>
+//           We prioritize customers, offering exceptional solutions and support, making us the most trustworthy IT company in India.
+//           </p>
+//         </div>
+//       </div>
+
+//       </div>
+//   </div>
+
+//     </>
+//   );
+// };
+
+// export default Activity;
+
+
+
+
+
+
+
+
+
+
+
 import React, { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
 import './Homecss.css';
 
 const Activity = () => {
- 
-
   const [isLibraryCollapsed, setIsLibraryCollapsed] = useState(true);
 
   const toggleLibraryCollapse = () => {
@@ -218,102 +343,135 @@ const Activity = () => {
 
   return (
     <>
-  <h2 className="text-3xl font-bold text-center mb-7 mt-7">
-            CHECK OUR SERVICES
-          </h2>
-  <div className="mb-7">
+      <h2 className="text-3xl font-bold text-center mb-7 mt-7">
+        CHECK OUR SERVICES
+      </h2>
+      <div className="mb-7">
 
-  <div className="activities-main">
-     <div className="box">
-      <img src="https://img.freepik.com/free-photo/close-up-image-programer-working-his-desk-office_1098-18707.jpg?ga=GA1.1.1829243654.1732361159&semt=ais_hybrid"/>
-      {/* <img src="https://images.unsplash.com/photo-1626265774643-f1943311a86b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGhvc3RlbHxlbnwwfHwwfHx8MA%3D%3D" alt="" /> */}
-      <NavLink to="/webdesign">
-      <div className="content">
-        <h3>   WEB DESIGN & DEVELOPMENT</h3>
-        <p>
-        We deliver cost-efficient, trustworthy, and result-driven web and eCommerce solutions globally with personalized care.
-        </p>
-      </div>
-      </NavLink>
-    </div>
+        <div className="activities-main">
+          <div className="box">
+            <img src="https://img.freepik.com/free-photo/close-up-image-programer-working-his-desk-office_1098-18707.jpg?ga=GA1.1.1829243654.1732361159&semt=ais_hybrid"/>
+            <NavLink to="/webdesign">
+              <div className="content">
+                <h3 className="text-center">WEB DESIGN & DEVELOPMENT</h3>
+                <p className="text-center">
+                  We deliver cost-efficient, trustworthy, and result-driven web and eCommerce solutions globally with personalized care.
+                </p>
+              </div>
+            </NavLink>
+          </div>
 
+          <div className="box">
+            <img src="https://img.freepik.com/free-photo/person-working-html-computer_23-2150038840.jpg?ga=GA1.1.1829243654.1732361159&semt=ais_hybrid"/>
+            <NavLink to="/softwaredevelopment">
+              <div className="content">
+                <h3 className="text-center">SOFTWARE SOLUTIONS</h3>
+                <p className="text-center">
+                  At SystAIO, skilled developers focus on custom applications, making us the top choice for web development excellence.
+                </p>
+              </div>
+            </NavLink>
+          </div>
 
+          <div className="box">
+            <img src="https://img.freepik.com/free-photo/full-shot-woman-reading-with-smartphone_23-2149629602.jpg?ga=GA1.1.1829243654.1732361159&semt=ais_hybrid"/>
+            <NavLink to="/digitalmarketing">
+              <div className="content">
+                <h3 className="text-center">DIGITAL MARKETING</h3>
+                <p className="text-center">
+                  We provide expert SEO and digital marketing services, using advanced tools to boost business growth and revenue effectively.
+                </p>
+              </div>
+            </NavLink>
+          </div>
+        </div>
 
-
-
-     <div className="box">
-      <img src="https://img.freepik.com/free-photo/person-working-html-computer_23-2150038840.jpg?ga=GA1.1.1829243654.1732361159&semt=ais_hybrid"/>
-      {/* <img src="https://plus.unsplash.com/premium_photo-1661634073903-2ecdccdfc8a2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8QnVzfGVufDB8fDB8fHww" alt="" /> */}
-      <NavLink to="/softwaredevelopment">
-      <div className="content">
-        <h3>  SOFTWARE SOLUTIONS</h3>
-        <p>
-        At SystAIO, skilled developers focus on custom applications, making us the top choice for web development excellence.
-        </p>
-      </div>
-      </NavLink>
-    </div>
-
-     <div className="box">
-      <img src="https://img.freepik.com/free-photo/full-shot-woman-reading-with-smartphone_23-2149629602.jpg?ga=GA1.1.1829243654.1732361159&semt=ais_hybrid"/>
-      {/* <img src="https://plus.unsplash.com/premium_photo-1661905921900-a8b49e65feeb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8bGlicmFyeXxlbnwwfHwwfHx8MA%3D%3D" alt="" /> */}
-      <NavLink to="/digitalmarketing">
-      <div className="content">
-        <h3>DIGITAL MARKETING</h3>
-        <p>
-        We provide expert SEO and digital marketing services, using advanced tools to boost business growth and revenue effectively.
-        </p>
-      </div>
-      </NavLink>
-    </div>
-    </div>
-    
-
+        {/* <div className="second-box-main">
+          <div className="second_box">
+            <img src="https://img.freepik.com/free-vector/gradient-ui-ux-background_23-2149065783.jpg?ga=GA1.1.1829243654.1732361159&semt=ais_hybrid"/>
+            <NavLink to="/mobileapps">
+              <div className="content">
+                <h3 className="text-center">MOBILE APPS</h3>
+                <p className="text-center">
+                  We create innovative Android and iOS apps, offering seamless user experiences, making us a trusted app development company.
+                </p>
+              </div>
+            </NavLink>
+          </div>
+          <div className="second_box">
+            <img src="https://img.freepik.com/free-photo/female-make-up-blogger-with-streaming-with-camera-laptop-home_23-2148771522.jpg?ga=GA1.1.1829243654.1732361159&semt=ais_hybrid"/>
+            <NavLink to="/influencermarketing">
+              <div className="content">
+                <h3 className="text-center">INFLUENCER MARKETING</h3>
+                <p className="text-center">
+                  We deliver fresh, high-quality, engaging content to attract customers, establishing us as a top content management company.
+                </p>
+              </div>
+            </NavLink>
+          </div>
+          <div className="second_box">
+            <img src="https://img.freepik.com/free-vector/24-hours-service-logos-collection_1207-36.jpg?ga=GA1.1.1829243654.1732361159&semt=ais_hybrid" />
+            
+            <div className="content">
+              <h3 className="text-center">24*7 SUPPORT</h3>
+              <p className="text-center">
+                We prioritize customers, offering exceptional solutions and support, making us the most trustworthy IT company in India.
+              </p>
+            </div>
+          </div>
+        </div> */}
 
 
         <div className="second-box-main">
-    <div className="second_box">
-      <img src="https://img.freepik.com/free-vector/gradient-ui-ux-background_23-2149065783.jpg?ga=GA1.1.1829243654.1732361159&semt=ais_hybrid"/>
-        {/* <img src="https://images.unsplash.com/photo-1518152006812-edab29b069ac?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHNtYXJ0JTIwY2xhc3N8ZW58MHx8MHx8fDA%3D" alt="" /> */}
-        
-        <NavLink to="/mobileapps">
-        <div className="content">
-          <h3 style={{ textAlign: "center" }}>MOBILE APPS </h3>
-          <p>
+  <div className="second_box">
+    <img 
+      src="https://img.freepik.com/free-vector/gradient-ui-ux-background_23-2149065783.jpg?ga=GA1.1.1829243654.1732361159&semt=ais_hybrid" 
+      className="w-full h-full object-cover"
+    />
+    <NavLink to="/mobileapps">
+      <div className="content">
+        <h3 className="text-center">MOBILE APPS</h3>
+        <p className="text-center">
           We create innovative Android and iOS apps, offering seamless user experiences, making us a trusted app development company.
-          </p>
-        </div>
-        </NavLink>
+        </p>
       </div>
-    <div className="second_box">
-      <img src="https://img.freepik.com/free-photo/female-make-up-blogger-with-streaming-with-camera-laptop-home_23-2148771522.jpg?ga=GA1.1.1829243654.1732361159&semt=ais_hybrid"/>
-        {/* <img src="https://images.unsplash.com/photo-1518152006812-edab29b069ac?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHNtYXJ0JTIwY2xhc3N8ZW58MHx8MHx8fDA%3D" alt="" /> */}
-      
-        <NavLink to="/influencermarketing">
-        <div className="content">
-          <h3 style={{ textAlign: "center" }}>INFLUENCER MARKETING</h3>
-          <p>
-          We deliver fresh, high-quality, engaging content to attract customers, establishing us as a top content management company.
-          </p>
-        </div>
-        </NavLink>
-      </div>
-    <div className="second_box">
-    <img src="https://img.freepik.com/free-photo/female-make-up-blogger-with-streaming-with-camera-laptop-home_23-2148771522.jpg?ga=GA1.1.1829243654.1732361159&semt=ais_hybrid"/>
-
-      {/* <img src="https://img.freepik.com/premium-photo/3d-people-man-person-24-7-concept-support_441797-7920.jpg?ga=GA1.1.1829243654.1732361159&semt=ais_hybrid"/> */}
-        {/* <img src="https://images.unsplash.com/photo-1518152006812-edab29b069ac?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHNtYXJ0JTIwY2xhc3N8ZW58MHx8MHx8fDA%3D" alt="" /> */}
-        <div className="content">
-          <h3 style={{ textAlign: "center" }}>24*7 SUPPORT</h3>
-          <p>
-          We prioritize customers, offering exceptional solutions and support, making us the most trustworthy IT company in India.
-          </p>
-        </div>
-      </div>
-
-      </div>
+    </NavLink>
   </div>
+  <div className="second_box">
+    <img 
+      src="https://img.freepik.com/free-photo/female-make-up-blogger-with-streaming-with-camera-laptop-home_23-2148771522.jpg?ga=GA1.1.1829243654.1732361159&semt=ais_hybrid" 
+      className="w-full h-full object-cover"
+    />
+    <NavLink to="/influencermarketing">
+      <div className="content">
+        <h3 className="text-center">INFLUENCER MARKETING</h3>
+        <p className="text-center">
+          We deliver fresh, high-quality, engaging content to attract customers, establishing us as a top content management company.
+        </p>
+      </div>
+    </NavLink>
+  </div>
+  <div className="second_box">
+    {/* <img 
+      src="https://img.freepik.com/free-vector/24-hours-service-logos-collection_1207-36.jpg?ga=GA1.1.1829243654.1732361159&semt=ais_hybrid" 
+      className="w-full h-full object-cover"
+    /> */}
 
+<img 
+  src="https://images.pexels.com/photos/927451/pexels-photo-927451.jpeg?auto=compress&cs=tinysrgb&w=600" 
+  className="w-full h-full object-cover"
+/>
+
+    <div className="content">
+      <h3 className="text-center">24*7 SUPPORT</h3>
+      <p className="text-center">
+        We prioritize customers, offering exceptional solutions and support, making us the most trustworthy IT company in India.
+      </p>
+    </div>
+  </div>
+</div>
+
+      </div>
     </>
   );
 };
